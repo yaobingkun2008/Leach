@@ -1,0 +1,69 @@
+#include <Timer.h>
+#include "BlinkToRadio.h"
+
+
+//接口是一组函数的集合，包括命令和事件
+module BlinkToRadioC @safe()
+{
+  uses interface Timer<TMilli> as Timer0;//计时器接口
+  uses interface Leds;//led灯接口
+  uses interface Boot;//启动接口
+
+  uses interface Packet;
+  uses interface AMPacket;//用于访问message_t类型的数据变量
+  uses interface AMSend;//用于发送数据包
+  uses interface SplitControl as AMControl;//用于初始化无线模块
+}
+implementation
+{
+  bool busy = FALSE;
+  message_t pkt;
+  uint8_t counter = 0;//定义int类型
+  event void Boot.booted()
+  {
+      call AMControl.start();//先启动无线模块
+  }
+
+  event void AMControl.startDone(error_t err)//启动结束触发事件
+  {
+      if(err==SUCCESS){
+	  call Timer0.startPeriodic(TIME_FOR_BLINK);
+      }
+      else{
+	  call AMControl.start();//如果不成功，重新启动直到启动成功为止
+      }
+  }//自带了error_t类型的err变量，如果没有成功开启，就返回的err为SUCCESS
+   
+  event void AMControl.stopDone(error_t err){
+
+  }
+
+  event void Timer0.fired()
+  {
+    counter++;
+    call Leds.set(counter);//把count后三位显示到led灯上
+    //接下来发送
+	    if(busy==FALSE){//如果无线模块空闲
+		BlinkToRadioMsg* btrpkt = (BlinkToRadioMsg*)(call Packet.getPayload(&pkt,NULL));
+		btrpkt->nodeid = TOS_NODE_ID;//这是什么？？？？
+		btrpkt->counter = counter;//计数值
+		if(call AMSend.send(AM_BROADCAST_ADDR,&pkt,sizeof(BlinkToRadioMsg))==SUCCESS){
+		     busy = TRUE;
+		}//采用广播地址
+
+
+	    }
+  }
+
+
+  event void AMSend.sendDone(message_t* msg,error_t error){
+
+	if(&pkt == msg){
+		busy = FALSE;
+	}
+
+  }
+
+  
+}
+

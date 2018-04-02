@@ -1,0 +1,28 @@
+#include <Timer.h>
+#include "BlinkToRadio.h"
+
+
+configuration BlinkAppC
+{
+}
+implementation
+{
+  components ActiveMessageC;
+  components new AMSenderC(6);//他们提供了通信接口,这里的6代表组件的AM标识号 
+
+  components MainC,LedsC;
+  components BlinkToRadioC as App;
+  components new TimerMilliC() as Timer0;
+
+
+  App.Boot -> MainC.Boot;
+  App.Timer0 -> Timer0;
+  App.Leds.Leds -> LedsC;
+
+  App.Packet->AMSenderC;
+  App.AMPacket->AMSenderC;
+  App.AMSend->AMSenderC;
+  App.AMControl-> ActiveMessageC;
+
+}
+

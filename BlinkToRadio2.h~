@@ -1,0 +1,17 @@
+#ifndef BLINKTORADIO_H
+#define BLINKTORADIO_H
+enum{
+     TIME_FOR_BLINK = 500,
+     AM_BlinkToRadioMsg = 6
+};//这个优于define指令
+
+typedef nx_struct BlinkToRadioMsg{
+     nx_uint16_t nodeid;//nx表示struct和uint16_t是外部类型
+     nx_int16_t counter;
+}BlinkToRadioMsg;//消息的结构定义，节点的ID号和counter
+
+
+
+
+
+#endif

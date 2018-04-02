@@ -1,0 +1,11 @@
+COMPONENT=LeachAppC
+#BUILD_EXTRA_DEPS=BlinkToRadioMsg.class
+#CLEAN_EXTRA = *.class BlinkToRadioMsg.java
+#BlinkToRadioMsg.class:BlinkToRadioMsg.java
+#	javac BlinkToRadioMsg.java
+#BlinkToRadioMsg.java:
+#	mig java -target=null -java-classname=BlinkToRadioMsg BlinkToRadio2.h BlinkToRadioMsg -o $@
+
+
+include $(MAKERULES)
+
