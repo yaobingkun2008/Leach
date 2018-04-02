@@ -16,7 +16,8 @@ enum{
 typedef nx_struct {
      nx_uint16_t nodeid;//nx表示struct和uint16_t是外部类型
      nx_uint16_t counter;
-} LeachMsgStart;//消息的结构定义，节点的ID号和counter，大小4字节
+     nx_uint8_t roundnum;
+} LeachMsgStart;//消息的结构定义，节点的ID号和counter，大小5字节
 
 typedef struct {
      uint16_t nodeid;//nx表示struct和uint16_t是外部类型

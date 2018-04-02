@@ -802,7 +802,6 @@ DEBUG (34): round:3,frame:5,node:34,timeslot:26,ch_node:30
 DEBUG (1): round: 3,frame:5,node:1,packet_num:2,timeslot:27
 DEBUG (0): sink received,from ch_node 1 and data is 10.311329
 DEBUG (10): round: 3,frame:5,node:10,packet_num:5,timeslot:28
-DEBUG (0): sink received,from ch_node 10 and data is 9.752409
 DEBUG (15): round: 3,frame:5,node:15,packet_num:4,timeslot:29
 DEBUG (0): sink received,from ch_node 15 and data is 9.373361
 DEBUG (16): round: 3,frame:5,node:16,packet_num:4,timeslot:30
@@ -819,41 +818,41 @@ DEBUG (35): round: 3,frame:5,node:35,packet_num:2,timeslot:35
 DEBUG (0): sink received,from ch_node 35 and data is 10.255116
 DEBUG (36): round: 3,frame:5,node:36,packet_num:0,timeslot:36
 DEBUG (36): round:4,node:36,received start command for first time
-DEBUG (23): round:4,node:23,received start command for first time
-DEBUG (7): round:4,node:7,received start command for first time
-DEBUG (6): round:4,node:6,received start command for first time
-DEBUG (3): round:4,node:3,received start command for first time
-DEBUG (1): round:4,node:1,received start command for first time
-DEBUG (2): round:4,node:2,received start command for first time
-DEBUG (5): round:4,node:5,received start command for first time
-DEBUG (4): round:4,node:4,received start command for first time
-DEBUG (22): round:4,node:22,received start command for first time
-DEBUG (15): round:4,node:15,received start command for first time
-DEBUG (11): round:4,node:11,received start command for first time
-DEBUG (9): round:4,node:9,received start command for first time
+DEBUG (24): round:4,node:24,received start command for first time
 DEBUG (8): round:4,node:8,received start command for first time
+DEBUG (7): round:4,node:7,received start command for first time
+DEBUG (4): round:4,node:4,received start command for first time
+DEBUG (2): round:4,node:2,received start command for first time
+DEBUG (1): round:4,node:1,received start command for first time
+DEBUG (3): round:4,node:3,received start command for first time
+DEBUG (6): round:4,node:6,received start command for first time
+DEBUG (5): round:4,node:5,received start command for first time
+DEBUG (23): round:4,node:23,received start command for first time
+DEBUG (16): round:4,node:16,received start command for first time
+DEBUG (12): round:4,node:12,received start command for first time
 DEBUG (10): round:4,node:10,received start command for first time
+DEBUG (9): round:4,node:9,received start command for first time
+DEBUG (11): round:4,node:11,received start command for first time
+DEBUG (15): round:4,node:15,received start command for first time
 DEBUG (14): round:4,node:14,received start command for first time
 DEBUG (13): round:4,node:13,received start command for first time
-DEBUG (12): round:4,node:12,received start command for first time
-DEBUG (21): round:4,node:21,received start command for first time
-DEBUG (19): round:4,node:19,received start command for first time
-DEBUG (17): round:4,node:17,received start command for first time
-DEBUG (16): round:4,node:16,received start command for first time
-DEBUG (18): round:4,node:18,received start command for first time
+DEBUG (22): round:4,node:22,received start command for first time
 DEBUG (20): round:4,node:20,received start command for first time
+DEBUG (18): round:4,node:18,received start command for first time
+DEBUG (17): round:4,node:17,received start command for first time
+DEBUG (19): round:4,node:19,received start command for first time
+DEBUG (21): round:4,node:21,received start command for first time
 DEBUG (35): round:4,node:35,received start command for first time
 DEBUG (34): round:4,node:34,received start command for first time
-DEBUG (31): round:4,node:31,received start command for first time
-DEBUG (27): round:4,node:27,received start command for first time
-DEBUG (25): round:4,node:25,received start command for first time
-DEBUG (24): round:4,node:24,received start command for first time
+DEBUG (32): round:4,node:32,received start command for first time
+DEBUG (28): round:4,node:28,received start command for first time
 DEBUG (26): round:4,node:26,received start command for first time
+DEBUG (25): round:4,node:25,received start command for first time
+DEBUG (27): round:4,node:27,received start command for first time
+DEBUG (31): round:4,node:31,received start command for first time
 DEBUG (30): round:4,node:30,received start command for first time
 DEBUG (29): round:4,node:29,received start command for first time
-DEBUG (28): round:4,node:28,received start command for first time
 DEBUG (33): round:4,node:33,received start command for first time
-DEBUG (32): round:4,node:32,received start command for first time
 DEBUG (1): round:4,frame:1,node:1,timeslot:1,ch_node:9
 DEBUG (2): round:4,frame:1,node:2,timeslot:2,ch_node:29
 DEBUG (4): round:4,frame:1,node:4,timeslot:3,ch_node:9
@@ -1356,41 +1355,41 @@ DEBUG (35): round: 5,frame:5,node:35,packet_num:3,timeslot:35
 DEBUG (0): sink received,from ch_node 35 and data is 10.596413
 DEBUG (36): round: 5,frame:5,node:36,packet_num:4,timeslot:36
 DEBUG (0): sink received,from ch_node 36 and data is 10.024641
-DEBUG (21): round:6,node:21,received start command for first time
-DEBUG (5): round:6,node:5,received start command for first time
-DEBUG (4): round:6,node:4,received start command for first time
-DEBUG (1): round:6,node:1,received start command for first time
-DEBUG (3): round:6,node:3,received start command for first time
-DEBUG (2): round:6,node:2,received start command for first time
-DEBUG (20): round:6,node:20,received start command for first time
-DEBUG (13): round:6,node:13,received start command for first time
-DEBUG (9): round:6,node:9,received start command for first time
+DEBUG (36): round:6,node:36,received start command for first time
+DEBUG (23): round:6,node:23,received start command for first time
 DEBUG (7): round:6,node:7,received start command for first time
 DEBUG (6): round:6,node:6,received start command for first time
-DEBUG (8): round:6,node:8,received start command for first time
-DEBUG (12): round:6,node:12,received start command for first time
+DEBUG (3): round:6,node:3,received start command for first time
+DEBUG (1): round:6,node:1,received start command for first time
+DEBUG (2): round:6,node:2,received start command for first time
+DEBUG (5): round:6,node:5,received start command for first time
+DEBUG (4): round:6,node:4,received start command for first time
+DEBUG (22): round:6,node:22,received start command for first time
+DEBUG (15): round:6,node:15,received start command for first time
 DEBUG (11): round:6,node:11,received start command for first time
+DEBUG (9): round:6,node:9,received start command for first time
+DEBUG (8): round:6,node:8,received start command for first time
 DEBUG (10): round:6,node:10,received start command for first time
+DEBUG (14): round:6,node:14,received start command for first time
+DEBUG (13): round:6,node:13,received start command for first time
+DEBUG (12): round:6,node:12,received start command for first time
+DEBUG (21): round:6,node:21,received start command for first time
 DEBUG (19): round:6,node:19,received start command for first time
 DEBUG (17): round:6,node:17,received start command for first time
-DEBUG (15): round:6,node:15,received start command for first time
-DEBUG (14): round:6,node:14,received start command for first time
 DEBUG (16): round:6,node:16,received start command for first time
 DEBUG (18): round:6,node:18,received start command for first time
-DEBUG (36): round:6,node:36,received start command for first time
+DEBUG (20): round:6,node:20,received start command for first time
 DEBUG (35): round:6,node:35,received start command for first time
-DEBUG (29): round:6,node:29,received start command for first time
-DEBUG (25): round:6,node:25,received start command for first time
-DEBUG (23): round:6,node:23,received start command for first time
-DEBUG (22): round:6,node:22,received start command for first time
-DEBUG (24): round:6,node:24,received start command for first time
-DEBUG (28): round:6,node:28,received start command for first time
-DEBUG (27): round:6,node:27,received start command for first time
-DEBUG (26): round:6,node:26,received start command for first time
 DEBUG (34): round:6,node:34,received start command for first time
-DEBUG (33): round:6,node:33,received start command for first time
 DEBUG (31): round:6,node:31,received start command for first time
+DEBUG (27): round:6,node:27,received start command for first time
+DEBUG (25): round:6,node:25,received start command for first time
+DEBUG (24): round:6,node:24,received start command for first time
+DEBUG (26): round:6,node:26,received start command for first time
 DEBUG (30): round:6,node:30,received start command for first time
+DEBUG (29): round:6,node:29,received start command for first time
+DEBUG (28): round:6,node:28,received start command for first time
+DEBUG (33): round:6,node:33,received start command for first time
 DEBUG (32): round:6,node:32,received start command for first time
 DEBUG (1): round:6,frame:1,node:1,timeslot:1,ch_node:13
 DEBUG (2): round:6,frame:1,node:2,timeslot:2,ch_node:6
@@ -1603,41 +1602,41 @@ DEBUG (0): sink received,from ch_node 25 and data is 9.891779
 DEBUG (31): round: 6,frame:5,node:31,packet_num:6,timeslot:36
 DEBUG (0): sink received,from ch_node 31 and data is 9.815231
 DEBUG (36): round:7,node:36,received start command for first time
-DEBUG (23): round:7,node:23,received start command for first time
-DEBUG (7): round:7,node:7,received start command for first time
-DEBUG (6): round:7,node:6,received start command for first time
-DEBUG (3): round:7,node:3,received start command for first time
-DEBUG (1): round:7,node:1,received start command for first time
-DEBUG (2): round:7,node:2,received start command for first time
-DEBUG (5): round:7,node:5,received start command for first time
-DEBUG (4): round:7,node:4,received start command for first time
 DEBUG (22): round:7,node:22,received start command for first time
-DEBUG (15): round:7,node:15,received start command for first time
-DEBUG (11): round:7,node:11,received start command for first time
-DEBUG (9): round:7,node:9,received start command for first time
-DEBUG (8): round:7,node:8,received start command for first time
-DEBUG (10): round:7,node:10,received start command for first time
+DEBUG (6): round:7,node:6,received start command for first time
+DEBUG (5): round:7,node:5,received start command for first time
+DEBUG (2): round:7,node:2,received start command for first time
+DEBUG (1): round:7,node:1,received start command for first time
+DEBUG (4): round:7,node:4,received start command for first time
+DEBUG (3): round:7,node:3,received start command for first time
+DEBUG (21): round:7,node:21,received start command for first time
 DEBUG (14): round:7,node:14,received start command for first time
+DEBUG (10): round:7,node:10,received start command for first time
+DEBUG (8): round:7,node:8,received start command for first time
+DEBUG (7): round:7,node:7,received start command for first time
+DEBUG (9): round:7,node:9,received start command for first time
 DEBUG (13): round:7,node:13,received start command for first time
 DEBUG (12): round:7,node:12,received start command for first time
-DEBUG (21): round:7,node:21,received start command for first time
-DEBUG (19): round:7,node:19,received start command for first time
-DEBUG (17): round:7,node:17,received start command for first time
-DEBUG (16): round:7,node:16,received start command for first time
-DEBUG (18): round:7,node:18,received start command for first time
+DEBUG (11): round:7,node:11,received start command for first time
 DEBUG (20): round:7,node:20,received start command for first time
+DEBUG (18): round:7,node:18,received start command for first time
+DEBUG (16): round:7,node:16,received start command for first time
+DEBUG (15): round:7,node:15,received start command for first time
+DEBUG (17): round:7,node:17,received start command for first time
+DEBUG (19): round:7,node:19,received start command for first time
 DEBUG (35): round:7,node:35,received start command for first time
 DEBUG (34): round:7,node:34,received start command for first time
-DEBUG (31): round:7,node:31,received start command for first time
-DEBUG (27): round:7,node:27,received start command for first time
-DEBUG (25): round:7,node:25,received start command for first time
-DEBUG (24): round:7,node:24,received start command for first time
-DEBUG (26): round:7,node:26,received start command for first time
 DEBUG (30): round:7,node:30,received start command for first time
+DEBUG (26): round:7,node:26,received start command for first time
+DEBUG (24): round:7,node:24,received start command for first time
+DEBUG (23): round:7,node:23,received start command for first time
+DEBUG (25): round:7,node:25,received start command for first time
 DEBUG (29): round:7,node:29,received start command for first time
 DEBUG (28): round:7,node:28,received start command for first time
+DEBUG (27): round:7,node:27,received start command for first time
 DEBUG (33): round:7,node:33,received start command for first time
 DEBUG (32): round:7,node:32,received start command for first time
+DEBUG (31): round:7,node:31,received start command for first time
 DEBUG (1): round:7,frame:1,node:1,timeslot:1,ch_node:10
 DEBUG (2): round:7,frame:1,node:2,timeslot:2,ch_node:10
 DEBUG (4): round:7,frame:1,node:4,timeslot:3,ch_node:8

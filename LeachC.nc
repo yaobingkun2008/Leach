@@ -22,7 +22,7 @@ module LeachC @safe()
 implementation
 {
 	double shortest = 9999;//non-CH节点到ch节点的距离
-	double ch_data[36];//ch记录采集的数据
+	double ch_data[NODE_NUM];//ch记录采集的数据
 	int datanum = 0;//一轮采集上来的数据量
 	uint8_t times = 0;//工作的frame数量
 	 bool isch = FALSE;//标记自己是否是CH
@@ -45,6 +45,28 @@ implementation
     		x[1] = r / (double)(65535/84);
 	  }
 
+	  void clear_state()//清空状态，等待下一轮工作
+	  {
+	  	uint8_t y;
+	  	times = 0;
+		isch = FALSE;
+		jieduan  = 0;
+		correspond_ch = -1;
+		shixi = -1;
+		hassend = FALSE;
+		hasend = FALSE;
+		datanum = 0;
+		shortest = 9999;
+		for(y=0;y<NODE_NUM+1;y++)
+		{
+			ch[y] = FALSE;
+		}
+		for(y=0;y<NODE_NUM;y++)
+		{
+			ch_data[y] = 0;
+		}
+
+	  }
 
 	  event void Boot.booted()
 	  {
@@ -110,6 +132,7 @@ implementation
 				{
 					round++;              //轮数+1
 					btrpkt->nodeid = TOS_NODE_ID;
+					btrpkt->roundnum = round;
 					btrpkt->counter = 1;//1意思是开始选举
 					if(call AMSend.send(AM_BROADCAST_ADDR,&pkt,sizeof(LeachMsgStart))==SUCCESS){
 				           		busy = TRUE;
@@ -123,15 +146,30 @@ implementation
 				LeachMsgStart* btrpkt = (LeachMsgStart*)(call Packet.getPayload(&pkt,NULL));
 				jieduan = 1;
 				btrpkt->nodeid = TOS_NODE_ID;
+				btrpkt->roundnum = round;
 				btrpkt->counter = 2;//2意思是重新选举
 				if(call AMSend.send(AM_BROADCAST_ADDR,&pkt,sizeof(LeachMsgStart))==SUCCESS){
 				           busy = TRUE;
 				}//采用广播地址			
 			}
+			/*容错3：这是一种罕见的情况，sink在发送了第二轮通知后，仍然发现没有CH节点。这种情况足以造成系统彻底崩溃，但是概率很小，也不得不防*/
+			else if(jieduan == 1 && hassend == TRUE)
+			{
+				//重新再发一次“2”，再等4000ms
+				LeachMsgStart* btrpkt = (LeachMsgStart*)(call Packet.getPayload(&pkt,NULL));
+				btrpkt->nodeid = TOS_NODE_ID;
+				btrpkt->roundnum = round;
+				btrpkt->counter = 2;//2意思是重新选举
+				if(call AMSend.send(AM_BROADCAST_ADDR,&pkt,sizeof(LeachMsgStart))==SUCCESS){
+				           busy = TRUE;
+				}//采用广播地址
+			}
+
 			else if(jieduan ==2)//已经进入了第2阶段，可以发送通知数据包，通知各个节点开始工作
 			{
 				LeachMsgStart* btrpkt = (LeachMsgStart*)(call Packet.getPayload(&pkt,NULL));
 				btrpkt->nodeid = TOS_NODE_ID;
+				btrpkt->roundnum = round;
 				btrpkt->counter = 3;//3意思是开始正式工作
 				if(call AMSend.send(AM_BROADCAST_ADDR,&pkt,sizeof(LeachMsgStart))==SUCCESS){
 				           busy = TRUE;
@@ -193,18 +231,7 @@ implementation
 		     		{
 		     			if(times==FRAME)
 		     			{
-		     				times = 0;
-						isch = FALSE;
-						jieduan  = 0;
-						datanum = 0;
-						correspond_ch = -1;
-						shixi = -1;
-						shortest = 9999;
-						//缺一部分
-						for(y=0;y<NODE_NUM+1;y++)
-						{
-							ch[y] = FALSE;
-						}
+		     				clear_state();
 		     			}
 		     			else
 		     			{
@@ -243,7 +270,6 @@ implementation
 			{
 				jieduan = 0;
 				hasend = TRUE;
-
 				call Timer0.startOneShot((FRAME+1)*NODE_NUM*100);
 			}
 			else if(TOS_NODE_ID != SINK_NODE && jieduan == 0)
@@ -258,20 +284,7 @@ implementation
 				}
 				else if(times==FRAME)//该轮已经结束,该等待下一轮开始
 				{
-					times = 0;
-					isch = FALSE;
-					jieduan  = 0;
-					correspond_ch = -1;
-					shixi = -1;
-					datanum = 0;
-					shortest = 9999;
-					//缺一部分
-					for(y=0;y<NODE_NUM+1;y++)
-					{
-						ch[y] = FALSE;
-					}
-
-
+					clear_state();
 				}
 			}
 
@@ -289,6 +302,11 @@ implementation
 		              uint16_t r ;
 		       	if(btrpkt->counter != 3)
 		       	{
+		       		/*容错2：清空状态重新选择*/
+		       		clear_state();
+		       		/*容错4：round由sink授予*/
+		       		round  = btrpkt->roundnum;//重新更新round
+
 			       	if(btrpkt->counter == 2)
 			       	{
 			       		lastbech = -1;
@@ -296,7 +314,6 @@ implementation
 			       	}
 			       	else
 			       	{
-			       		round++;
 			       		dbg("Test1","round:%d,node:%d,received start command for first time\n",round,TOS_NODE_ID) ;
 			       	}
 
@@ -331,8 +348,35 @@ implementation
 			}
 			else if(btrpkt->counter == 3)//正式开始工作
 			{
-				jieduan = 1;//进入正式工作阶段，应当按照自己的工作时间段工作30个FRAME
-				call Timer1.startOneShot((shixi-1)*100);
+				/*容错4：round由sink授予*/
+				round  = btrpkt->roundnum;
+				/*容错机制1,防止：因为接收前面的sink的控制包失败，导致配置信息不全就进入了工作阶段这种足以导致单个节点崩溃的情况发生*/
+				if(isch == FALSE)
+				{
+					if((shixi != -1 && correspond_ch != -1)&&(jieduan == 0))
+					{
+						jieduan = 1;//进入正式工作阶段，应当按照自己的工作时间段工作30个FRAME
+						call Timer1.startOneShot((shixi-1)*100);
+					}
+					else//清空状态，跳过这一轮，等待下一轮的开始
+					{
+						clear_state();
+					}
+				}
+				else if(isch == TRUE)
+				{
+					if((shixi != -1)&&(jieduan ==0))
+					{
+						jieduan = 1;
+						call Timer1.startOneShot((shixi-1)*100);
+					}
+					else//清空状态，跳过这一轮，等待下一轮开始
+					{
+						clear_state();
+					}
+				}
+				//jieduan = 1;//进入正式工作阶段，应当按照自己的工作时间段工作30个FRAME
+				//call Timer1.startOneShot((shixi-1)*100);
 			}
 		}
 		else if(len == sizeof(LeachMsgStartR) && TOS_NODE_ID != SINK_NODE){

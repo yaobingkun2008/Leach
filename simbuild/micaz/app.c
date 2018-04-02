@@ -797,7 +797,7 @@ extern void *malloc(size_t __size) __attribute((__leaf__)) __attribute((__nothro
 #line 483
 extern void free(void *__ptr) __attribute((__leaf__)) __attribute((__nothrow__)) ;
 #line 742
-typedef int (*__compar_fn_t)(const void *arg_0x2b5e65134cf8, const void *arg_0x2b5e65133020);
+typedef int (*__compar_fn_t)(const void *arg_0x2b14dbe17cf8, const void *arg_0x2b14dbe16020);
 #line 780
 __extension__ 
 #line 797
@@ -817,7 +817,7 @@ extern double sqrt(double __x) __attribute((__leaf__)) __attribute((__nothrow__)
 #line 184
 extern double floor(double __x) __attribute((__leaf__)) __attribute((__nothrow__)) __attribute((const)) ;
 #line 250
-extern double erfc(double arg_0x2b5e651b5618) __attribute((__leaf__)) __attribute((__nothrow__)) ;
+extern double erfc(double arg_0x2b14dbe98618) __attribute((__leaf__)) __attribute((__nothrow__)) ;
 #line 326
 __extension__ 
 
@@ -1217,8 +1217,8 @@ typedef struct hashtable hashtable_t;
 #line 78
 struct hashtable *
 create_hashtable(unsigned int minsize, 
-unsigned int (*hashfunction)(void *arg_0x2b5e653f68e8), 
-int (*key_eq_fn)(void *arg_0x2b5e653f50c8, void *arg_0x2b5e653f5368));
+unsigned int (*hashfunction)(void *arg_0x2b14dc0d98e8), 
+int (*key_eq_fn)(void *arg_0x2b14dc0d80c8, void *arg_0x2b14dc0d8368));
 #line 103
 #line 102
 int 
@@ -1831,7 +1831,7 @@ struct tm;
 
 struct tm;
 # 46 "/opt/tinyos-2.1.2/tos/lib/tossim/randomlib.h"
-static inline void RandomInitialise(int arg_0x2b5e65606610, int arg_0x2b5e65606878);
+static inline void RandomInitialise(int arg_0x2b14dc2e9610, int arg_0x2b14dc2e9878);
 static double RandomUniform(void );
 # 51 "/opt/tinyos-2.1.2/tos/lib/tossim/sim_noise.c"
 int numCase1 = 0;
@@ -2223,17 +2223,19 @@ enum __nesc_unnamed4284 {
 
 
 
+
 #line 16
 typedef nx_struct __nesc_unnamed4285 {
   nx_uint16_t nodeid;
   nx_uint16_t counter;
+  nx_uint8_t roundnum;
 } __attribute__((packed)) LeachMsgStart;
 
 
 
 
 
-#line 21
+#line 22
 typedef struct __nesc_unnamed4286 {
   uint16_t nodeid;
   double position_x;
@@ -2243,7 +2245,7 @@ typedef struct __nesc_unnamed4286 {
 
 
 
-#line 27
+#line 28
 typedef struct __nesc_unnamed4287 {
   uint16_t nodeid;
   double data;
@@ -3681,7 +3683,7 @@ typedef uint32_t /*HilTimerMilliC.CounterToLocalTimeC*/CounterToLocalTimeC$0$Cou
 # 80 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 static error_t TossimActiveMessageC$AMSend$send(
 # 47 "/opt/tinyos-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0x2b5e65772528, 
+am_id_t arg_0x2b14dc455528, 
 # 80 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 am_addr_t addr, 
 #line 71
@@ -3704,7 +3706,7 @@ message_t *
 
 TossimActiveMessageC$Snoop$default$receive(
 # 49 "/opt/tinyos-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0x2b5e6576f2f0, 
+am_id_t arg_0x2b14dc4522f0, 
 # 71 "/opt/tinyos-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -3751,7 +3753,7 @@ message_t *
 
 TossimActiveMessageC$Receive$default$receive(
 # 48 "/opt/tinyos-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0x2b5e65771780, 
+am_id_t arg_0x2b14dc454780, 
 # 71 "/opt/tinyos-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -3884,11 +3886,11 @@ static error_t MeasureClockC$Init$init(void );
 # 67 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
 static error_t SimSchedulerBasicP$TaskBasic$postTask(
 # 49 "/opt/tinyos-2.1.2/tos/lib/tossim/SimSchedulerBasicP.nc"
-uint8_t arg_0x2b5e65707020);
+uint8_t arg_0x2b14dc3ea020);
 # 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
 static void SimSchedulerBasicP$TaskBasic$default$runTask(
 # 49 "/opt/tinyos-2.1.2/tos/lib/tossim/SimSchedulerBasicP.nc"
-uint8_t arg_0x2b5e65707020);
+uint8_t arg_0x2b14dc3ea020);
 # 57 "/opt/tinyos-2.1.2/tos/interfaces/Scheduler.nc"
 static void SimSchedulerBasicP$Scheduler$init(void );
 
@@ -3939,7 +3941,7 @@ error_t error);
 # 110 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$sendDone(
 # 48 "/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc"
-am_id_t arg_0x2b5e65c1c020, 
+am_id_t arg_0x2b14dc8ff020, 
 # 103 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 message_t * msg, 
 
@@ -3952,7 +3954,7 @@ error_t error);
 # 75 "/opt/tinyos-2.1.2/tos/interfaces/Send.nc"
 static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$send(
 # 46 "/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc"
-uint8_t arg_0x2b5e65be8e18, 
+uint8_t arg_0x2b14dc8cbe18, 
 # 67 "/opt/tinyos-2.1.2/tos/interfaces/Send.nc"
 message_t * msg, 
 
@@ -3966,7 +3968,7 @@ uint8_t len);
 #line 100
 static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone(
 # 46 "/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc"
-uint8_t arg_0x2b5e65be8e18, 
+uint8_t arg_0x2b14dc8cbe18, 
 # 96 "/opt/tinyos-2.1.2/tos/interfaces/Send.nc"
 message_t * msg, 
 
@@ -4089,11 +4091,11 @@ static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$TimerFrom$fire
 #line 83
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$default$fired(
 # 48 "/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0x2b5e65f98c28);
+uint8_t arg_0x2b14dcc70c28);
 # 73 "/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc"
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$startOneShot(
 # 48 "/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0x2b5e65f98c28, 
+uint8_t arg_0x2b14dcc70c28, 
 # 73 "/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc"
 uint32_t dt);
 # 82 "/opt/tinyos-2.1.2/tos/lib/timer/Counter.nc"
@@ -4103,7 +4105,7 @@ static am_addr_t TossimActiveMessageC$amAddress(void );
 # 110 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 static void TossimActiveMessageC$AMSend$sendDone(
 # 47 "/opt/tinyos-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0x2b5e65772528, 
+am_id_t arg_0x2b14dc455528, 
 # 103 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 message_t * msg, 
 
@@ -4122,7 +4124,7 @@ message_t *
 
 TossimActiveMessageC$Snoop$receive(
 # 49 "/opt/tinyos-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0x2b5e6576f2f0, 
+am_id_t arg_0x2b14dc4522f0, 
 # 71 "/opt/tinyos-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -4141,7 +4143,7 @@ message_t *
 
 TossimActiveMessageC$Receive$receive(
 # 48 "/opt/tinyos-2.1.2/tos/lib/tossim/TossimActiveMessageC.nc"
-am_id_t arg_0x2b5e65771780, 
+am_id_t arg_0x2b14dc454780, 
 # 71 "/opt/tinyos-2.1.2/tos/interfaces/Receive.nc"
 message_t * msg, 
 void * payload, 
@@ -4575,7 +4577,7 @@ int sim_main_start_mote(void )   ;
 # 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
 static void SimSchedulerBasicP$TaskBasic$runTask(
 # 49 "/opt/tinyos-2.1.2/tos/lib/tossim/SimSchedulerBasicP.nc"
-uint8_t arg_0x2b5e65707020);
+uint8_t arg_0x2b14dc3ea020);
 
 
 
@@ -4794,7 +4796,7 @@ static inline void /*LeachAppC.AMSenderC.SenderC.AMQueueEntryP*/AMQueueEntryP$0$
 # 80 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$send(
 # 48 "/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc"
-am_id_t arg_0x2b5e65c1c020, 
+am_id_t arg_0x2b14dc8ff020, 
 # 80 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
 am_addr_t addr, 
 #line 71
@@ -4811,7 +4813,7 @@ uint8_t len);
 # 100 "/opt/tinyos-2.1.2/tos/interfaces/Send.nc"
 static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(
 # 46 "/opt/tinyos-2.1.2/tos/system/AMQueueImplP.nc"
-uint8_t arg_0x2b5e65be8e18, 
+uint8_t arg_0x2b14dc8cbe18, 
 # 96 "/opt/tinyos-2.1.2/tos/interfaces/Send.nc"
 message_t * msg, 
 
@@ -4957,7 +4959,7 @@ static uint16_t LeachC$Random$rand16(void );
 static void LeachC$Timer1$startOneShot(uint32_t dt);
 # 24 "LeachC.nc"
 double LeachC$shortest[1000];
-double LeachC$ch_data[1000][36];
+double LeachC$ch_data[1000][NODE_NUM];
 int LeachC$datanum[1000];
 uint8_t LeachC$times[1000];
 bool LeachC$isch[1000];
@@ -4980,21 +4982,22 @@ static inline void LeachC$generate_rand(double x[]);
 
 
 
-
+static void LeachC$clear_state(void );
+#line 71
 static inline void LeachC$Boot$booted(void );
-#line 64
+#line 86
 static inline void LeachC$AMControl$startDone(error_t err);
-#line 90
+#line 112
 static inline void LeachC$AMControl$stopDone(error_t err);
 
 
 
 static inline void LeachC$Timer0$fired(void );
-#line 145
+#line 183
 static inline void LeachC$Timer1$fired(void );
-#line 234
+#line 261
 static void LeachC$AMSend$sendDone(message_t *msg, error_t error);
-#line 282
+#line 295
 static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, uint8_t len);
 # 53 "/opt/tinyos-2.1.2/tos/chips/atm128/timer/HplAtm128TimerCtrl8.nc"
 static Atm128_TIFR_t /*AlarmCounterMilliP.Atm128AlarmAsyncC.Atm128AlarmAsyncP*/Atm128AlarmAsyncP$0$TimerCtrl$getInterruptFlag(void );
@@ -5318,7 +5321,7 @@ static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$TimerFrom$stop
 
 static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$fired(
 # 48 "/opt/tinyos-2.1.2/tos/lib/timer/VirtualizeTimerC.nc"
-uint8_t arg_0x2b5e65f98c28);
+uint8_t arg_0x2b14dcc70c28);
 #line 71
 enum /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$__nesc_unnamed4341 {
 #line 71
@@ -5737,7 +5740,17 @@ static inline bool TossimActiveMessageC$AMPacket$isForMe(message_t *amsg)
   TossimActiveMessageC$AMPacket$destination(amsg) == AM_BROADCAST_ADDR;
 }
 
-# 310 "/usr/lib/ncc/nesc_nx.h"
+# 281 "/usr/lib/ncc/nesc_nx.h"
+static __inline  uint8_t __nesc_ntoh_uint8(const void * source)
+#line 281
+{
+  const uint8_t *base = source;
+
+#line 283
+  return base[0];
+}
+
+#line 310
 static __inline  uint16_t __nesc_ntoh_uint16(const void * source)
 #line 310
 {
@@ -5826,7 +5839,7 @@ inline static uint16_t LeachC$Random$rand16(void ){
 #line 52
 }
 #line 52
-# 282 "LeachC.nc"
+# 295 "LeachC.nc"
 static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, uint8_t len)
 {
   if (len == sizeof(LeachMsgStart ) && TOS_NODE_ID != SINK_NODE) 
@@ -5836,9 +5849,14 @@ static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, u
       double x;
       uint16_t r;
 
-#line 290
+#line 303
       if (__nesc_ntoh_uint16(btrpkt->counter.nxdata) != 3) 
         {
+
+          LeachC$clear_state();
+
+          LeachC$round[sim_node()] = __nesc_ntoh_uint8(btrpkt->roundnum.nxdata);
+
           if (__nesc_ntoh_uint16(btrpkt->counter.nxdata) == 2) 
             {
               LeachC$lastbech[sim_node()] = -1;
@@ -5846,7 +5864,6 @@ static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, u
             }
           else 
             {
-              LeachC$round[sim_node()]++;
               sim_log_debug(167U, "Test1", "round:%d,node:%d,received start command for first time\n", LeachC$round[sim_node()], TOS_NODE_ID);
             }
 
@@ -5862,7 +5879,7 @@ static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, u
             {
               uint8_t y;
 
-#line 314
+#line 331
               LeachC$ch[sim_node()][TOS_NODE_ID] = TRUE;
               LeachC$isch[sim_node()] = TRUE;
               LeachC$lastbech[sim_node()] = LeachC$round[sim_node()];
@@ -5883,24 +5900,52 @@ static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, u
       else {
         if (__nesc_ntoh_uint16(btrpkt->counter.nxdata) == 3) 
           {
-            LeachC$jieduan[sim_node()] = 1;
-            LeachC$Timer1$startOneShot((LeachC$shixi[sim_node()] - 1) * 100);
+
+            LeachC$round[sim_node()] = __nesc_ntoh_uint8(btrpkt->roundnum.nxdata);
+
+            if (LeachC$isch[sim_node()] == FALSE) 
+              {
+                if (LeachC$shixi[sim_node()] != -1 && LeachC$correspond_ch[sim_node()] != -1 && LeachC$jieduan[sim_node()] == 0) 
+                  {
+                    LeachC$jieduan[sim_node()] = 1;
+                    LeachC$Timer1$startOneShot((LeachC$shixi[sim_node()] - 1) * 100);
+                  }
+                else 
+                  {
+                    LeachC$clear_state();
+                  }
+              }
+            else {
+#line 366
+              if (LeachC$isch[sim_node()] == TRUE) 
+                {
+                  if (LeachC$shixi[sim_node()] != -1 && LeachC$jieduan[sim_node()] == 0) 
+                    {
+                      LeachC$jieduan[sim_node()] = 1;
+                      LeachC$Timer1$startOneShot((LeachC$shixi[sim_node()] - 1) * 100);
+                    }
+                  else 
+                    {
+                      LeachC$clear_state();
+                    }
+                }
+              }
           }
         }
     }
   else {
-#line 338
+#line 382
     if (len == sizeof(LeachMsgStartR ) && TOS_NODE_ID != SINK_NODE) {
 
 
         uint8_t y;
 
-#line 342
+#line 386
         if (LeachC$isch[sim_node()] == TRUE) 
           {
             LeachMsgStartR *btrpkt = (LeachMsgStart *)payload;
 
-#line 345
+#line 389
             LeachC$ch[sim_node()][btrpkt->nodeid] = TRUE;
             LeachC$shixi[sim_node()] = NODE_NUM;
             for (y = 1; y <= NODE_NUM; y++) 
@@ -5918,7 +5963,7 @@ static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, u
             double pox = btrpkt->position_x;
             double poy = btrpkt->position_y;
 
-#line 361
+#line 405
             LeachC$ch[sim_node()][btrpkt->nodeid] = TRUE;
             LeachC$shixi[sim_node()] = TOS_NODE_ID;
             for (y = 1; y <= NODE_NUM; y++) 
@@ -5944,15 +5989,15 @@ static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, u
         if (len == sizeof(LeachMsgData ) && TOS_NODE_ID == SINK_NODE) {
             LeachMsgData *btrpkt = (LeachMsgData *)payload;
 
-#line 385
+#line 429
             sim_log_debug(168U, "Test1", "sink received,from ch_node %d and data is %lf\n", btrpkt->nodeid, btrpkt->data);
           }
         else {
-#line 387
+#line 431
           if (len == sizeof(LeachMsgData ) && TOS_NODE_ID != SINK_NODE) {
               LeachMsgData *btrpkt = (LeachMsgData *)payload;
 
-#line 389
+#line 433
               LeachC$datanum[sim_node()]++;
               LeachC$ch_data[sim_node()][LeachC$datanum[sim_node()] - 1] = btrpkt->data;
             }
@@ -5960,7 +6005,7 @@ static inline message_t *LeachC$Receive$receive(message_t *msg, void *payload, u
         }
       }
     }
-#line 393
+#line 437
   return msg;
 }
 
@@ -5972,13 +6017,13 @@ static inline message_t *TossimActiveMessageC$Receive$default$receive(am_id_t id
 }
 
 # 78 "/opt/tinyos-2.1.2/tos/interfaces/Receive.nc"
-inline static message_t * TossimActiveMessageC$Receive$receive(am_id_t arg_0x2b5e65771780, message_t * msg, void * payload, uint8_t len){
+inline static message_t * TossimActiveMessageC$Receive$receive(am_id_t arg_0x2b14dc454780, message_t * msg, void * payload, uint8_t len){
 #line 78
   nx_struct message_t *__nesc_result;
 #line 78
 
 #line 78
-  switch (arg_0x2b5e65771780) {
+  switch (arg_0x2b14dc454780) {
 #line 78
     case 6:
 #line 78
@@ -5988,7 +6033,7 @@ inline static message_t * TossimActiveMessageC$Receive$receive(am_id_t arg_0x2b5
 #line 78
     default:
 #line 78
-      __nesc_result = TossimActiveMessageC$Receive$default$receive(arg_0x2b5e65771780, msg, payload, len);
+      __nesc_result = TossimActiveMessageC$Receive$default$receive(arg_0x2b14dc454780, msg, payload, len);
 #line 78
       break;
 #line 78
@@ -6097,13 +6142,13 @@ static inline message_t *TossimActiveMessageC$Snoop$default$receive(am_id_t id, 
 }
 
 # 78 "/opt/tinyos-2.1.2/tos/interfaces/Receive.nc"
-inline static message_t * TossimActiveMessageC$Snoop$receive(am_id_t arg_0x2b5e6576f2f0, message_t * msg, void * payload, uint8_t len){
+inline static message_t * TossimActiveMessageC$Snoop$receive(am_id_t arg_0x2b14dc4522f0, message_t * msg, void * payload, uint8_t len){
 #line 78
   nx_struct message_t *__nesc_result;
 #line 78
 
 #line 78
-    __nesc_result = TossimActiveMessageC$Snoop$default$receive(arg_0x2b5e6576f2f0, msg, payload, len);
+    __nesc_result = TossimActiveMessageC$Snoop$default$receive(arg_0x2b14dc4522f0, msg, payload, len);
 #line 78
 
 #line 78
@@ -6233,21 +6278,21 @@ inline static error_t LeachC$AMControl$start(void ){
 #line 104
 }
 #line 104
-# 64 "LeachC.nc"
+# 86 "LeachC.nc"
 static inline void LeachC$AMControl$startDone(error_t err)
 {
   if (err == SUCCESS) 
     {
       uint8_t y;
 
-#line 69
+#line 91
       LeachC$jieduan[sim_node()] = 0;
       sim_log_debug(163U, "Test1", "position is (%lf, %lf)\n", LeachC$position[sim_node()][0], LeachC$position[sim_node()][1]);
       if (TOS_NODE_ID == 0) 
         {
           uint16_t g;
 
-#line 74
+#line 96
           LeachC$hassend[sim_node()] = FALSE;
           LeachC$hasend[sim_node()] = FALSE;
           LeachC$jieduan[sim_node()] = 0;
@@ -6279,9 +6324,9 @@ static inline void TossimPacketModelC$startDoneTask$runTask(void )
   TossimPacketModelC$Control$startDone(SUCCESS);
 }
 
-# 90 "LeachC.nc"
+# 112 "LeachC.nc"
 static inline void LeachC$AMControl$stopDone(error_t err)
-#line 90
+#line 112
 {
 }
 
@@ -6334,9 +6379,9 @@ static __inline  int8_t __nesc_hton_int8(void * target, int8_t value)
 }
 
 # 110 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
-inline static void TossimActiveMessageC$AMSend$sendDone(am_id_t arg_0x2b5e65772528, message_t * msg, error_t error){
+inline static void TossimActiveMessageC$AMSend$sendDone(am_id_t arg_0x2b14dc455528, message_t * msg, error_t error){
 #line 110
-  /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$sendDone(arg_0x2b5e65772528, msg, error);
+  /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$sendDone(arg_0x2b14dc455528, msg, error);
 #line 110
 }
 #line 110
@@ -6397,9 +6442,9 @@ static inline void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone
 }
 
 # 100 "/opt/tinyos-2.1.2/tos/interfaces/Send.nc"
-inline static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(uint8_t arg_0x2b5e65be8e18, message_t * msg, error_t error){
+inline static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(uint8_t arg_0x2b14dc8cbe18, message_t * msg, error_t error){
 #line 100
-  switch (arg_0x2b5e65be8e18) {
+  switch (arg_0x2b14dc8cbe18) {
 #line 100
     case 0U:
 #line 100
@@ -6409,7 +6454,7 @@ inline static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$sendDone(uint8_t
 #line 100
     default:
 #line 100
-      /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone(arg_0x2b5e65be8e18, msg, error);
+      /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$Send$default$sendDone(arg_0x2b14dc8cbe18, msg, error);
 #line 100
       break;
 #line 100
@@ -6640,9 +6685,9 @@ static inline void SimSchedulerBasicP$TaskBasic$default$runTask(uint8_t id)
 }
 
 # 75 "/opt/tinyos-2.1.2/tos/interfaces/TaskBasic.nc"
-inline static void SimSchedulerBasicP$TaskBasic$runTask(uint8_t arg_0x2b5e65707020){
+inline static void SimSchedulerBasicP$TaskBasic$runTask(uint8_t arg_0x2b14dc3ea020){
 #line 75
-  switch (arg_0x2b5e65707020) {
+  switch (arg_0x2b14dc3ea020) {
 #line 75
     case TossimPacketModelC$startDoneTask:
 #line 75
@@ -6688,7 +6733,7 @@ inline static void SimSchedulerBasicP$TaskBasic$runTask(uint8_t arg_0x2b5e657070
 #line 75
     default:
 #line 75
-      SimSchedulerBasicP$TaskBasic$default$runTask(arg_0x2b5e65707020);
+      SimSchedulerBasicP$TaskBasic$default$runTask(arg_0x2b14dc3ea020);
 #line 75
       break;
 #line 75
@@ -6738,7 +6783,7 @@ inline static void * LeachC$Packet$getPayload(message_t * msg, uint8_t len){
 #line 126
 }
 #line 126
-# 94 "LeachC.nc"
+# 116 "LeachC.nc"
 static inline void LeachC$Timer0$fired(void )
 {
 
@@ -6752,16 +6797,17 @@ static inline void LeachC$Timer0$fired(void )
           LeachC$Timer0$startOneShot(100);
         }
       else {
-#line 106
+#line 128
         if (LeachC$jieduan[sim_node()] == 0 && (LeachC$hassend[sim_node()] == FALSE && LeachC$hasend[sim_node()] == FALSE)) 
           {
             LeachMsgStart *btrpkt = (LeachMsgStart *)LeachC$Packet$getPayload(&LeachC$pkt[sim_node()], (void *)0);
 
-#line 109
+#line 131
             if (LeachC$round[sim_node()] < 7) 
               {
                 LeachC$round[sim_node()]++;
                 __nesc_hton_uint16(btrpkt->nodeid.nxdata, TOS_NODE_ID);
+                __nesc_hton_uint8(btrpkt->roundnum.nxdata, LeachC$round[sim_node()]);
                 __nesc_hton_uint16(btrpkt->counter.nxdata, 1);
                 if (LeachC$AMSend$send(AM_BROADCAST_ADDR, &LeachC$pkt[sim_node()], sizeof(LeachMsgStart )) == SUCCESS) {
                     LeachC$busy[sim_node()] = TRUE;
@@ -6774,26 +6820,42 @@ static inline void LeachC$Timer0$fired(void )
             {
               LeachMsgStart *btrpkt = (LeachMsgStart *)LeachC$Packet$getPayload(&LeachC$pkt[sim_node()], (void *)0);
 
-#line 124
+#line 147
               LeachC$jieduan[sim_node()] = 1;
               __nesc_hton_uint16(btrpkt->nodeid.nxdata, TOS_NODE_ID);
+              __nesc_hton_uint8(btrpkt->roundnum.nxdata, LeachC$round[sim_node()]);
               __nesc_hton_uint16(btrpkt->counter.nxdata, 2);
               if (LeachC$AMSend$send(AM_BROADCAST_ADDR, &LeachC$pkt[sim_node()], sizeof(LeachMsgStart )) == SUCCESS) {
                   LeachC$busy[sim_node()] = TRUE;
                 }
             }
           else {
-#line 131
-            if (LeachC$jieduan[sim_node()] == 2) 
+            if (LeachC$jieduan[sim_node()] == 1 && LeachC$hassend[sim_node()] == TRUE) 
               {
+
                 LeachMsgStart *btrpkt = (LeachMsgStart *)LeachC$Packet$getPayload(&LeachC$pkt[sim_node()], (void *)0);
 
-#line 134
+#line 160
                 __nesc_hton_uint16(btrpkt->nodeid.nxdata, TOS_NODE_ID);
-                __nesc_hton_uint16(btrpkt->counter.nxdata, 3);
+                __nesc_hton_uint8(btrpkt->roundnum.nxdata, LeachC$round[sim_node()]);
+                __nesc_hton_uint16(btrpkt->counter.nxdata, 2);
                 if (LeachC$AMSend$send(AM_BROADCAST_ADDR, &LeachC$pkt[sim_node()], sizeof(LeachMsgStart )) == SUCCESS) {
                     LeachC$busy[sim_node()] = TRUE;
                   }
+              }
+            else {
+              if (LeachC$jieduan[sim_node()] == 2) 
+                {
+                  LeachMsgStart *btrpkt = (LeachMsgStart *)LeachC$Packet$getPayload(&LeachC$pkt[sim_node()], (void *)0);
+
+#line 171
+                  __nesc_hton_uint16(btrpkt->nodeid.nxdata, TOS_NODE_ID);
+                  __nesc_hton_uint8(btrpkt->roundnum.nxdata, LeachC$round[sim_node()]);
+                  __nesc_hton_uint16(btrpkt->counter.nxdata, 3);
+                  if (LeachC$AMSend$send(AM_BROADCAST_ADDR, &LeachC$pkt[sim_node()], sizeof(LeachMsgStart )) == SUCCESS) {
+                      LeachC$busy[sim_node()] = TRUE;
+                    }
+                }
               }
             }
           }
@@ -6801,7 +6863,7 @@ static inline void LeachC$Timer0$fired(void )
     }
 }
 
-#line 145
+#line 183
 static inline void LeachC$Timer1$fired(void )
 {
 
@@ -6809,7 +6871,7 @@ static inline void LeachC$Timer1$fired(void )
     {
       LeachMsgStartR *btrpkt = (LeachMsgStartR *)LeachC$Packet$getPayload(&LeachC$pkt[sim_node()], (void *)0);
 
-#line 151
+#line 189
       btrpkt->nodeid = TOS_NODE_ID;
       btrpkt->position_x = LeachC$position[sim_node()][0];
       btrpkt->position_y = LeachC$position[sim_node()][1];
@@ -6833,7 +6895,7 @@ static inline void LeachC$Timer1$fired(void )
           double data = wucha + TRUE_DATA;
           LeachMsgData *btrpkt = (LeachMsgData *)LeachC$Packet$getPayload(&LeachC$pkt[sim_node()], (void *)0);
 
-#line 173
+#line 211
           btrpkt->nodeid = TOS_NODE_ID;
           btrpkt->data = data;
           sim_log_debug(164U, "Test1", "round:%d,frame:%d,node:%d,timeslot:%d,ch_node:%d\n", LeachC$round[sim_node()], LeachC$times[sim_node()], TOS_NODE_ID, LeachC$shixi[sim_node()], LeachC$correspond_ch[sim_node()]);
@@ -6847,7 +6909,7 @@ static inline void LeachC$Timer1$fired(void )
           uint8_t y;
           double sum = 0;
 
-#line 185
+#line 223
           sim_log_debug(165U, "Test1", "round: %d,frame:%d,node:%d,packet_num:%d,timeslot:%d\n", LeachC$round[sim_node()], LeachC$times[sim_node()], TOS_NODE_ID, LeachC$datanum[sim_node()], LeachC$shixi[sim_node()]);
 
           for (y = 0; y < LeachC$datanum[sim_node()]; y++) 
@@ -6859,18 +6921,7 @@ static inline void LeachC$Timer1$fired(void )
             {
               if (LeachC$times[sim_node()] == FRAME) 
                 {
-                  LeachC$times[sim_node()] = 0;
-                  LeachC$isch[sim_node()] = FALSE;
-                  LeachC$jieduan[sim_node()] = 0;
-                  LeachC$datanum[sim_node()] = 0;
-                  LeachC$correspond_ch[sim_node()] = -1;
-                  LeachC$shixi[sim_node()] = -1;
-                  LeachC$shortest[sim_node()] = 9999;
-
-                  for (y = 0; y < NODE_NUM + 1; y++) 
-                    {
-                      LeachC$ch[sim_node()][y] = FALSE;
-                    }
+                  LeachC$clear_state();
                 }
               else 
                 {
@@ -6882,7 +6933,7 @@ static inline void LeachC$Timer1$fired(void )
 
               LeachMsgData *btrpkt = (LeachMsgData *)LeachC$Packet$getPayload(&LeachC$pkt[sim_node()], (void *)0);
 
-#line 218
+#line 245
               btrpkt->nodeid = TOS_NODE_ID;
               btrpkt->data = sum / (double )LeachC$datanum[sim_node()];
               LeachC$datanum[sim_node()] = 0;
@@ -6900,9 +6951,9 @@ static inline void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$d
 }
 
 # 83 "/opt/tinyos-2.1.2/tos/lib/timer/Timer.nc"
-inline static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$fired(uint8_t arg_0x2b5e65f98c28){
+inline static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$fired(uint8_t arg_0x2b14dcc70c28){
 #line 83
-  switch (arg_0x2b5e65f98c28) {
+  switch (arg_0x2b14dcc70c28) {
 #line 83
     case 0U:
 #line 83
@@ -6918,7 +6969,7 @@ inline static void /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$f
 #line 83
     default:
 #line 83
-      /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$default$fired(arg_0x2b5e65f98c28);
+      /*HilTimerMilliC.VirtualizeTimerC*/VirtualizeTimerC$0$Timer$default$fired(arg_0x2b14dcc70c28);
 #line 83
       break;
 #line 83
@@ -6968,13 +7019,13 @@ inline static void /*LeachAppC.AMSenderC.SenderC.AMQueueEntryP*/AMQueueEntryP$0$
 }
 #line 162
 # 80 "/opt/tinyos-2.1.2/tos/interfaces/AMSend.nc"
-inline static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$send(am_id_t arg_0x2b5e65c1c020, am_addr_t addr, message_t * msg, uint8_t len){
+inline static error_t /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$AMSend$send(am_id_t arg_0x2b14dc8ff020, am_addr_t addr, message_t * msg, uint8_t len){
 #line 80
   unsigned char __nesc_result;
 #line 80
 
 #line 80
-  __nesc_result = TossimActiveMessageC$AMSend$send(arg_0x2b5e65c1c020, addr, msg, len);
+  __nesc_result = TossimActiveMessageC$AMSend$send(arg_0x2b14dc8ff020, addr, msg, len);
 #line 80
 
 #line 80
@@ -7080,16 +7131,6 @@ inline static error_t /*LeachAppC.AMSenderC.SenderC.AMQueueEntryP*/AMQueueEntryP
 #line 75
 }
 #line 75
-# 281 "/usr/lib/ncc/nesc_nx.h"
-static __inline  uint8_t __nesc_ntoh_uint8(const void * source)
-#line 281
-{
-  const uint8_t *base = source;
-
-#line 283
-  return base[0];
-}
-
 # 483 "/opt/tinyos-2.1.2/tos/lib/tossim/CpmModelC.nc"
 static inline void CpmModelC$free_receive_message(CpmModelC$receive_message_t *msg)
 #line 483
@@ -8569,7 +8610,7 @@ static inline void LeachC$generate_rand(double x[])
   x[1] = r / (double )(65535 / 84);
 }
 
-
+#line 71
 static inline void LeachC$Boot$booted(void )
 {
   if (TOS_NODE_ID != 0) 
@@ -10134,6 +10175,31 @@ static am_id_t TossimActiveMessageC$AMPacket$type(message_t *amsg)
   return __nesc_ntoh_uint8(header->type.nxdata);
 }
 
+# 48 "LeachC.nc"
+static void LeachC$clear_state(void )
+{
+  uint8_t y;
+
+#line 51
+  LeachC$times[sim_node()] = 0;
+  LeachC$isch[sim_node()] = FALSE;
+  LeachC$jieduan[sim_node()] = 0;
+  LeachC$correspond_ch[sim_node()] = -1;
+  LeachC$shixi[sim_node()] = -1;
+  LeachC$hassend[sim_node()] = FALSE;
+  LeachC$hasend[sim_node()] = FALSE;
+  LeachC$datanum[sim_node()] = 0;
+  LeachC$shortest[sim_node()] = 9999;
+  for (y = 0; y < NODE_NUM + 1; y++) 
+    {
+      LeachC$ch[sim_node()][y] = FALSE;
+    }
+  for (y = 0; y < NODE_NUM; y++) 
+    {
+      LeachC$ch_data[sim_node()][y] = 0;
+    }
+}
+
 # 69 "/opt/tinyos-2.1.2/tos/system/RandomMlcgC.nc"
 static uint32_t RandomMlcgC$Random$rand32(void )
 #line 69
@@ -10577,13 +10643,13 @@ static void /*AMQueueP.AMQueueImplP*/AMQueueImplP$0$tryToSend(void )
     }
 }
 
-# 234 "LeachC.nc"
+# 261 "LeachC.nc"
 static void LeachC$AMSend$sendDone(message_t *msg, error_t error)
-#line 234
+#line 261
 {
   uint8_t y;
 
-#line 236
+#line 263
   if (&LeachC$pkt[sim_node()] == msg) {
       LeachC$busy[sim_node()] = FALSE;
       if (TOS_NODE_ID == SINK_NODE && (LeachC$jieduan[sim_node()] == 0 || LeachC$jieduan[sim_node()] == 1)) 
@@ -10591,16 +10657,15 @@ static void LeachC$AMSend$sendDone(message_t *msg, error_t error)
           LeachC$Timer0$startOneShot(4000);
         }
       else {
-#line 242
+#line 269
         if (TOS_NODE_ID == SINK_NODE && LeachC$jieduan[sim_node()] == 2) 
           {
             LeachC$jieduan[sim_node()] = 0;
             LeachC$hasend[sim_node()] = TRUE;
-
             LeachC$Timer0$startOneShot((FRAME + 1) * NODE_NUM * 100);
           }
         else {
-#line 249
+#line 275
           if (TOS_NODE_ID != SINK_NODE && LeachC$jieduan[sim_node()] == 0) 
             {
             }
@@ -10612,21 +10677,10 @@ static void LeachC$AMSend$sendDone(message_t *msg, error_t error)
                     LeachC$Timer1$startOneShot(NODE_NUM * 100);
                   }
                 else {
-#line 259
+#line 285
                   if (LeachC$times[sim_node()] == FRAME) 
                     {
-                      LeachC$times[sim_node()] = 0;
-                      LeachC$isch[sim_node()] = FALSE;
-                      LeachC$jieduan[sim_node()] = 0;
-                      LeachC$correspond_ch[sim_node()] = -1;
-                      LeachC$shixi[sim_node()] = -1;
-                      LeachC$datanum[sim_node()] = 0;
-                      LeachC$shortest[sim_node()] = 9999;
-
-                      for (y = 0; y < NODE_NUM + 1; y++) 
-                        {
-                          LeachC$ch[sim_node()][y] = FALSE;
-                        }
+                      LeachC$clear_state();
                     }
                   }
               }
