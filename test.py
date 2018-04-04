@@ -4,11 +4,11 @@ from sys import *
 from random import *
 from TOSSIM import *
 from tinyos.tossim.TossimApp import *
-
+nodenum = 10;
 n = NescApp()
 t = Tossim(n.variables.variables())
 r = t.radio()
-f = open("topo36.txt", "r")
+f = open("topo.txt", "r")
 
 ff  = open("log.txt","w")
 
@@ -28,10 +28,10 @@ for line in lines:
   str = line.strip()
   if (str != ""):
     val = int(str)
-    for i in range(0, 37):
+    for i in range(0, nodenum+1):
       t.getNode(i).addNoiseTraceReading(val) ##给每个节点增加噪声
 
-for i in range(0, 37):
+for i in range(0, nodenum+1):
   print "Creating noise model for ",i;
   t.getNode(i).createNoiseModel()
   
@@ -41,7 +41,7 @@ v = m.getVariable("RadioCountToLedsC.counter")
 '''
 #while(v.getData()<10):
  # t.runNextEvent()
-for i in range(0,37):
+for i in range(0,nodenum+1):
     t.getNode(i).bootAtTime(i*10000)
 
 t.runNextEvent();

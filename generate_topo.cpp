@@ -5,15 +5,19 @@
 
 using namespace std;
 
-int main()
+int main(int argc,char* argv[])
 {
-	FILE *fp = fopen("topo36.txt","a");
+	FILE *fp = fopen("topo.txt","a");
+	int nodenum = 0;
+	cout<<argv[0];
+	cout<<argc;
+	nodenum = atoi(argv[1]);
 	string str;
 	int i;
-	for(i=0;i<=36;i++)
+	for(i=0;i<=nodenum;i++)
 	{
 		int j;
-		for(j=0;j<=36;j++)
+		for(j=0;j<=nodenum;j++)
 		{
 			if(j!=i)
 			{
@@ -25,7 +29,7 @@ int main()
 				str.append(" ");
 				str.append(p2);
 				str.append(" ");
-				str.append("-33.0");
+				str.append("-60.0");
 				char buf[20];
 				//strcpy(buf,str.c_str());
 				int length = str.copy(buf,19);

@@ -9,1851 +9,654 @@ DEBUG (7): position is (4.338462, 70.739744)
 DEBUG (8): position is (25.885897, 6.064103)
 DEBUG (9): position is (47.433333, 25.408974)
 DEBUG (10): position is (68.980769, 44.753846)
-DEBUG (11): position is (6.507692, 64.098718)
-DEBUG (12): position is (28.055128, 83.443590)
-DEBUG (13): position is (49.602564, 18.767949)
-DEBUG (14): position is (71.150000, 38.112821)
-DEBUG (15): position is (8.676923, 57.458974)
-DEBUG (16): position is (30.224359, 76.803846)
-DEBUG (17): position is (51.771795, 12.128205)
-DEBUG (18): position is (73.319231, 31.473077)
-DEBUG (19): position is (10.846154, 50.817949)
-DEBUG (20): position is (32.393590, 70.162821)
-DEBUG (21): position is (53.941026, 5.487179)
-DEBUG (22): position is (75.488462, 24.833333)
-DEBUG (23): position is (13.015385, 44.178205)
-DEBUG (24): position is (34.562821, 63.523077)
-DEBUG (25): position is (56.110256, 82.867949)
-DEBUG (26): position is (77.657692, 18.192308)
-DEBUG (27): position is (15.184615, 37.537179)
-DEBUG (28): position is (36.732051, 56.882051)
-DEBUG (29): position is (58.279487, 76.226923)
-DEBUG (30): position is (79.826923, 11.552564)
-DEBUG (31): position is (17.353846, 30.897436)
-DEBUG (32): position is (38.901282, 50.242308)
-DEBUG (33): position is (60.448718, 69.587179)
-DEBUG (34): position is (81.996154, 4.911538)
-DEBUG (35): position is (19.523077, 24.256410)
-DEBUG (36): position is (41.070513, 43.601282)
-DEBUG (36): round:1,node:36,received start command for first time
-DEBUG (18): round:1,node:18,received start command for first time
-DEBUG (2): round:1,node:2,received start command for first time
-DEBUG (1): round:1,node:1,received start command for first time
-DEBUG (17): round:1,node:17,received start command for first time
+
 DEBUG (10): round:1,node:10,received start command for first time
-DEBUG (6): round:1,node:6,received start command for first time
-DEBUG (4): round:1,node:4,received start command for first time
-DEBUG (3): round:1,node:3,received start command for first time
-DEBUG (5): round:1,node:5,received start command for first time
 DEBUG (9): round:1,node:9,received start command for first time
 DEBUG (8): round:1,node:8,received start command for first time
+DEBUG (6): round:1,node:6,received start command for first time
+DEBUG (5): round:1,node:5,received start command for first time
 DEBUG (7): round:1,node:7,received start command for first time
-DEBUG (16): round:1,node:16,received start command for first time
-DEBUG (14): round:1,node:14,received start command for first time
-DEBUG (12): round:1,node:12,received start command for first time
-DEBUG (11): round:1,node:11,received start command for first time
-DEBUG (13): round:1,node:13,received start command for first time
-DEBUG (15): round:1,node:15,received start command for first time
-DEBUG (35): round:1,node:35,received start command for first time
-DEBUG (34): round:1,node:34,received start command for first time
-DEBUG (26): round:1,node:26,received start command for first time
-DEBUG (22): round:1,node:22,received start command for first time
-DEBUG (20): round:1,node:20,received start command for first time
-DEBUG (19): round:1,node:19,received start command for first time
-DEBUG (21): round:1,node:21,received start command for first time
-DEBUG (25): round:1,node:25,received start command for first time
-DEBUG (24): round:1,node:24,received start command for first time
-DEBUG (23): round:1,node:23,received start command for first time
-DEBUG (33): round:1,node:33,received start command for first time
-DEBUG (30): round:1,node:30,received start command for first time
-DEBUG (28): round:1,node:28,received start command for first time
-DEBUG (27): round:1,node:27,received start command for first time
-DEBUG (29): round:1,node:29,received start command for first time
-DEBUG (32): round:1,node:32,received start command for first time
-DEBUG (31): round:1,node:31,received start command for first time
+DEBUG (4): round:1,node:4,received start command for first time
+DEBUG (3): round:1,node:3,received start command for first time
+DEBUG (2): round:1,node:2,received start command for first time
+DEBUG (1): round:1,node:1,received start command for first time
+
+DEBUG (10): round:1,node:10,received working command
+DEBUG (9): round:1,node:9,received working command
+DEBUG (8): round:1,node:8,received working command
+DEBUG (6): round:1,node:6,received working command
+DEBUG (5): round:1,node:5,received working command
+DEBUG (7): round:1,node:7,received working command
+DEBUG (4): round:1,node:4,received working command
+DEBUG (2): round:1,node:2,received working command
+DEBUG (1): round:1,node:1,received working command
+
 DEBUG (1): round:1,frame:1,node:1,timeslot:1,ch_node:5
-DEBUG (3): round:1,frame:1,node:3,timeslot:2,ch_node:11
 DEBUG (4): round:1,frame:1,node:4,timeslot:3,ch_node:8
 DEBUG (6): round:1,frame:1,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:1,frame:1,node:7,timeslot:5,ch_node:11
+DEBUG (7): round:1,frame:1,node:7,timeslot:5,ch_node:5
 DEBUG (9): round:1,frame:1,node:9,timeslot:6,ch_node:5
-DEBUG (10): round:1,frame:1,node:10,timeslot:7,ch_node:14
-DEBUG (12): round:1,frame:1,node:12,timeslot:8,ch_node:20
-DEBUG (13): round:1,frame:1,node:13,timeslot:9,ch_node:17
-DEBUG (15): round:1,frame:1,node:15,timeslot:10,ch_node:11
-DEBUG (16): round:1,frame:1,node:16,timeslot:11,ch_node:20
-DEBUG (18): round:1,frame:1,node:18,timeslot:12,ch_node:14
-DEBUG (19): round:1,frame:1,node:19,timeslot:13,ch_node:23
-DEBUG (21): round:1,frame:1,node:21,timeslot:14,ch_node:17
-DEBUG (22): round:1,frame:1,node:22,timeslot:15,ch_node:26
-DEBUG (24): round:1,frame:1,node:24,timeslot:16,ch_node:20
-DEBUG (25): round:1,frame:1,node:25,timeslot:17,ch_node:2
-DEBUG (27): round:1,frame:1,node:27,timeslot:18,ch_node:23
-DEBUG (28): round:1,frame:1,node:28,timeslot:19,ch_node:20
-DEBUG (29): round:1,frame:1,node:29,timeslot:20,ch_node:2
-DEBUG (30): round:1,frame:1,node:30,timeslot:21,ch_node:26
-DEBUG (31): round:1,frame:1,node:31,timeslot:22,ch_node:23
-DEBUG (32): round:1,frame:1,node:32,timeslot:23,ch_node:5
-DEBUG (33): round:1,frame:1,node:33,timeslot:24,ch_node:2
-DEBUG (34): round:1,frame:1,node:34,timeslot:25,ch_node:26
-DEBUG (35): round:1,frame:1,node:35,timeslot:26,ch_node:8
-DEBUG (36): round:1,frame:1,node:36,timeslot:27,ch_node:5
-DEBUG (2): round: 1,frame:1,node:2,packet_num:4,timeslot:28
-DEBUG (0): sink received,from ch_node 2 and data is 9.145965
-DEBUG (5): round: 1,frame:1,node:5,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 5 and data is 9.607006
-DEBUG (8): round: 1,frame:1,node:8,packet_num:2,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.960314
-DEBUG (11): round: 1,frame:1,node:11,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 11 and data is 9.901071
-DEBUG (14): round: 1,frame:1,node:14,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 14 and data is 10.156425
-DEBUG (17): round: 1,frame:1,node:17,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 17 and data is 9.691632
-DEBUG (20): round: 1,frame:1,node:20,packet_num:4,timeslot:34
-DEBUG (0): sink received,from ch_node 20 and data is 9.798115
-DEBUG (23): round: 1,frame:1,node:23,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 23 and data is 9.979057
-DEBUG (26): round: 1,frame:1,node:26,packet_num:3,timeslot:36
-DEBUG (0): sink received,from ch_node 26 and data is 9.383434
+DEBUG (10): round:1,frame:1,node:10,timeslot:7,ch_node:2
+
+DEBUG (2): round: 1,frame:1,node:2,packet_num:2,timeslot:8
+DEBUG (0): sink received,from ch_node 2 and data is 9.051340
+DEBUG (5): round: 1,frame:1,node:5,packet_num:3,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 9.543691
+DEBUG (8): round: 1,frame:1,node:8,packet_num:1,timeslot:10
+DEBUG (0): sink received,from ch_node 8 and data is 10.080616
+
 DEBUG (1): round:1,frame:2,node:1,timeslot:1,ch_node:5
-DEBUG (3): round:1,frame:2,node:3,timeslot:2,ch_node:11
 DEBUG (4): round:1,frame:2,node:4,timeslot:3,ch_node:8
 DEBUG (6): round:1,frame:2,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:1,frame:2,node:7,timeslot:5,ch_node:11
+DEBUG (7): round:1,frame:2,node:7,timeslot:5,ch_node:5
 DEBUG (9): round:1,frame:2,node:9,timeslot:6,ch_node:5
-DEBUG (10): round:1,frame:2,node:10,timeslot:7,ch_node:14
-DEBUG (12): round:1,frame:2,node:12,timeslot:8,ch_node:20
-DEBUG (13): round:1,frame:2,node:13,timeslot:9,ch_node:17
-DEBUG (15): round:1,frame:2,node:15,timeslot:10,ch_node:11
-DEBUG (16): round:1,frame:2,node:16,timeslot:11,ch_node:20
-DEBUG (18): round:1,frame:2,node:18,timeslot:12,ch_node:14
-DEBUG (19): round:1,frame:2,node:19,timeslot:13,ch_node:23
-DEBUG (21): round:1,frame:2,node:21,timeslot:14,ch_node:17
-DEBUG (22): round:1,frame:2,node:22,timeslot:15,ch_node:26
-DEBUG (24): round:1,frame:2,node:24,timeslot:16,ch_node:20
-DEBUG (25): round:1,frame:2,node:25,timeslot:17,ch_node:2
-DEBUG (27): round:1,frame:2,node:27,timeslot:18,ch_node:23
-DEBUG (28): round:1,frame:2,node:28,timeslot:19,ch_node:20
-DEBUG (29): round:1,frame:2,node:29,timeslot:20,ch_node:2
-DEBUG (30): round:1,frame:2,node:30,timeslot:21,ch_node:26
-DEBUG (31): round:1,frame:2,node:31,timeslot:22,ch_node:23
-DEBUG (32): round:1,frame:2,node:32,timeslot:23,ch_node:5
-DEBUG (33): round:1,frame:2,node:33,timeslot:24,ch_node:2
-DEBUG (34): round:1,frame:2,node:34,timeslot:25,ch_node:26
-DEBUG (35): round:1,frame:2,node:35,timeslot:26,ch_node:8
-DEBUG (36): round:1,frame:2,node:36,timeslot:27,ch_node:5
-DEBUG (2): round: 1,frame:2,node:2,packet_num:4,timeslot:28
-DEBUG (0): sink received,from ch_node 2 and data is 10.096092
-DEBUG (5): round: 1,frame:2,node:5,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 5 and data is 9.546703
-DEBUG (8): round: 1,frame:2,node:8,packet_num:2,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 10.062738
-DEBUG (11): round: 1,frame:2,node:11,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 11 and data is 9.658532
-DEBUG (14): round: 1,frame:2,node:14,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 14 and data is 9.230564
-DEBUG (17): round: 1,frame:2,node:17,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 17 and data is 10.570609
-DEBUG (20): round: 1,frame:2,node:20,packet_num:4,timeslot:34
-DEBUG (0): sink received,from ch_node 20 and data is 10.067683
-DEBUG (23): round: 1,frame:2,node:23,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 23 and data is 10.719200
-DEBUG (26): round: 1,frame:2,node:26,packet_num:3,timeslot:36
-DEBUG (0): sink received,from ch_node 26 and data is 9.689123
+DEBUG (10): round:1,frame:2,node:10,timeslot:7,ch_node:2
+
+DEBUG (2): round: 1,frame:2,node:2,packet_num:2,timeslot:8
+DEBUG (0): sink received,from ch_node 2 and data is 9.412689
+DEBUG (5): round: 1,frame:2,node:5,packet_num:3,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 9.705895
+DEBUG (8): round: 1,frame:2,node:8,packet_num:1,timeslot:10
+DEBUG (0): sink received,from ch_node 8 and data is 9.900714
+
 DEBUG (1): round:1,frame:3,node:1,timeslot:1,ch_node:5
-DEBUG (3): round:1,frame:3,node:3,timeslot:2,ch_node:11
 DEBUG (4): round:1,frame:3,node:4,timeslot:3,ch_node:8
 DEBUG (6): round:1,frame:3,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:1,frame:3,node:7,timeslot:5,ch_node:11
+DEBUG (7): round:1,frame:3,node:7,timeslot:5,ch_node:5
 DEBUG (9): round:1,frame:3,node:9,timeslot:6,ch_node:5
-DEBUG (10): round:1,frame:3,node:10,timeslot:7,ch_node:14
-DEBUG (12): round:1,frame:3,node:12,timeslot:8,ch_node:20
-DEBUG (13): round:1,frame:3,node:13,timeslot:9,ch_node:17
-DEBUG (15): round:1,frame:3,node:15,timeslot:10,ch_node:11
-DEBUG (16): round:1,frame:3,node:16,timeslot:11,ch_node:20
-DEBUG (18): round:1,frame:3,node:18,timeslot:12,ch_node:14
-DEBUG (19): round:1,frame:3,node:19,timeslot:13,ch_node:23
-DEBUG (21): round:1,frame:3,node:21,timeslot:14,ch_node:17
-DEBUG (22): round:1,frame:3,node:22,timeslot:15,ch_node:26
-DEBUG (24): round:1,frame:3,node:24,timeslot:16,ch_node:20
-DEBUG (25): round:1,frame:3,node:25,timeslot:17,ch_node:2
-DEBUG (27): round:1,frame:3,node:27,timeslot:18,ch_node:23
-DEBUG (28): round:1,frame:3,node:28,timeslot:19,ch_node:20
-DEBUG (29): round:1,frame:3,node:29,timeslot:20,ch_node:2
-DEBUG (30): round:1,frame:3,node:30,timeslot:21,ch_node:26
-DEBUG (31): round:1,frame:3,node:31,timeslot:22,ch_node:23
-DEBUG (32): round:1,frame:3,node:32,timeslot:23,ch_node:5
-DEBUG (33): round:1,frame:3,node:33,timeslot:24,ch_node:2
-DEBUG (34): round:1,frame:3,node:34,timeslot:25,ch_node:26
-DEBUG (35): round:1,frame:3,node:35,timeslot:26,ch_node:8
-DEBUG (36): round:1,frame:3,node:36,timeslot:27,ch_node:5
-DEBUG (2): round: 1,frame:3,node:2,packet_num:4,timeslot:28
-DEBUG (0): sink received,from ch_node 2 and data is 10.053722
-DEBUG (5): round: 1,frame:3,node:5,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 5 and data is 9.926555
-DEBUG (8): round: 1,frame:3,node:8,packet_num:2,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.680418
-DEBUG (11): round: 1,frame:3,node:11,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 11 and data is 9.917028
-DEBUG (14): round: 1,frame:3,node:14,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 14 and data is 8.778805
-DEBUG (17): round: 1,frame:3,node:17,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 17 and data is 10.250062
-DEBUG (20): round: 1,frame:3,node:20,packet_num:4,timeslot:34
-DEBUG (0): sink received,from ch_node 20 and data is 9.891955
-DEBUG (23): round: 1,frame:3,node:23,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 23 and data is 10.579021
-DEBUG (26): round: 1,frame:3,node:26,packet_num:3,timeslot:36
-DEBUG (0): sink received,from ch_node 26 and data is 10.236518
+DEBUG (10): round:1,frame:3,node:10,timeslot:7,ch_node:2
+
+DEBUG (2): round: 1,frame:3,node:2,packet_num:2,timeslot:8
+DEBUG (0): sink received,from ch_node 2 and data is 8.694442
+DEBUG (5): round: 1,frame:3,node:5,packet_num:3,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 10.111486
+DEBUG (8): round: 1,frame:3,node:8,packet_num:1,timeslot:10
+DEBUG (0): sink received,from ch_node 8 and data is 10.134980
+
 DEBUG (1): round:1,frame:4,node:1,timeslot:1,ch_node:5
-DEBUG (3): round:1,frame:4,node:3,timeslot:2,ch_node:11
 DEBUG (4): round:1,frame:4,node:4,timeslot:3,ch_node:8
 DEBUG (6): round:1,frame:4,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:1,frame:4,node:7,timeslot:5,ch_node:11
+DEBUG (7): round:1,frame:4,node:7,timeslot:5,ch_node:5
 DEBUG (9): round:1,frame:4,node:9,timeslot:6,ch_node:5
-DEBUG (10): round:1,frame:4,node:10,timeslot:7,ch_node:14
-DEBUG (12): round:1,frame:4,node:12,timeslot:8,ch_node:20
-DEBUG (13): round:1,frame:4,node:13,timeslot:9,ch_node:17
-DEBUG (15): round:1,frame:4,node:15,timeslot:10,ch_node:11
-DEBUG (16): round:1,frame:4,node:16,timeslot:11,ch_node:20
-DEBUG (18): round:1,frame:4,node:18,timeslot:12,ch_node:14
-DEBUG (19): round:1,frame:4,node:19,timeslot:13,ch_node:23
-DEBUG (21): round:1,frame:4,node:21,timeslot:14,ch_node:17
-DEBUG (22): round:1,frame:4,node:22,timeslot:15,ch_node:26
-DEBUG (24): round:1,frame:4,node:24,timeslot:16,ch_node:20
-DEBUG (25): round:1,frame:4,node:25,timeslot:17,ch_node:2
-DEBUG (27): round:1,frame:4,node:27,timeslot:18,ch_node:23
-DEBUG (28): round:1,frame:4,node:28,timeslot:19,ch_node:20
-DEBUG (29): round:1,frame:4,node:29,timeslot:20,ch_node:2
-DEBUG (30): round:1,frame:4,node:30,timeslot:21,ch_node:26
-DEBUG (31): round:1,frame:4,node:31,timeslot:22,ch_node:23
-DEBUG (32): round:1,frame:4,node:32,timeslot:23,ch_node:5
-DEBUG (33): round:1,frame:4,node:33,timeslot:24,ch_node:2
-DEBUG (34): round:1,frame:4,node:34,timeslot:25,ch_node:26
-DEBUG (35): round:1,frame:4,node:35,timeslot:26,ch_node:8
-DEBUG (36): round:1,frame:4,node:36,timeslot:27,ch_node:5
-DEBUG (2): round: 1,frame:4,node:2,packet_num:4,timeslot:28
-DEBUG (0): sink received,from ch_node 2 and data is 9.582666
-DEBUG (5): round: 1,frame:4,node:5,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 5 and data is 9.834719
-DEBUG (8): round: 1,frame:4,node:8,packet_num:2,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.593477
-DEBUG (11): round: 1,frame:4,node:11,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 11 and data is 10.536648
-DEBUG (14): round: 1,frame:4,node:14,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 14 and data is 9.898318
-DEBUG (17): round: 1,frame:4,node:17,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 17 and data is 9.353441
-DEBUG (20): round: 1,frame:4,node:20,packet_num:4,timeslot:34
-DEBUG (0): sink received,from ch_node 20 and data is 9.431278
-DEBUG (23): round: 1,frame:4,node:23,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 23 and data is 8.909931
-DEBUG (26): round: 1,frame:4,node:26,packet_num:3,timeslot:36
-DEBUG (0): sink received,from ch_node 26 and data is 9.235845
+DEBUG (10): round:1,frame:4,node:10,timeslot:7,ch_node:2
+
+DEBUG (2): round: 1,frame:4,node:2,packet_num:2,timeslot:8
+DEBUG (0): sink received,from ch_node 2 and data is 10.907552
+DEBUG (5): round: 1,frame:4,node:5,packet_num:3,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 10.798878
+DEBUG (8): round: 1,frame:4,node:8,packet_num:1,timeslot:10
+DEBUG (0): sink received,from ch_node 8 and data is 10.171959
+
 DEBUG (1): round:1,frame:5,node:1,timeslot:1,ch_node:5
-DEBUG (3): round:1,frame:5,node:3,timeslot:2,ch_node:11
 DEBUG (4): round:1,frame:5,node:4,timeslot:3,ch_node:8
 DEBUG (6): round:1,frame:5,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:1,frame:5,node:7,timeslot:5,ch_node:11
+DEBUG (7): round:1,frame:5,node:7,timeslot:5,ch_node:5
 DEBUG (9): round:1,frame:5,node:9,timeslot:6,ch_node:5
-DEBUG (10): round:1,frame:5,node:10,timeslot:7,ch_node:14
-DEBUG (12): round:1,frame:5,node:12,timeslot:8,ch_node:20
-DEBUG (13): round:1,frame:5,node:13,timeslot:9,ch_node:17
-DEBUG (15): round:1,frame:5,node:15,timeslot:10,ch_node:11
-DEBUG (16): round:1,frame:5,node:16,timeslot:11,ch_node:20
-DEBUG (18): round:1,frame:5,node:18,timeslot:12,ch_node:14
-DEBUG (19): round:1,frame:5,node:19,timeslot:13,ch_node:23
-DEBUG (21): round:1,frame:5,node:21,timeslot:14,ch_node:17
-DEBUG (22): round:1,frame:5,node:22,timeslot:15,ch_node:26
-DEBUG (24): round:1,frame:5,node:24,timeslot:16,ch_node:20
-DEBUG (25): round:1,frame:5,node:25,timeslot:17,ch_node:2
-DEBUG (27): round:1,frame:5,node:27,timeslot:18,ch_node:23
-DEBUG (28): round:1,frame:5,node:28,timeslot:19,ch_node:20
-DEBUG (29): round:1,frame:5,node:29,timeslot:20,ch_node:2
-DEBUG (30): round:1,frame:5,node:30,timeslot:21,ch_node:26
-DEBUG (31): round:1,frame:5,node:31,timeslot:22,ch_node:23
-DEBUG (32): round:1,frame:5,node:32,timeslot:23,ch_node:5
-DEBUG (33): round:1,frame:5,node:33,timeslot:24,ch_node:2
-DEBUG (34): round:1,frame:5,node:34,timeslot:25,ch_node:26
-DEBUG (35): round:1,frame:5,node:35,timeslot:26,ch_node:8
-DEBUG (36): round:1,frame:5,node:36,timeslot:27,ch_node:5
-DEBUG (2): round: 1,frame:5,node:2,packet_num:4,timeslot:28
-DEBUG (0): sink received,from ch_node 2 and data is 10.646287
-DEBUG (5): round: 1,frame:5,node:5,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 5 and data is 9.409721
-DEBUG (8): round: 1,frame:5,node:8,packet_num:2,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.813933
-DEBUG (11): round: 1,frame:5,node:11,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 11 and data is 10.836349
-DEBUG (14): round: 1,frame:5,node:14,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 14 and data is 9.026615
-DEBUG (17): round: 1,frame:5,node:17,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 17 and data is 9.757166
-DEBUG (20): round: 1,frame:5,node:20,packet_num:4,timeslot:34
-DEBUG (0): sink received,from ch_node 20 and data is 10.903916
-DEBUG (23): round: 1,frame:5,node:23,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 23 and data is 8.696564
-DEBUG (26): round: 1,frame:5,node:26,packet_num:3,timeslot:36
-DEBUG (0): sink received,from ch_node 26 and data is 9.546594
-DEBUG (36): round:2,node:36,received start command for first time
-DEBUG (22): round:2,node:22,received start command for first time
-DEBUG (6): round:2,node:6,received start command for first time
-DEBUG (5): round:2,node:5,received start command for first time
-DEBUG (2): round:2,node:2,received start command for first time
-DEBUG (1): round:2,node:1,received start command for first time
-DEBUG (4): round:2,node:4,received start command for first time
-DEBUG (3): round:2,node:3,received start command for first time
-DEBUG (21): round:2,node:21,received start command for first time
-DEBUG (14): round:2,node:14,received start command for first time
+DEBUG (10): round:1,frame:5,node:10,timeslot:7,ch_node:2
+
+DEBUG (2): round: 1,frame:5,node:2,packet_num:2,timeslot:8
+DEBUG (0): sink received,from ch_node 2 and data is 9.375375
+DEBUG (5): round: 1,frame:5,node:5,packet_num:3,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 9.450803
+DEBUG (8): round: 1,frame:5,node:8,packet_num:1,timeslot:10
+DEBUG (0): sink received,from ch_node 8 and data is 10.619705
+
 DEBUG (10): round:2,node:10,received start command for first time
+DEBUG (9): round:2,node:9,received start command for first time
 DEBUG (8): round:2,node:8,received start command for first time
 DEBUG (7): round:2,node:7,received start command for first time
-DEBUG (9): round:2,node:9,received start command for first time
-DEBUG (13): round:2,node:13,received start command for first time
-DEBUG (12): round:2,node:12,received start command for first time
-DEBUG (11): round:2,node:11,received start command for first time
-DEBUG (20): round:2,node:20,received start command for first time
-DEBUG (18): round:2,node:18,received start command for first time
-DEBUG (16): round:2,node:16,received start command for first time
-DEBUG (15): round:2,node:15,received start command for first time
-DEBUG (17): round:2,node:17,received start command for first time
-DEBUG (19): round:2,node:19,received start command for first time
-DEBUG (35): round:2,node:35,received start command for first time
-DEBUG (34): round:2,node:34,received start command for first time
-DEBUG (30): round:2,node:30,received start command for first time
-DEBUG (26): round:2,node:26,received start command for first time
-DEBUG (24): round:2,node:24,received start command for first time
-DEBUG (23): round:2,node:23,received start command for first time
-DEBUG (25): round:2,node:25,received start command for first time
-DEBUG (29): round:2,node:29,received start command for first time
-DEBUG (28): round:2,node:28,received start command for first time
-DEBUG (27): round:2,node:27,received start command for first time
-DEBUG (33): round:2,node:33,received start command for first time
-DEBUG (32): round:2,node:32,received start command for first time
-DEBUG (31): round:2,node:31,received start command for first time
-DEBUG (1): round:2,frame:1,node:1,timeslot:1,ch_node:13
+DEBUG (4): round:2,node:4,received start command for first time
+DEBUG (2): round:2,node:2,received start command for first time
+DEBUG (3): round:2,node:3,received start command for first time
+DEBUG (6): round:2,node:6,received start command for first time
+DEBUG (5): round:2,node:5,received start command for first time
+
+DEBUG (10): round:2,node:10,received working command
+DEBUG (9): round:2,node:9,received working command
+DEBUG (8): round:2,node:8,received working command
+DEBUG (7): round:2,node:7,received working command
+DEBUG (5): round:2,node:5,received working command
+DEBUG (4): round:2,node:4,received working command
+DEBUG (1): round:1,node:1,received working command
+DEBUG (3): round:2,node:3,received working command
+DEBUG (2): round:2,node:2,received working command
+
+DEBUG (1): round:2,frame:1,node:1,timeslot:1,ch_node:6
 DEBUG (2): round:2,frame:1,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:2,frame:1,node:3,timeslot:3,ch_node:12
-DEBUG (5): round:2,frame:1,node:5,timeslot:4,ch_node:13
-DEBUG (7): round:2,frame:1,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:2,frame:1,node:8,timeslot:6,ch_node:4
-DEBUG (9): round:2,frame:1,node:9,timeslot:7,ch_node:13
-DEBUG (10): round:2,frame:1,node:10,timeslot:8,ch_node:6
-DEBUG (11): round:2,frame:1,node:11,timeslot:9,ch_node:19
-DEBUG (14): round:2,frame:1,node:14,timeslot:10,ch_node:18
-DEBUG (15): round:2,frame:1,node:15,timeslot:11,ch_node:19
-DEBUG (16): round:2,frame:1,node:16,timeslot:12,ch_node:12
-DEBUG (17): round:2,frame:1,node:17,timeslot:13,ch_node:13
-DEBUG (20): round:2,frame:1,node:20,timeslot:14,ch_node:12
-DEBUG (21): round:2,frame:1,node:21,timeslot:15,ch_node:13
-DEBUG (22): round:2,frame:1,node:22,timeslot:16,ch_node:18
-DEBUG (23): round:2,frame:1,node:23,timeslot:17,ch_node:19
-DEBUG (24): round:2,frame:1,node:24,timeslot:18,ch_node:12
-DEBUG (26): round:2,frame:1,node:26,timeslot:19,ch_node:18
-DEBUG (28): round:2,frame:1,node:28,timeslot:20,ch_node:19
-DEBUG (29): round:2,frame:1,node:29,timeslot:21,ch_node:33
-DEBUG (30): round:2,frame:1,node:30,timeslot:22,ch_node:34
-DEBUG (31): round:2,frame:1,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:2,frame:1,node:32,timeslot:24,ch_node:27
-DEBUG (35): round:2,frame:1,node:35,timeslot:25,ch_node:4
-DEBUG (36): round:2,frame:1,node:36,timeslot:26,ch_node:13
-DEBUG (4): round: 2,frame:1,node:4,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 4 and data is 9.893805
-DEBUG (6): round: 2,frame:1,node:6,packet_num:2,timeslot:28
-DEBUG (0): sink received,from ch_node 6 and data is 10.761418
-DEBUG (12): round: 2,frame:1,node:12,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 12 and data is 10.221580
-DEBUG (13): round: 2,frame:1,node:13,packet_num:6,timeslot:30
-DEBUG (0): sink received,from ch_node 13 and data is 9.830123
-DEBUG (18): round: 2,frame:1,node:18,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 18 and data is 9.606723
-DEBUG (19): round: 2,frame:1,node:19,packet_num:5,timeslot:32
-DEBUG (0): sink received,from ch_node 19 and data is 9.907673
-DEBUG (25): round: 2,frame:1,node:25,packet_num:0,timeslot:33
-DEBUG (27): round: 2,frame:1,node:27,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 27 and data is 8.927994
-DEBUG (33): round: 2,frame:1,node:33,packet_num:1,timeslot:35
-DEBUG (0): sink received,from ch_node 33 and data is 11.084998
-DEBUG (34): round: 2,frame:1,node:34,packet_num:1,timeslot:36
-DEBUG (0): sink received,from ch_node 34 and data is 10.035286
-DEBUG (1): round:2,frame:2,node:1,timeslot:1,ch_node:13
+DEBUG (5): round:2,frame:1,node:5,timeslot:3,ch_node:6
+DEBUG (7): round:2,frame:1,node:7,timeslot:4,ch_node:3
+DEBUG (8): round:2,frame:1,node:8,timeslot:6,ch_node:6
+DEBUG (9): round:2,frame:1,node:9,timeslot:6,ch_node:4
+DEBUG (10): round:2,frame:1,node:10,timeslot:7,ch_node:6
+DEBUG (3): round: 2,frame:1,node:3,packet_num:1,timeslot:8
+DEBUG (0): sink received,from ch_node 3 and data is 9.518488
+DEBUG (4): round: 2,frame:1,node:4,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 4 and data is 9.310523
+
+DEBUG (1): round:2,frame:2,node:1,timeslot:1,ch_node:6
 DEBUG (2): round:2,frame:2,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:2,frame:2,node:3,timeslot:3,ch_node:12
-DEBUG (5): round:2,frame:2,node:5,timeslot:4,ch_node:13
-DEBUG (7): round:2,frame:2,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:2,frame:2,node:8,timeslot:6,ch_node:4
-DEBUG (9): round:2,frame:2,node:9,timeslot:7,ch_node:13
-DEBUG (10): round:2,frame:2,node:10,timeslot:8,ch_node:6
-DEBUG (11): round:2,frame:2,node:11,timeslot:9,ch_node:19
-DEBUG (14): round:2,frame:2,node:14,timeslot:10,ch_node:18
-DEBUG (15): round:2,frame:2,node:15,timeslot:11,ch_node:19
-DEBUG (16): round:2,frame:2,node:16,timeslot:12,ch_node:12
-DEBUG (17): round:2,frame:2,node:17,timeslot:13,ch_node:13
-DEBUG (20): round:2,frame:2,node:20,timeslot:14,ch_node:12
-DEBUG (21): round:2,frame:2,node:21,timeslot:15,ch_node:13
-DEBUG (22): round:2,frame:2,node:22,timeslot:16,ch_node:18
-DEBUG (23): round:2,frame:2,node:23,timeslot:17,ch_node:19
-DEBUG (24): round:2,frame:2,node:24,timeslot:18,ch_node:12
-DEBUG (26): round:2,frame:2,node:26,timeslot:19,ch_node:18
-DEBUG (28): round:2,frame:2,node:28,timeslot:20,ch_node:19
-DEBUG (29): round:2,frame:2,node:29,timeslot:21,ch_node:33
-DEBUG (30): round:2,frame:2,node:30,timeslot:22,ch_node:34
-DEBUG (31): round:2,frame:2,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:2,frame:2,node:32,timeslot:24,ch_node:27
-DEBUG (35): round:2,frame:2,node:35,timeslot:25,ch_node:4
-DEBUG (36): round:2,frame:2,node:36,timeslot:26,ch_node:13
-DEBUG (4): round: 2,frame:2,node:4,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 4 and data is 11.674626
-DEBUG (6): round: 2,frame:2,node:6,packet_num:2,timeslot:28
-DEBUG (0): sink received,from ch_node 6 and data is 9.200477
-DEBUG (12): round: 2,frame:2,node:12,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 12 and data is 10.301560
-DEBUG (13): round: 2,frame:2,node:13,packet_num:6,timeslot:30
-DEBUG (0): sink received,from ch_node 13 and data is 9.950725
-DEBUG (18): round: 2,frame:2,node:18,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 18 and data is 10.634580
-DEBUG (19): round: 2,frame:2,node:19,packet_num:5,timeslot:32
-DEBUG (0): sink received,from ch_node 19 and data is 9.273607
-DEBUG (25): round: 2,frame:2,node:25,packet_num:0,timeslot:33
-DEBUG (27): round: 2,frame:2,node:27,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 27 and data is 10.218960
-DEBUG (33): round: 2,frame:2,node:33,packet_num:1,timeslot:35
-DEBUG (0): sink received,from ch_node 33 and data is 9.646087
-DEBUG (34): round: 2,frame:2,node:34,packet_num:1,timeslot:36
-DEBUG (0): sink received,from ch_node 34 and data is 10.434480
-DEBUG (1): round:2,frame:3,node:1,timeslot:1,ch_node:13
+DEBUG (5): round:2,frame:2,node:5,timeslot:3,ch_node:6
+DEBUG (7): round:2,frame:2,node:7,timeslot:4,ch_node:3
+DEBUG (9): round:2,frame:2,node:9,timeslot:6,ch_node:4
+DEBUG (8): round:2,frame:2,node:8,timeslot:6,ch_node:6
+DEBUG (10): round:2,frame:2,node:10,timeslot:7,ch_node:6
+DEBUG (3): round: 2,frame:2,node:3,packet_num:1,timeslot:8
+DEBUG (0): sink received,from ch_node 3 and data is 10.555288
+DEBUG (4): round: 2,frame:2,node:4,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 4 and data is 10.137635
+
+DEBUG (1): round:2,frame:3,node:1,timeslot:1,ch_node:6
 DEBUG (2): round:2,frame:3,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:2,frame:3,node:3,timeslot:3,ch_node:12
-DEBUG (5): round:2,frame:3,node:5,timeslot:4,ch_node:13
-DEBUG (7): round:2,frame:3,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:2,frame:3,node:8,timeslot:6,ch_node:4
-DEBUG (9): round:2,frame:3,node:9,timeslot:7,ch_node:13
-DEBUG (10): round:2,frame:3,node:10,timeslot:8,ch_node:6
-DEBUG (11): round:2,frame:3,node:11,timeslot:9,ch_node:19
-DEBUG (14): round:2,frame:3,node:14,timeslot:10,ch_node:18
-DEBUG (15): round:2,frame:3,node:15,timeslot:11,ch_node:19
-DEBUG (16): round:2,frame:3,node:16,timeslot:12,ch_node:12
-DEBUG (17): round:2,frame:3,node:17,timeslot:13,ch_node:13
-DEBUG (20): round:2,frame:3,node:20,timeslot:14,ch_node:12
-DEBUG (21): round:2,frame:3,node:21,timeslot:15,ch_node:13
-DEBUG (22): round:2,frame:3,node:22,timeslot:16,ch_node:18
-DEBUG (23): round:2,frame:3,node:23,timeslot:17,ch_node:19
-DEBUG (24): round:2,frame:3,node:24,timeslot:18,ch_node:12
-DEBUG (26): round:2,frame:3,node:26,timeslot:19,ch_node:18
-DEBUG (28): round:2,frame:3,node:28,timeslot:20,ch_node:19
-DEBUG (29): round:2,frame:3,node:29,timeslot:21,ch_node:33
-DEBUG (30): round:2,frame:3,node:30,timeslot:22,ch_node:34
-DEBUG (31): round:2,frame:3,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:2,frame:3,node:32,timeslot:24,ch_node:27
-DEBUG (35): round:2,frame:3,node:35,timeslot:25,ch_node:4
-DEBUG (36): round:2,frame:3,node:36,timeslot:26,ch_node:13
-DEBUG (4): round: 2,frame:3,node:4,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 4 and data is 8.724984
-DEBUG (6): round: 2,frame:3,node:6,packet_num:2,timeslot:28
-DEBUG (0): sink received,from ch_node 6 and data is 8.044666
-DEBUG (12): round: 2,frame:3,node:12,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 12 and data is 11.235454
-DEBUG (13): round: 2,frame:3,node:13,packet_num:6,timeslot:30
-DEBUG (0): sink received,from ch_node 13 and data is 10.006045
-DEBUG (18): round: 2,frame:3,node:18,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 18 and data is 10.176363
-DEBUG (19): round: 2,frame:3,node:19,packet_num:5,timeslot:32
-DEBUG (0): sink received,from ch_node 19 and data is 10.273423
-DEBUG (25): round: 2,frame:3,node:25,packet_num:0,timeslot:33
-DEBUG (27): round: 2,frame:3,node:27,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 27 and data is 9.243343
-DEBUG (33): round: 2,frame:3,node:33,packet_num:1,timeslot:35
-DEBUG (0): sink received,from ch_node 33 and data is 10.899664
-DEBUG (34): round: 2,frame:3,node:34,packet_num:1,timeslot:36
-DEBUG (0): sink received,from ch_node 34 and data is 9.799898
-DEBUG (1): round:2,frame:4,node:1,timeslot:1,ch_node:13
+DEBUG (5): round:2,frame:3,node:5,timeslot:3,ch_node:6
+DEBUG (7): round:2,frame:3,node:7,timeslot:4,ch_node:3
+DEBUG (9): round:2,frame:3,node:9,timeslot:6,ch_node:4
+DEBUG (8): round:2,frame:3,node:8,timeslot:6,ch_node:6
+DEBUG (10): round:2,frame:3,node:10,timeslot:7,ch_node:6
+DEBUG (3): round: 2,frame:3,node:3,packet_num:1,timeslot:8
+DEBUG (0): sink received,from ch_node 3 and data is 11.194899
+DEBUG (4): round: 2,frame:3,node:4,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 4 and data is 9.657017
+DEBUG (1): round:2,frame:4,node:1,timeslot:1,ch_node:6
 DEBUG (2): round:2,frame:4,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:2,frame:4,node:3,timeslot:3,ch_node:12
-DEBUG (5): round:2,frame:4,node:5,timeslot:4,ch_node:13
-DEBUG (7): round:2,frame:4,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:2,frame:4,node:8,timeslot:6,ch_node:4
-DEBUG (9): round:2,frame:4,node:9,timeslot:7,ch_node:13
-DEBUG (10): round:2,frame:4,node:10,timeslot:8,ch_node:6
-DEBUG (11): round:2,frame:4,node:11,timeslot:9,ch_node:19
-DEBUG (14): round:2,frame:4,node:14,timeslot:10,ch_node:18
-DEBUG (15): round:2,frame:4,node:15,timeslot:11,ch_node:19
-DEBUG (16): round:2,frame:4,node:16,timeslot:12,ch_node:12
-DEBUG (17): round:2,frame:4,node:17,timeslot:13,ch_node:13
-DEBUG (20): round:2,frame:4,node:20,timeslot:14,ch_node:12
-DEBUG (21): round:2,frame:4,node:21,timeslot:15,ch_node:13
-DEBUG (22): round:2,frame:4,node:22,timeslot:16,ch_node:18
-DEBUG (23): round:2,frame:4,node:23,timeslot:17,ch_node:19
-DEBUG (24): round:2,frame:4,node:24,timeslot:18,ch_node:12
-DEBUG (26): round:2,frame:4,node:26,timeslot:19,ch_node:18
-DEBUG (28): round:2,frame:4,node:28,timeslot:20,ch_node:19
-DEBUG (29): round:2,frame:4,node:29,timeslot:21,ch_node:33
-DEBUG (30): round:2,frame:4,node:30,timeslot:22,ch_node:34
-DEBUG (31): round:2,frame:4,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:2,frame:4,node:32,timeslot:24,ch_node:27
-DEBUG (35): round:2,frame:4,node:35,timeslot:25,ch_node:4
-DEBUG (36): round:2,frame:4,node:36,timeslot:26,ch_node:13
-DEBUG (4): round: 2,frame:4,node:4,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 4 and data is 8.124439
-DEBUG (6): round: 2,frame:4,node:6,packet_num:2,timeslot:28
-DEBUG (0): sink received,from ch_node 6 and data is 10.382126
-DEBUG (12): round: 2,frame:4,node:12,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 12 and data is 9.562199
-DEBUG (13): round: 2,frame:4,node:13,packet_num:6,timeslot:30
-DEBUG (0): sink received,from ch_node 13 and data is 9.665627
-DEBUG (18): round: 2,frame:4,node:18,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 18 and data is 10.845536
-DEBUG (19): round: 2,frame:4,node:19,packet_num:5,timeslot:32
-DEBUG (0): sink received,from ch_node 19 and data is 9.875624
-DEBUG (25): round: 2,frame:4,node:25,packet_num:0,timeslot:33
-DEBUG (27): round: 2,frame:4,node:27,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 27 and data is 10.622496
-DEBUG (33): round: 2,frame:4,node:33,packet_num:1,timeslot:35
-DEBUG (0): sink received,from ch_node 33 and data is 7.894000
-DEBUG (34): round: 2,frame:4,node:34,packet_num:1,timeslot:36
-DEBUG (0): sink received,from ch_node 34 and data is 8.536845
-DEBUG (1): round:2,frame:5,node:1,timeslot:1,ch_node:13
+DEBUG (5): round:2,frame:4,node:5,timeslot:3,ch_node:6
+DEBUG (7): round:2,frame:4,node:7,timeslot:4,ch_node:3
+DEBUG (9): round:2,frame:4,node:9,timeslot:6,ch_node:4
+DEBUG (8): round:2,frame:4,node:8,timeslot:6,ch_node:6
+DEBUG (10): round:2,frame:4,node:10,timeslot:7,ch_node:6
+DEBUG (3): round: 2,frame:4,node:3,packet_num:1,timeslot:8
+DEBUG (0): sink received,from ch_node 3 and data is 8.634416
+DEBUG (4): round: 2,frame:4,node:4,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 4 and data is 10.291588
+
+DEBUG (1): round:2,frame:5,node:1,timeslot:1,ch_node:6
 DEBUG (2): round:2,frame:5,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:2,frame:5,node:3,timeslot:3,ch_node:12
-DEBUG (5): round:2,frame:5,node:5,timeslot:4,ch_node:13
-DEBUG (7): round:2,frame:5,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:2,frame:5,node:8,timeslot:6,ch_node:4
-DEBUG (9): round:2,frame:5,node:9,timeslot:7,ch_node:13
-DEBUG (10): round:2,frame:5,node:10,timeslot:8,ch_node:6
-DEBUG (11): round:2,frame:5,node:11,timeslot:9,ch_node:19
-DEBUG (14): round:2,frame:5,node:14,timeslot:10,ch_node:18
-DEBUG (15): round:2,frame:5,node:15,timeslot:11,ch_node:19
-DEBUG (16): round:2,frame:5,node:16,timeslot:12,ch_node:12
-DEBUG (17): round:2,frame:5,node:17,timeslot:13,ch_node:13
-DEBUG (20): round:2,frame:5,node:20,timeslot:14,ch_node:12
-DEBUG (21): round:2,frame:5,node:21,timeslot:15,ch_node:13
-DEBUG (22): round:2,frame:5,node:22,timeslot:16,ch_node:18
-DEBUG (23): round:2,frame:5,node:23,timeslot:17,ch_node:19
-DEBUG (24): round:2,frame:5,node:24,timeslot:18,ch_node:12
-DEBUG (26): round:2,frame:5,node:26,timeslot:19,ch_node:18
-DEBUG (28): round:2,frame:5,node:28,timeslot:20,ch_node:19
-DEBUG (29): round:2,frame:5,node:29,timeslot:21,ch_node:33
-DEBUG (30): round:2,frame:5,node:30,timeslot:22,ch_node:34
-DEBUG (31): round:2,frame:5,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:2,frame:5,node:32,timeslot:24,ch_node:27
-DEBUG (35): round:2,frame:5,node:35,timeslot:25,ch_node:4
-DEBUG (36): round:2,frame:5,node:36,timeslot:26,ch_node:13
-DEBUG (4): round: 2,frame:5,node:4,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 4 and data is 10.172637
-DEBUG (6): round: 2,frame:5,node:6,packet_num:2,timeslot:28
-DEBUG (0): sink received,from ch_node 6 and data is 9.996250
-DEBUG (12): round: 2,frame:5,node:12,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 12 and data is 9.386119
-DEBUG (13): round: 2,frame:5,node:13,packet_num:6,timeslot:30
-DEBUG (0): sink received,from ch_node 13 and data is 9.895358
-DEBUG (18): round: 2,frame:5,node:18,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 18 and data is 10.328293
-DEBUG (19): round: 2,frame:5,node:19,packet_num:5,timeslot:32
-DEBUG (0): sink received,from ch_node 19 and data is 10.115334
-DEBUG (25): round: 2,frame:5,node:25,packet_num:0,timeslot:33
-DEBUG (27): round: 2,frame:5,node:27,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 27 and data is 9.968993
-DEBUG (33): round: 2,frame:5,node:33,packet_num:1,timeslot:35
-DEBUG (0): sink received,from ch_node 33 and data is 8.724364
-DEBUG (34): round: 2,frame:5,node:34,packet_num:1,timeslot:36
-DEBUG (0): sink received,from ch_node 34 and data is 10.236462
-DEBUG (36): round:3,node:36,received start command for first time
-DEBUG (22): round:3,node:22,received start command for first time
-DEBUG (6): round:3,node:6,received start command for first time
-DEBUG (5): round:3,node:5,received start command for first time
-DEBUG (2): round:3,node:2,received start command for first time
-DEBUG (1): round:3,node:1,received start command for first time
-DEBUG (4): round:3,node:4,received start command for first time
-DEBUG (3): round:3,node:3,received start command for first time
-DEBUG (21): round:3,node:21,received start command for first time
-DEBUG (14): round:3,node:14,received start command for first time
+DEBUG (5): round:2,frame:5,node:5,timeslot:3,ch_node:6
+DEBUG (7): round:2,frame:5,node:7,timeslot:4,ch_node:3
+DEBUG (9): round:2,frame:5,node:9,timeslot:6,ch_node:4
+DEBUG (8): round:2,frame:5,node:8,timeslot:6,ch_node:6
+DEBUG (10): round:2,frame:5,node:10,timeslot:7,ch_node:6
+
+DEBUG (3): round: 2,frame:5,node:3,packet_num:1,timeslot:8
+DEBUG (0): sink received,from ch_node 3 and data is 9.488785
+DEBUG (4): round: 2,frame:5,node:4,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 4 and data is 10.866587
+
 DEBUG (10): round:3,node:10,received start command for first time
+DEBUG (9): round:3,node:9,received start command for first time
 DEBUG (8): round:3,node:8,received start command for first time
 DEBUG (7): round:3,node:7,received start command for first time
-DEBUG (9): round:3,node:9,received start command for first time
-DEBUG (13): round:3,node:13,received start command for first time
-DEBUG (12): round:3,node:12,received start command for first time
-DEBUG (11): round:3,node:11,received start command for first time
-DEBUG (20): round:3,node:20,received start command for first time
-DEBUG (18): round:3,node:18,received start command for first time
-DEBUG (16): round:3,node:16,received start command for first time
-DEBUG (15): round:3,node:15,received start command for first time
-DEBUG (17): round:3,node:17,received start command for first time
-DEBUG (19): round:3,node:19,received start command for first time
-DEBUG (35): round:3,node:35,received start command for first time
-DEBUG (34): round:3,node:34,received start command for first time
-DEBUG (30): round:3,node:30,received start command for first time
-DEBUG (26): round:3,node:26,received start command for first time
-DEBUG (24): round:3,node:24,received start command for first time
-DEBUG (23): round:3,node:23,received start command for first time
-DEBUG (25): round:3,node:25,received start command for first time
-DEBUG (29): round:3,node:29,received start command for first time
-DEBUG (28): round:3,node:28,received start command for first time
-DEBUG (27): round:3,node:27,received start command for first time
-DEBUG (33): round:3,node:33,received start command for first time
-DEBUG (32): round:3,node:32,received start command for first time
-DEBUG (31): round:3,node:31,received start command for first time
+DEBUG (6): round:3,node:6,received start command for first time
+DEBUG (3): round:3,node:3,received start command for first time
+DEBUG (1): round:3,node:1,received start command for first time
+DEBUG (5): round:3,node:5,received start command for first time
+DEBUG (4): round:3,node:4,received start command for first time
+
+DEBUG (10): round:3,node:10,received working command
+DEBUG (9): round:3,node:9,received working command
+DEBUG (8): round:3,node:8,received working command
+DEBUG (7): round:3,node:7,received working command
+DEBUG (6): round:3,node:6,received working command
+DEBUG (5): round:3,node:5,received working command
+DEBUG (2): round:2,node:2,received working command
+DEBUG (1): round:3,node:1,received working command
+DEBUG (4): round:3,node:4,received working command
+DEBUG (3): round:3,node:3,received working command
+
 DEBUG (2): round:3,frame:1,node:2,timeslot:1,ch_node:10
-DEBUG (3): round:3,frame:1,node:3,timeslot:2,ch_node:15
-DEBUG (4): round:3,frame:1,node:4,timeslot:3,ch_node:35
+DEBUG (3): round:3,frame:1,node:3,timeslot:2,ch_node:1
+DEBUG (4): round:3,frame:1,node:4,timeslot:3,ch_node:1
 DEBUG (5): round:3,frame:1,node:5,timeslot:4,ch_node:1
 DEBUG (6): round:3,frame:1,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:3,frame:1,node:7,timeslot:6,ch_node:15
-DEBUG (8): round:3,frame:1,node:8,timeslot:7,ch_node:35
+DEBUG (7): round:3,frame:1,node:7,timeslot:6,ch_node:1
+DEBUG (8): round:3,frame:1,node:8,timeslot:7,ch_node:1
 DEBUG (9): round:3,frame:1,node:9,timeslot:8,ch_node:1
-DEBUG (11): round:3,frame:1,node:11,timeslot:9,ch_node:15
-DEBUG (12): round:3,frame:1,node:12,timeslot:10,ch_node:16
-DEBUG (13): round:3,frame:1,node:13,timeslot:11,ch_node:21
-DEBUG (14): round:3,frame:1,node:14,timeslot:12,ch_node:10
-DEBUG (17): round:3,frame:1,node:17,timeslot:13,ch_node:21
-DEBUG (18): round:3,frame:1,node:18,timeslot:14,ch_node:10
-DEBUG (19): round:3,frame:1,node:19,timeslot:15,ch_node:15
-DEBUG (20): round:3,frame:1,node:20,timeslot:16,ch_node:16
-DEBUG (22): round:3,frame:1,node:22,timeslot:17,ch_node:30
-DEBUG (23): round:3,frame:1,node:23,timeslot:18,ch_node:31
-DEBUG (24): round:3,frame:1,node:24,timeslot:19,ch_node:32
-DEBUG (25): round:3,frame:1,node:25,timeslot:20,ch_node:16
-DEBUG (26): round:3,frame:1,node:26,timeslot:21,ch_node:30
-DEBUG (27): round:3,frame:1,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:3,frame:1,node:28,timeslot:23,ch_node:32
-DEBUG (29): round:3,frame:1,node:29,timeslot:24,ch_node:16
-DEBUG (33): round:3,frame:1,node:33,timeslot:25,ch_node:10
-DEBUG (34): round:3,frame:1,node:34,timeslot:26,ch_node:30
-DEBUG (1): round: 3,frame:1,node:1,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 1 and data is 10.983324
-DEBUG (10): round: 3,frame:1,node:10,packet_num:5,timeslot:28
-DEBUG (0): sink received,from ch_node 10 and data is 9.855835
-DEBUG (15): round: 3,frame:1,node:15,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 15 and data is 9.275426
-DEBUG (16): round: 3,frame:1,node:16,packet_num:4,timeslot:30
-DEBUG (0): sink received,from ch_node 16 and data is 10.135269
-DEBUG (21): round: 3,frame:1,node:21,packet_num:2,timeslot:31
-DEBUG (0): sink received,from ch_node 21 and data is 12.118444
-DEBUG (30): round: 3,frame:1,node:30,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 30 and data is 10.241029
-DEBUG (31): round: 3,frame:1,node:31,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 31 and data is 11.101587
-DEBUG (32): round: 3,frame:1,node:32,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 32 and data is 10.210200
-DEBUG (35): round: 3,frame:1,node:35,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 12.385481
-DEBUG (36): round: 3,frame:1,node:36,packet_num:0,timeslot:36
+DEBUG (1): round: 3,frame:1,node:1,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 1 and data is 10.959042
+DEBUG (10): round: 3,frame:1,node:10,packet_num:2,timeslot:10
+DEBUG (0): sink received,from ch_node 10 and data is 8.998496
+
 DEBUG (2): round:3,frame:2,node:2,timeslot:1,ch_node:10
-DEBUG (3): round:3,frame:2,node:3,timeslot:2,ch_node:15
-DEBUG (4): round:3,frame:2,node:4,timeslot:3,ch_node:35
+DEBUG (3): round:3,frame:2,node:3,timeslot:2,ch_node:1
+DEBUG (4): round:3,frame:2,node:4,timeslot:3,ch_node:1
 DEBUG (5): round:3,frame:2,node:5,timeslot:4,ch_node:1
 DEBUG (6): round:3,frame:2,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:3,frame:2,node:7,timeslot:6,ch_node:15
-DEBUG (8): round:3,frame:2,node:8,timeslot:7,ch_node:35
+DEBUG (7): round:3,frame:2,node:7,timeslot:6,ch_node:1
+DEBUG (8): round:3,frame:2,node:8,timeslot:7,ch_node:1
 DEBUG (9): round:3,frame:2,node:9,timeslot:8,ch_node:1
-DEBUG (11): round:3,frame:2,node:11,timeslot:9,ch_node:15
-DEBUG (12): round:3,frame:2,node:12,timeslot:10,ch_node:16
-DEBUG (13): round:3,frame:2,node:13,timeslot:11,ch_node:21
-DEBUG (14): round:3,frame:2,node:14,timeslot:12,ch_node:10
-DEBUG (17): round:3,frame:2,node:17,timeslot:13,ch_node:21
-DEBUG (18): round:3,frame:2,node:18,timeslot:14,ch_node:10
-DEBUG (19): round:3,frame:2,node:19,timeslot:15,ch_node:15
-DEBUG (20): round:3,frame:2,node:20,timeslot:16,ch_node:16
-DEBUG (22): round:3,frame:2,node:22,timeslot:17,ch_node:30
-DEBUG (23): round:3,frame:2,node:23,timeslot:18,ch_node:31
-DEBUG (24): round:3,frame:2,node:24,timeslot:19,ch_node:32
-DEBUG (25): round:3,frame:2,node:25,timeslot:20,ch_node:16
-DEBUG (26): round:3,frame:2,node:26,timeslot:21,ch_node:30
-DEBUG (27): round:3,frame:2,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:3,frame:2,node:28,timeslot:23,ch_node:32
-DEBUG (29): round:3,frame:2,node:29,timeslot:24,ch_node:16
-DEBUG (33): round:3,frame:2,node:33,timeslot:25,ch_node:10
-DEBUG (34): round:3,frame:2,node:34,timeslot:26,ch_node:30
-DEBUG (1): round: 3,frame:2,node:1,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 1 and data is 9.714763
-DEBUG (10): round: 3,frame:2,node:10,packet_num:5,timeslot:28
-DEBUG (0): sink received,from ch_node 10 and data is 10.255647
-DEBUG (15): round: 3,frame:2,node:15,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 15 and data is 10.842189
-DEBUG (16): round: 3,frame:2,node:16,packet_num:4,timeslot:30
-DEBUG (0): sink received,from ch_node 16 and data is 8.759647
-DEBUG (21): round: 3,frame:2,node:21,packet_num:2,timeslot:31
-DEBUG (0): sink received,from ch_node 21 and data is 9.267326
-DEBUG (30): round: 3,frame:2,node:30,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 30 and data is 10.521984
-DEBUG (31): round: 3,frame:2,node:31,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 31 and data is 11.104381
-DEBUG (32): round: 3,frame:2,node:32,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 32 and data is 10.023083
-DEBUG (35): round: 3,frame:2,node:35,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 9.898965
-DEBUG (36): round: 3,frame:2,node:36,packet_num:0,timeslot:36
+DEBUG (1): round: 3,frame:2,node:1,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 1 and data is 10.062477
+DEBUG (10): round: 3,frame:2,node:10,packet_num:2,timeslot:10
+DEBUG (0): sink received,from ch_node 10 and data is 9.953074
+
 DEBUG (2): round:3,frame:3,node:2,timeslot:1,ch_node:10
-DEBUG (3): round:3,frame:3,node:3,timeslot:2,ch_node:15
-DEBUG (4): round:3,frame:3,node:4,timeslot:3,ch_node:35
+DEBUG (3): round:3,frame:3,node:3,timeslot:2,ch_node:1
+DEBUG (4): round:3,frame:3,node:4,timeslot:3,ch_node:1
 DEBUG (5): round:3,frame:3,node:5,timeslot:4,ch_node:1
 DEBUG (6): round:3,frame:3,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:3,frame:3,node:7,timeslot:6,ch_node:15
-DEBUG (8): round:3,frame:3,node:8,timeslot:7,ch_node:35
+DEBUG (7): round:3,frame:3,node:7,timeslot:6,ch_node:1
+DEBUG (8): round:3,frame:3,node:8,timeslot:7,ch_node:1
 DEBUG (9): round:3,frame:3,node:9,timeslot:8,ch_node:1
-DEBUG (11): round:3,frame:3,node:11,timeslot:9,ch_node:15
-DEBUG (12): round:3,frame:3,node:12,timeslot:10,ch_node:16
-DEBUG (13): round:3,frame:3,node:13,timeslot:11,ch_node:21
-DEBUG (14): round:3,frame:3,node:14,timeslot:12,ch_node:10
-DEBUG (17): round:3,frame:3,node:17,timeslot:13,ch_node:21
-DEBUG (18): round:3,frame:3,node:18,timeslot:14,ch_node:10
-DEBUG (19): round:3,frame:3,node:19,timeslot:15,ch_node:15
-DEBUG (20): round:3,frame:3,node:20,timeslot:16,ch_node:16
-DEBUG (22): round:3,frame:3,node:22,timeslot:17,ch_node:30
-DEBUG (23): round:3,frame:3,node:23,timeslot:18,ch_node:31
-DEBUG (24): round:3,frame:3,node:24,timeslot:19,ch_node:32
-DEBUG (25): round:3,frame:3,node:25,timeslot:20,ch_node:16
-DEBUG (26): round:3,frame:3,node:26,timeslot:21,ch_node:30
-DEBUG (27): round:3,frame:3,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:3,frame:3,node:28,timeslot:23,ch_node:32
-DEBUG (29): round:3,frame:3,node:29,timeslot:24,ch_node:16
-DEBUG (33): round:3,frame:3,node:33,timeslot:25,ch_node:10
-DEBUG (34): round:3,frame:3,node:34,timeslot:26,ch_node:30
-DEBUG (1): round: 3,frame:3,node:1,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 1 and data is 9.908426
-DEBUG (10): round: 3,frame:3,node:10,packet_num:5,timeslot:28
-DEBUG (0): sink received,from ch_node 10 and data is 10.147592
-DEBUG (15): round: 3,frame:3,node:15,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 15 and data is 9.686508
-DEBUG (16): round: 3,frame:3,node:16,packet_num:4,timeslot:30
-DEBUG (0): sink received,from ch_node 16 and data is 9.767691
-DEBUG (21): round: 3,frame:3,node:21,packet_num:2,timeslot:31
-DEBUG (0): sink received,from ch_node 21 and data is 11.031639
-DEBUG (30): round: 3,frame:3,node:30,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 30 and data is 11.144972
-DEBUG (31): round: 3,frame:3,node:31,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 31 and data is 11.732985
-DEBUG (32): round: 3,frame:3,node:32,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 32 and data is 10.005126
-DEBUG (35): round: 3,frame:3,node:35,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 9.364554
-DEBUG (36): round: 3,frame:3,node:36,packet_num:0,timeslot:36
+DEBUG (1): round: 3,frame:3,node:1,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 1 and data is 10.241893
+DEBUG (10): round: 3,frame:3,node:10,packet_num:2,timeslot:10
+DEBUG (0): sink received,from ch_node 10 and data is 10.744892
+
 DEBUG (2): round:3,frame:4,node:2,timeslot:1,ch_node:10
-DEBUG (3): round:3,frame:4,node:3,timeslot:2,ch_node:15
-DEBUG (4): round:3,frame:4,node:4,timeslot:3,ch_node:35
+DEBUG (3): round:3,frame:4,node:3,timeslot:2,ch_node:1
+DEBUG (4): round:3,frame:4,node:4,timeslot:3,ch_node:1
 DEBUG (5): round:3,frame:4,node:5,timeslot:4,ch_node:1
 DEBUG (6): round:3,frame:4,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:3,frame:4,node:7,timeslot:6,ch_node:15
-DEBUG (8): round:3,frame:4,node:8,timeslot:7,ch_node:35
+DEBUG (7): round:3,frame:4,node:7,timeslot:6,ch_node:1
+DEBUG (8): round:3,frame:4,node:8,timeslot:7,ch_node:1
 DEBUG (9): round:3,frame:4,node:9,timeslot:8,ch_node:1
-DEBUG (11): round:3,frame:4,node:11,timeslot:9,ch_node:15
-DEBUG (12): round:3,frame:4,node:12,timeslot:10,ch_node:16
-DEBUG (13): round:3,frame:4,node:13,timeslot:11,ch_node:21
-DEBUG (14): round:3,frame:4,node:14,timeslot:12,ch_node:10
-DEBUG (17): round:3,frame:4,node:17,timeslot:13,ch_node:21
-DEBUG (18): round:3,frame:4,node:18,timeslot:14,ch_node:10
-DEBUG (19): round:3,frame:4,node:19,timeslot:15,ch_node:15
-DEBUG (20): round:3,frame:4,node:20,timeslot:16,ch_node:16
-DEBUG (22): round:3,frame:4,node:22,timeslot:17,ch_node:30
-DEBUG (23): round:3,frame:4,node:23,timeslot:18,ch_node:31
-DEBUG (24): round:3,frame:4,node:24,timeslot:19,ch_node:32
-DEBUG (25): round:3,frame:4,node:25,timeslot:20,ch_node:16
-DEBUG (26): round:3,frame:4,node:26,timeslot:21,ch_node:30
-DEBUG (27): round:3,frame:4,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:3,frame:4,node:28,timeslot:23,ch_node:32
-DEBUG (29): round:3,frame:4,node:29,timeslot:24,ch_node:16
-DEBUG (33): round:3,frame:4,node:33,timeslot:25,ch_node:10
-DEBUG (34): round:3,frame:4,node:34,timeslot:26,ch_node:30
-DEBUG (1): round: 3,frame:4,node:1,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 1 and data is 11.050292
-DEBUG (10): round: 3,frame:4,node:10,packet_num:5,timeslot:28
-DEBUG (0): sink received,from ch_node 10 and data is 10.022220
-DEBUG (15): round: 3,frame:4,node:15,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 15 and data is 10.494945
-DEBUG (16): round: 3,frame:4,node:16,packet_num:4,timeslot:30
-DEBUG (0): sink received,from ch_node 16 and data is 9.522563
-DEBUG (21): round: 3,frame:4,node:21,packet_num:2,timeslot:31
-DEBUG (0): sink received,from ch_node 21 and data is 9.989910
-DEBUG (30): round: 3,frame:4,node:30,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 30 and data is 10.173493
-DEBUG (31): round: 3,frame:4,node:31,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 31 and data is 10.934781
-DEBUG (32): round: 3,frame:4,node:32,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 32 and data is 9.223611
-DEBUG (35): round: 3,frame:4,node:35,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 9.305846
-DEBUG (36): round: 3,frame:4,node:36,packet_num:0,timeslot:36
+DEBUG (1): round: 3,frame:4,node:1,packet_num:5,timeslot:9
+DEBUG (0): sink received,from ch_node 1 and data is 10.057143
+DEBUG (10): round: 3,frame:4,node:10,packet_num:2,timeslot:10
+DEBUG (0): sink received,from ch_node 10 and data is 9.899472
+
 DEBUG (2): round:3,frame:5,node:2,timeslot:1,ch_node:10
-DEBUG (3): round:3,frame:5,node:3,timeslot:2,ch_node:15
-DEBUG (4): round:3,frame:5,node:4,timeslot:3,ch_node:35
+DEBUG (3): round:3,frame:5,node:3,timeslot:2,ch_node:1
+DEBUG (4): round:3,frame:5,node:4,timeslot:3,ch_node:1
 DEBUG (5): round:3,frame:5,node:5,timeslot:4,ch_node:1
 DEBUG (6): round:3,frame:5,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:3,frame:5,node:7,timeslot:6,ch_node:15
-DEBUG (8): round:3,frame:5,node:8,timeslot:7,ch_node:35
+DEBUG (7): round:3,frame:5,node:7,timeslot:6,ch_node:1
+DEBUG (8): round:3,frame:5,node:8,timeslot:7,ch_node:1
 DEBUG (9): round:3,frame:5,node:9,timeslot:8,ch_node:1
-DEBUG (11): round:3,frame:5,node:11,timeslot:9,ch_node:15
-DEBUG (12): round:3,frame:5,node:12,timeslot:10,ch_node:16
-DEBUG (13): round:3,frame:5,node:13,timeslot:11,ch_node:21
-DEBUG (14): round:3,frame:5,node:14,timeslot:12,ch_node:10
-DEBUG (17): round:3,frame:5,node:17,timeslot:13,ch_node:21
-DEBUG (18): round:3,frame:5,node:18,timeslot:14,ch_node:10
-DEBUG (19): round:3,frame:5,node:19,timeslot:15,ch_node:15
-DEBUG (20): round:3,frame:5,node:20,timeslot:16,ch_node:16
-DEBUG (22): round:3,frame:5,node:22,timeslot:17,ch_node:30
-DEBUG (23): round:3,frame:5,node:23,timeslot:18,ch_node:31
-DEBUG (24): round:3,frame:5,node:24,timeslot:19,ch_node:32
-DEBUG (25): round:3,frame:5,node:25,timeslot:20,ch_node:16
-DEBUG (26): round:3,frame:5,node:26,timeslot:21,ch_node:30
-DEBUG (27): round:3,frame:5,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:3,frame:5,node:28,timeslot:23,ch_node:32
-DEBUG (29): round:3,frame:5,node:29,timeslot:24,ch_node:16
-DEBUG (33): round:3,frame:5,node:33,timeslot:25,ch_node:10
-DEBUG (34): round:3,frame:5,node:34,timeslot:26,ch_node:30
-DEBUG (1): round: 3,frame:5,node:1,packet_num:2,timeslot:27
-DEBUG (0): sink received,from ch_node 1 and data is 10.311329
-DEBUG (10): round: 3,frame:5,node:10,packet_num:5,timeslot:28
-DEBUG (15): round: 3,frame:5,node:15,packet_num:4,timeslot:29
-DEBUG (0): sink received,from ch_node 15 and data is 9.373361
-DEBUG (16): round: 3,frame:5,node:16,packet_num:4,timeslot:30
-DEBUG (0): sink received,from ch_node 16 and data is 10.126123
-DEBUG (21): round: 3,frame:5,node:21,packet_num:2,timeslot:31
-DEBUG (0): sink received,from ch_node 21 and data is 9.786603
-DEBUG (30): round: 3,frame:5,node:30,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 30 and data is 9.775955
-DEBUG (31): round: 3,frame:5,node:31,packet_num:2,timeslot:33
-DEBUG (0): sink received,from ch_node 31 and data is 10.556674
-DEBUG (32): round: 3,frame:5,node:32,packet_num:2,timeslot:34
-DEBUG (0): sink received,from ch_node 32 and data is 11.243888
-DEBUG (35): round: 3,frame:5,node:35,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 10.255116
-DEBUG (36): round: 3,frame:5,node:36,packet_num:0,timeslot:36
-DEBUG (36): round:4,node:36,received start command for first time
-DEBUG (24): round:4,node:24,received start command for first time
-DEBUG (8): round:4,node:8,received start command for first time
-DEBUG (7): round:4,node:7,received start command for first time
-DEBUG (4): round:4,node:4,received start command for first time
-DEBUG (2): round:4,node:2,received start command for first time
-DEBUG (1): round:4,node:1,received start command for first time
-DEBUG (3): round:4,node:3,received start command for first time
-DEBUG (6): round:4,node:6,received start command for first time
-DEBUG (5): round:4,node:5,received start command for first time
-DEBUG (23): round:4,node:23,received start command for first time
-DEBUG (16): round:4,node:16,received start command for first time
-DEBUG (12): round:4,node:12,received start command for first time
+DEBUG (1): round: 3,frame:5,node:1,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 1 and data is 9.753635
+DEBUG (10): round: 3,frame:5,node:10,packet_num:2,timeslot:10
+DEBUG (0): sink received,from ch_node 10 and data is 10.251743
+
 DEBUG (10): round:4,node:10,received start command for first time
 DEBUG (9): round:4,node:9,received start command for first time
-DEBUG (11): round:4,node:11,received start command for first time
-DEBUG (15): round:4,node:15,received start command for first time
-DEBUG (14): round:4,node:14,received start command for first time
-DEBUG (13): round:4,node:13,received start command for first time
-DEBUG (22): round:4,node:22,received start command for first time
-DEBUG (20): round:4,node:20,received start command for first time
-DEBUG (18): round:4,node:18,received start command for first time
-DEBUG (17): round:4,node:17,received start command for first time
-DEBUG (19): round:4,node:19,received start command for first time
-DEBUG (21): round:4,node:21,received start command for first time
-DEBUG (35): round:4,node:35,received start command for first time
-DEBUG (34): round:4,node:34,received start command for first time
-DEBUG (32): round:4,node:32,received start command for first time
-DEBUG (28): round:4,node:28,received start command for first time
-DEBUG (26): round:4,node:26,received start command for first time
-DEBUG (25): round:4,node:25,received start command for first time
-DEBUG (27): round:4,node:27,received start command for first time
-DEBUG (31): round:4,node:31,received start command for first time
-DEBUG (30): round:4,node:30,received start command for first time
-DEBUG (29): round:4,node:29,received start command for first time
-DEBUG (33): round:4,node:33,received start command for first time
+DEBUG (8): round:4,node:8,received start command for first time
+DEBUG (7): round:4,node:7,received start command for first time
+DEBUG (6): round:4,node:6,received start command for first time
+DEBUG (3): round:4,node:3,received start command for first time
+DEBUG (1): round:4,node:1,received start command for first time
+DEBUG (2): round:4,node:2,received start command for first time
+DEBUG (5): round:4,node:5,received start command for first time
+DEBUG (4): round:4,node:4,received start command for first time
+
+DEBUG (10): round:4,node:10,received working command
+DEBUG (9): round:4,node:9,received working command
+DEBUG (8): round:4,node:8,received working command
+DEBUG (7): round:4,node:7,received working command
+DEBUG (6): round:4,node:6,received working command
+DEBUG (5): round:4,node:5,received working command
+DEBUG (4): round:4,node:4,received working command
+DEBUG (1): round:4,node:1,received working command
+DEBUG (3): round:4,node:3,received working command
+DEBUG (2): round:4,node:2,received working command
+
 DEBUG (1): round:4,frame:1,node:1,timeslot:1,ch_node:9
-DEBUG (2): round:4,frame:1,node:2,timeslot:2,ch_node:29
-DEBUG (4): round:4,frame:1,node:4,timeslot:3,ch_node:9
-DEBUG (5): round:4,frame:1,node:5,timeslot:4,ch_node:9
-DEBUG (6): round:4,frame:1,node:6,timeslot:5,ch_node:29
-DEBUG (8): round:4,frame:1,node:8,timeslot:6,ch_node:9
-DEBUG (10): round:4,frame:1,node:10,timeslot:7,ch_node:22
-DEBUG (11): round:4,frame:1,node:11,timeslot:8,ch_node:7
-DEBUG (12): round:4,frame:1,node:12,timeslot:9,ch_node:24
-DEBUG (13): round:4,frame:1,node:13,timeslot:10,ch_node:9
-DEBUG (14): round:4,frame:1,node:14,timeslot:11,ch_node:22
-DEBUG (15): round:4,frame:1,node:15,timeslot:12,ch_node:7
-DEBUG (16): round:4,frame:1,node:16,timeslot:13,ch_node:24
-DEBUG (17): round:4,frame:1,node:17,timeslot:14,ch_node:9
-DEBUG (18): round:4,frame:1,node:18,timeslot:15,ch_node:22
-DEBUG (19): round:4,frame:1,node:19,timeslot:16,ch_node:7
-DEBUG (20): round:4,frame:1,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:4,frame:1,node:21,timeslot:18,ch_node:9
-DEBUG (23): round:4,frame:1,node:23,timeslot:19,ch_node:28
-DEBUG (25): round:4,frame:1,node:25,timeslot:20,ch_node:29
-DEBUG (26): round:4,frame:1,node:26,timeslot:21,ch_node:22
-DEBUG (27): round:4,frame:1,node:27,timeslot:22,ch_node:28
-DEBUG (30): round:4,frame:1,node:30,timeslot:23,ch_node:22
-DEBUG (31): round:4,frame:1,node:31,timeslot:24,ch_node:9
-DEBUG (32): round:4,frame:1,node:32,timeslot:25,ch_node:28
-DEBUG (33): round:4,frame:1,node:33,timeslot:26,ch_node:29
-DEBUG (34): round:4,frame:1,node:34,timeslot:27,ch_node:22
-DEBUG (35): round:4,frame:1,node:35,timeslot:28,ch_node:9
-DEBUG (36): round:4,frame:1,node:36,timeslot:29,ch_node:28
-DEBUG (3): round: 4,frame:1,node:3,packet_num:0,timeslot:30
-DEBUG (7): round: 4,frame:1,node:7,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 7 and data is 10.945906
-DEBUG (9): round: 4,frame:1,node:9,packet_num:9,timeslot:32
-DEBUG (0): sink received,from ch_node 9 and data is 10.396353
-DEBUG (22): round: 4,frame:1,node:22,packet_num:6,timeslot:33
-DEBUG (0): sink received,from ch_node 22 and data is 9.226635
-DEBUG (24): round: 4,frame:1,node:24,packet_num:3,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 8.716932
-DEBUG (28): round: 4,frame:1,node:28,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 28 and data is 10.148039
-DEBUG (29): round: 4,frame:1,node:29,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 9.923701
+DEBUG (2): round:4,frame:1,node:2,timeslot:2,ch_node:9
+DEBUG (3): round:4,frame:1,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:4,frame:1,node:4,timeslot:4,ch_node:9
+DEBUG (5): round:4,frame:1,node:5,timeslot:5,ch_node:9
+DEBUG (6): round:4,frame:1,node:6,timeslot:6,ch_node:9
+DEBUG (8): round:4,frame:1,node:8,timeslot:7,ch_node:9
+DEBUG (10): round:4,frame:1,node:10,timeslot:8,ch_node:9
+
+DEBUG (7): round: 4,frame:1,node:7,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 7 and data is 12.228516
+DEBUG (9): round: 4,frame:1,node:9,packet_num:6,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 9.829565
+
 DEBUG (1): round:4,frame:2,node:1,timeslot:1,ch_node:9
-DEBUG (2): round:4,frame:2,node:2,timeslot:2,ch_node:29
-DEBUG (4): round:4,frame:2,node:4,timeslot:3,ch_node:9
-DEBUG (5): round:4,frame:2,node:5,timeslot:4,ch_node:9
-DEBUG (6): round:4,frame:2,node:6,timeslot:5,ch_node:29
-DEBUG (8): round:4,frame:2,node:8,timeslot:6,ch_node:9
-DEBUG (10): round:4,frame:2,node:10,timeslot:7,ch_node:22
-DEBUG (11): round:4,frame:2,node:11,timeslot:8,ch_node:7
-DEBUG (12): round:4,frame:2,node:12,timeslot:9,ch_node:24
-DEBUG (13): round:4,frame:2,node:13,timeslot:10,ch_node:9
-DEBUG (14): round:4,frame:2,node:14,timeslot:11,ch_node:22
-DEBUG (15): round:4,frame:2,node:15,timeslot:12,ch_node:7
-DEBUG (16): round:4,frame:2,node:16,timeslot:13,ch_node:24
-DEBUG (17): round:4,frame:2,node:17,timeslot:14,ch_node:9
-DEBUG (18): round:4,frame:2,node:18,timeslot:15,ch_node:22
-DEBUG (19): round:4,frame:2,node:19,timeslot:16,ch_node:7
-DEBUG (20): round:4,frame:2,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:4,frame:2,node:21,timeslot:18,ch_node:9
-DEBUG (23): round:4,frame:2,node:23,timeslot:19,ch_node:28
-DEBUG (25): round:4,frame:2,node:25,timeslot:20,ch_node:29
-DEBUG (26): round:4,frame:2,node:26,timeslot:21,ch_node:22
-DEBUG (27): round:4,frame:2,node:27,timeslot:22,ch_node:28
-DEBUG (30): round:4,frame:2,node:30,timeslot:23,ch_node:22
-DEBUG (31): round:4,frame:2,node:31,timeslot:24,ch_node:9
-DEBUG (32): round:4,frame:2,node:32,timeslot:25,ch_node:28
-DEBUG (33): round:4,frame:2,node:33,timeslot:26,ch_node:29
-DEBUG (34): round:4,frame:2,node:34,timeslot:27,ch_node:22
-DEBUG (35): round:4,frame:2,node:35,timeslot:28,ch_node:9
-DEBUG (36): round:4,frame:2,node:36,timeslot:29,ch_node:28
-DEBUG (3): round: 4,frame:2,node:3,packet_num:0,timeslot:30
-DEBUG (7): round: 4,frame:2,node:7,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 7 and data is 9.124871
-DEBUG (9): round: 4,frame:2,node:9,packet_num:9,timeslot:32
-DEBUG (0): sink received,from ch_node 9 and data is 9.941182
-DEBUG (22): round: 4,frame:2,node:22,packet_num:6,timeslot:33
-DEBUG (0): sink received,from ch_node 22 and data is 9.759877
-DEBUG (24): round: 4,frame:2,node:24,packet_num:3,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 10.527716
-DEBUG (28): round: 4,frame:2,node:28,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 28 and data is 10.083797
-DEBUG (29): round: 4,frame:2,node:29,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 9.985826
+DEBUG (2): round:4,frame:2,node:2,timeslot:2,ch_node:9
+DEBUG (3): round:4,frame:2,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:4,frame:2,node:4,timeslot:4,ch_node:9
+DEBUG (5): round:4,frame:2,node:5,timeslot:5,ch_node:9
+DEBUG (6): round:4,frame:2,node:6,timeslot:6,ch_node:9
+DEBUG (8): round:4,frame:2,node:8,timeslot:7,ch_node:9
+DEBUG (10): round:4,frame:2,node:10,timeslot:8,ch_node:9
+
+DEBUG (7): round: 4,frame:2,node:7,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 7 and data is 11.841611
+DEBUG (9): round: 4,frame:2,node:9,packet_num:7,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 10.084081
+
 DEBUG (1): round:4,frame:3,node:1,timeslot:1,ch_node:9
-DEBUG (2): round:4,frame:3,node:2,timeslot:2,ch_node:29
-DEBUG (4): round:4,frame:3,node:4,timeslot:3,ch_node:9
-DEBUG (5): round:4,frame:3,node:5,timeslot:4,ch_node:9
-DEBUG (6): round:4,frame:3,node:6,timeslot:5,ch_node:29
-DEBUG (8): round:4,frame:3,node:8,timeslot:6,ch_node:9
-DEBUG (10): round:4,frame:3,node:10,timeslot:7,ch_node:22
-DEBUG (11): round:4,frame:3,node:11,timeslot:8,ch_node:7
-DEBUG (12): round:4,frame:3,node:12,timeslot:9,ch_node:24
-DEBUG (13): round:4,frame:3,node:13,timeslot:10,ch_node:9
-DEBUG (14): round:4,frame:3,node:14,timeslot:11,ch_node:22
-DEBUG (15): round:4,frame:3,node:15,timeslot:12,ch_node:7
-DEBUG (16): round:4,frame:3,node:16,timeslot:13,ch_node:24
-DEBUG (17): round:4,frame:3,node:17,timeslot:14,ch_node:9
-DEBUG (18): round:4,frame:3,node:18,timeslot:15,ch_node:22
-DEBUG (19): round:4,frame:3,node:19,timeslot:16,ch_node:7
-DEBUG (20): round:4,frame:3,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:4,frame:3,node:21,timeslot:18,ch_node:9
-DEBUG (23): round:4,frame:3,node:23,timeslot:19,ch_node:28
-DEBUG (25): round:4,frame:3,node:25,timeslot:20,ch_node:29
-DEBUG (26): round:4,frame:3,node:26,timeslot:21,ch_node:22
-DEBUG (27): round:4,frame:3,node:27,timeslot:22,ch_node:28
-DEBUG (30): round:4,frame:3,node:30,timeslot:23,ch_node:22
-DEBUG (31): round:4,frame:3,node:31,timeslot:24,ch_node:9
-DEBUG (32): round:4,frame:3,node:32,timeslot:25,ch_node:28
-DEBUG (33): round:4,frame:3,node:33,timeslot:26,ch_node:29
-DEBUG (34): round:4,frame:3,node:34,timeslot:27,ch_node:22
-DEBUG (35): round:4,frame:3,node:35,timeslot:28,ch_node:9
-DEBUG (36): round:4,frame:3,node:36,timeslot:29,ch_node:28
-DEBUG (3): round: 4,frame:3,node:3,packet_num:0,timeslot:30
-DEBUG (7): round: 4,frame:3,node:7,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 7 and data is 10.235439
-DEBUG (9): round: 4,frame:3,node:9,packet_num:9,timeslot:32
-DEBUG (0): sink received,from ch_node 9 and data is 9.816035
-DEBUG (22): round: 4,frame:3,node:22,packet_num:6,timeslot:33
-DEBUG (0): sink received,from ch_node 22 and data is 9.583488
-DEBUG (24): round: 4,frame:3,node:24,packet_num:3,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 10.465082
-DEBUG (28): round: 4,frame:3,node:28,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 28 and data is 9.973406
-DEBUG (29): round: 4,frame:3,node:29,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 10.269249
+DEBUG (2): round:4,frame:3,node:2,timeslot:2,ch_node:9
+DEBUG (3): round:4,frame:3,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:4,frame:3,node:4,timeslot:4,ch_node:9
+DEBUG (5): round:4,frame:3,node:5,timeslot:5,ch_node:9
+DEBUG (6): round:4,frame:3,node:6,timeslot:6,ch_node:9
+DEBUG (8): round:4,frame:3,node:8,timeslot:7,ch_node:9
+DEBUG (10): round:4,frame:3,node:10,timeslot:8,ch_node:9
+
+DEBUG (7): round: 4,frame:3,node:7,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 7 and data is 9.842266
+DEBUG (9): round: 4,frame:3,node:9,packet_num:6,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 9.881644
+
 DEBUG (1): round:4,frame:4,node:1,timeslot:1,ch_node:9
-DEBUG (2): round:4,frame:4,node:2,timeslot:2,ch_node:29
-DEBUG (4): round:4,frame:4,node:4,timeslot:3,ch_node:9
-DEBUG (5): round:4,frame:4,node:5,timeslot:4,ch_node:9
-DEBUG (6): round:4,frame:4,node:6,timeslot:5,ch_node:29
-DEBUG (8): round:4,frame:4,node:8,timeslot:6,ch_node:9
-DEBUG (10): round:4,frame:4,node:10,timeslot:7,ch_node:22
-DEBUG (11): round:4,frame:4,node:11,timeslot:8,ch_node:7
-DEBUG (12): round:4,frame:4,node:12,timeslot:9,ch_node:24
-DEBUG (13): round:4,frame:4,node:13,timeslot:10,ch_node:9
-DEBUG (14): round:4,frame:4,node:14,timeslot:11,ch_node:22
-DEBUG (15): round:4,frame:4,node:15,timeslot:12,ch_node:7
-DEBUG (16): round:4,frame:4,node:16,timeslot:13,ch_node:24
-DEBUG (17): round:4,frame:4,node:17,timeslot:14,ch_node:9
-DEBUG (18): round:4,frame:4,node:18,timeslot:15,ch_node:22
-DEBUG (19): round:4,frame:4,node:19,timeslot:16,ch_node:7
-DEBUG (20): round:4,frame:4,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:4,frame:4,node:21,timeslot:18,ch_node:9
-DEBUG (23): round:4,frame:4,node:23,timeslot:19,ch_node:28
-DEBUG (25): round:4,frame:4,node:25,timeslot:20,ch_node:29
-DEBUG (26): round:4,frame:4,node:26,timeslot:21,ch_node:22
-DEBUG (27): round:4,frame:4,node:27,timeslot:22,ch_node:28
-DEBUG (30): round:4,frame:4,node:30,timeslot:23,ch_node:22
-DEBUG (31): round:4,frame:4,node:31,timeslot:24,ch_node:9
-DEBUG (32): round:4,frame:4,node:32,timeslot:25,ch_node:28
-DEBUG (33): round:4,frame:4,node:33,timeslot:26,ch_node:29
-DEBUG (34): round:4,frame:4,node:34,timeslot:27,ch_node:22
-DEBUG (35): round:4,frame:4,node:35,timeslot:28,ch_node:9
-DEBUG (36): round:4,frame:4,node:36,timeslot:29,ch_node:28
-DEBUG (3): round: 4,frame:4,node:3,packet_num:0,timeslot:30
-DEBUG (7): round: 4,frame:4,node:7,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 7 and data is 10.851078
-DEBUG (9): round: 4,frame:4,node:9,packet_num:9,timeslot:32
-DEBUG (0): sink received,from ch_node 9 and data is 10.366961
-DEBUG (22): round: 4,frame:4,node:22,packet_num:6,timeslot:33
-DEBUG (0): sink received,from ch_node 22 and data is 10.511830
-DEBUG (24): round: 4,frame:4,node:24,packet_num:3,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 10.558368
-DEBUG (28): round: 4,frame:4,node:28,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 28 and data is 10.067872
-DEBUG (29): round: 4,frame:4,node:29,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 9.430991
+DEBUG (2): round:4,frame:4,node:2,timeslot:2,ch_node:9
+DEBUG (3): round:4,frame:4,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:4,frame:4,node:4,timeslot:4,ch_node:9
+DEBUG (5): round:4,frame:4,node:5,timeslot:5,ch_node:9
+DEBUG (6): round:4,frame:4,node:6,timeslot:6,ch_node:9
+DEBUG (8): round:4,frame:4,node:8,timeslot:7,ch_node:9
+DEBUG (10): round:4,frame:4,node:10,timeslot:8,ch_node:9
+DEBUG (7): round: 4,frame:4,node:7,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 7 and data is 8.930874
+DEBUG (9): round: 4,frame:4,node:9,packet_num:7,timeslot:10
+
 DEBUG (1): round:4,frame:5,node:1,timeslot:1,ch_node:9
-DEBUG (2): round:4,frame:5,node:2,timeslot:2,ch_node:29
-DEBUG (4): round:4,frame:5,node:4,timeslot:3,ch_node:9
-DEBUG (5): round:4,frame:5,node:5,timeslot:4,ch_node:9
-DEBUG (6): round:4,frame:5,node:6,timeslot:5,ch_node:29
-DEBUG (8): round:4,frame:5,node:8,timeslot:6,ch_node:9
-DEBUG (10): round:4,frame:5,node:10,timeslot:7,ch_node:22
-DEBUG (11): round:4,frame:5,node:11,timeslot:8,ch_node:7
-DEBUG (12): round:4,frame:5,node:12,timeslot:9,ch_node:24
-DEBUG (13): round:4,frame:5,node:13,timeslot:10,ch_node:9
-DEBUG (14): round:4,frame:5,node:14,timeslot:11,ch_node:22
-DEBUG (15): round:4,frame:5,node:15,timeslot:12,ch_node:7
-DEBUG (16): round:4,frame:5,node:16,timeslot:13,ch_node:24
-DEBUG (17): round:4,frame:5,node:17,timeslot:14,ch_node:9
-DEBUG (18): round:4,frame:5,node:18,timeslot:15,ch_node:22
-DEBUG (19): round:4,frame:5,node:19,timeslot:16,ch_node:7
-DEBUG (20): round:4,frame:5,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:4,frame:5,node:21,timeslot:18,ch_node:9
-DEBUG (23): round:4,frame:5,node:23,timeslot:19,ch_node:28
-DEBUG (25): round:4,frame:5,node:25,timeslot:20,ch_node:29
-DEBUG (26): round:4,frame:5,node:26,timeslot:21,ch_node:22
-DEBUG (27): round:4,frame:5,node:27,timeslot:22,ch_node:28
-DEBUG (30): round:4,frame:5,node:30,timeslot:23,ch_node:22
-DEBUG (31): round:4,frame:5,node:31,timeslot:24,ch_node:9
-DEBUG (32): round:4,frame:5,node:32,timeslot:25,ch_node:28
-DEBUG (33): round:4,frame:5,node:33,timeslot:26,ch_node:29
-DEBUG (34): round:4,frame:5,node:34,timeslot:27,ch_node:22
-DEBUG (35): round:4,frame:5,node:35,timeslot:28,ch_node:9
-DEBUG (36): round:4,frame:5,node:36,timeslot:29,ch_node:28
-DEBUG (3): round: 4,frame:5,node:3,packet_num:0,timeslot:30
-DEBUG (7): round: 4,frame:5,node:7,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 7 and data is 10.239463
-DEBUG (9): round: 4,frame:5,node:9,packet_num:9,timeslot:32
-DEBUG (0): sink received,from ch_node 9 and data is 9.977619
-DEBUG (22): round: 4,frame:5,node:22,packet_num:6,timeslot:33
-DEBUG (0): sink received,from ch_node 22 and data is 9.860936
-DEBUG (24): round: 4,frame:5,node:24,packet_num:3,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 9.791419
-DEBUG (28): round: 4,frame:5,node:28,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 28 and data is 9.945095
-DEBUG (29): round: 4,frame:5,node:29,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 9.482746
-DEBUG (36): round:5,node:36,received start command for first time
-DEBUG (22): round:5,node:22,received start command for first time
-DEBUG (6): round:5,node:6,received start command for first time
-DEBUG (5): round:5,node:5,received start command for first time
-DEBUG (2): round:5,node:2,received start command for first time
-DEBUG (1): round:5,node:1,received start command for first time
-DEBUG (4): round:5,node:4,received start command for first time
-DEBUG (3): round:5,node:3,received start command for first time
-DEBUG (21): round:5,node:21,received start command for first time
-DEBUG (14): round:5,node:14,received start command for first time
+DEBUG (2): round:4,frame:5,node:2,timeslot:2,ch_node:9
+DEBUG (3): round:4,frame:5,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:4,frame:5,node:4,timeslot:4,ch_node:9
+DEBUG (5): round:4,frame:5,node:5,timeslot:5,ch_node:9
+DEBUG (6): round:4,frame:5,node:6,timeslot:6,ch_node:9
+DEBUG (8): round:4,frame:5,node:8,timeslot:7,ch_node:9
+DEBUG (10): round:4,frame:5,node:10,timeslot:8,ch_node:9
+
+DEBUG (7): round: 4,frame:5,node:7,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 7 and data is 10.227588
+DEBUG (9): round: 4,frame:5,node:9,packet_num:7,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 9.336253
+
 DEBUG (10): round:5,node:10,received start command for first time
+DEBUG (9): round:5,node:9,received start command for first time
 DEBUG (8): round:5,node:8,received start command for first time
 DEBUG (7): round:5,node:7,received start command for first time
-DEBUG (9): round:5,node:9,received start command for first time
-DEBUG (13): round:5,node:13,received start command for first time
-DEBUG (12): round:5,node:12,received start command for first time
-DEBUG (11): round:5,node:11,received start command for first time
-DEBUG (20): round:5,node:20,received start command for first time
-DEBUG (18): round:5,node:18,received start command for first time
-DEBUG (16): round:5,node:16,received start command for first time
-DEBUG (15): round:5,node:15,received start command for first time
-DEBUG (17): round:5,node:17,received start command for first time
-DEBUG (19): round:5,node:19,received start command for first time
-DEBUG (35): round:5,node:35,received start command for first time
-DEBUG (34): round:5,node:34,received start command for first time
-DEBUG (30): round:5,node:30,received start command for first time
-DEBUG (26): round:5,node:26,received start command for first time
-DEBUG (24): round:5,node:24,received start command for first time
-DEBUG (23): round:5,node:23,received start command for first time
-DEBUG (25): round:5,node:25,received start command for first time
-DEBUG (29): round:5,node:29,received start command for first time
-DEBUG (28): round:5,node:28,received start command for first time
-DEBUG (27): round:5,node:27,received start command for first time
-DEBUG (33): round:5,node:33,received start command for first time
-DEBUG (32): round:5,node:32,received start command for first time
-DEBUG (31): round:5,node:31,received start command for first time
-DEBUG (36): round:5,node:36,received start command for second time
-DEBUG (22): round:5,node:22,received start command for second time
-DEBUG (6): round:5,node:6,received start command for second time
-DEBUG (5): round:5,node:5,received start command for second time
-DEBUG (2): round:5,node:2,received start command for second time
-DEBUG (1): round:5,node:1,received start command for second time
-DEBUG (4): round:5,node:4,received start command for second time
-DEBUG (3): round:5,node:3,received start command for second time
-DEBUG (21): round:5,node:21,received start command for second time
-DEBUG (14): round:5,node:14,received start command for second time
+DEBUG (6): round:5,node:6,received start command for first time
+DEBUG (3): round:5,node:3,received start command for first time
+DEBUG (1): round:5,node:1,received start command for first time
+DEBUG (2): round:5,node:2,received start command for first time
+DEBUG (5): round:5,node:5,received start command for first time
+DEBUG (4): round:5,node:4,received start command for first time
+
 DEBUG (10): round:5,node:10,received start command for second time
+DEBUG (9): round:5,node:9,received start command for second time
 DEBUG (8): round:5,node:8,received start command for second time
 DEBUG (7): round:5,node:7,received start command for second time
+DEBUG (6): round:5,node:6,received start command for second time
+DEBUG (5): round:5,node:5,received start command for second time
+DEBUG (4): round:5,node:4,received start command for second time
+DEBUG (1): round:5,node:1,received start command for second time
+DEBUG (3): round:5,node:3,received start command for second time
+DEBUG (2): round:5,node:2,received start command for second time
+
+DEBUG (10): round:5,node:10,received start command for second time
 DEBUG (9): round:5,node:9,received start command for second time
-DEBUG (13): round:5,node:13,received start command for second time
-DEBUG (12): round:5,node:12,received start command for second time
-DEBUG (11): round:5,node:11,received start command for second time
-DEBUG (20): round:5,node:20,received start command for second time
-DEBUG (18): round:5,node:18,received start command for second time
-DEBUG (16): round:5,node:16,received start command for second time
-DEBUG (15): round:5,node:15,received start command for second time
-DEBUG (17): round:5,node:17,received start command for second time
-DEBUG (19): round:5,node:19,received start command for second time
-DEBUG (35): round:5,node:35,received start command for second time
-DEBUG (34): round:5,node:34,received start command for second time
-DEBUG (30): round:5,node:30,received start command for second time
-DEBUG (26): round:5,node:26,received start command for second time
-DEBUG (24): round:5,node:24,received start command for second time
-DEBUG (23): round:5,node:23,received start command for second time
-DEBUG (25): round:5,node:25,received start command for second time
-DEBUG (29): round:5,node:29,received start command for second time
-DEBUG (28): round:5,node:28,received start command for second time
-DEBUG (27): round:5,node:27,received start command for second time
-DEBUG (33): round:5,node:33,received start command for second time
-DEBUG (32): round:5,node:32,received start command for second time
-DEBUG (31): round:5,node:31,received start command for second time
-DEBUG (3): round:5,frame:1,node:3,timeslot:1,ch_node:19
-DEBUG (4): round:5,frame:1,node:4,timeslot:2,ch_node:35
-DEBUG (5): round:5,frame:1,node:5,timeslot:3,ch_node:1
-DEBUG (6): round:5,frame:1,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:5,frame:1,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:5,frame:1,node:8,timeslot:6,ch_node:35
-DEBUG (9): round:5,frame:1,node:9,timeslot:7,ch_node:17
-DEBUG (10): round:5,frame:1,node:10,timeslot:8,ch_node:2
-DEBUG (11): round:5,frame:1,node:11,timeslot:9,ch_node:19
-DEBUG (12): round:5,frame:1,node:12,timeslot:10,ch_node:19
-DEBUG (13): round:5,frame:1,node:13,timeslot:11,ch_node:17
-DEBUG (14): round:5,frame:1,node:14,timeslot:12,ch_node:18
-DEBUG (15): round:5,frame:1,node:15,timeslot:13,ch_node:19
-DEBUG (16): round:5,frame:1,node:16,timeslot:14,ch_node:19
-DEBUG (20): round:5,frame:1,node:20,timeslot:15,ch_node:36
-DEBUG (21): round:5,frame:1,node:21,timeslot:16,ch_node:17
-DEBUG (22): round:5,frame:1,node:22,timeslot:17,ch_node:18
-DEBUG (23): round:5,frame:1,node:23,timeslot:18,ch_node:19
-DEBUG (24): round:5,frame:1,node:24,timeslot:19,ch_node:36
-DEBUG (25): round:5,frame:1,node:25,timeslot:20,ch_node:2
-DEBUG (26): round:5,frame:1,node:26,timeslot:21,ch_node:18
-DEBUG (27): round:5,frame:1,node:27,timeslot:22,ch_node:19
-DEBUG (28): round:5,frame:1,node:28,timeslot:23,ch_node:36
-DEBUG (29): round:5,frame:1,node:29,timeslot:24,ch_node:2
-DEBUG (30): round:5,frame:1,node:30,timeslot:25,ch_node:34
-DEBUG (31): round:5,frame:1,node:31,timeslot:26,ch_node:35
-DEBUG (32): round:5,frame:1,node:32,timeslot:27,ch_node:36
-DEBUG (33): round:5,frame:1,node:33,timeslot:28,ch_node:2
-DEBUG (1): round: 5,frame:1,node:1,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 1 and data is 10.843020
-DEBUG (2): round: 5,frame:1,node:2,packet_num:5,timeslot:30
-DEBUG (0): sink received,from ch_node 2 and data is 9.509438
-DEBUG (17): round: 5,frame:1,node:17,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 17 and data is 10.745016
-DEBUG (18): round: 5,frame:1,node:18,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 18 and data is 9.408781
-DEBUG (19): round: 5,frame:1,node:19,packet_num:8,timeslot:33
-DEBUG (0): sink received,from ch_node 19 and data is 9.635226
-DEBUG (34): round: 5,frame:1,node:34,packet_num:1,timeslot:34
-DEBUG (0): sink received,from ch_node 34 and data is 9.904697
-DEBUG (35): round: 5,frame:1,node:35,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 9.899971
-DEBUG (36): round: 5,frame:1,node:36,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 36 and data is 10.363671
-DEBUG (3): round:5,frame:2,node:3,timeslot:1,ch_node:19
-DEBUG (4): round:5,frame:2,node:4,timeslot:2,ch_node:35
-DEBUG (5): round:5,frame:2,node:5,timeslot:3,ch_node:1
-DEBUG (6): round:5,frame:2,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:5,frame:2,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:5,frame:2,node:8,timeslot:6,ch_node:35
-DEBUG (9): round:5,frame:2,node:9,timeslot:7,ch_node:17
-DEBUG (10): round:5,frame:2,node:10,timeslot:8,ch_node:2
-DEBUG (11): round:5,frame:2,node:11,timeslot:9,ch_node:19
-DEBUG (12): round:5,frame:2,node:12,timeslot:10,ch_node:19
-DEBUG (13): round:5,frame:2,node:13,timeslot:11,ch_node:17
-DEBUG (14): round:5,frame:2,node:14,timeslot:12,ch_node:18
-DEBUG (15): round:5,frame:2,node:15,timeslot:13,ch_node:19
-DEBUG (16): round:5,frame:2,node:16,timeslot:14,ch_node:19
-DEBUG (20): round:5,frame:2,node:20,timeslot:15,ch_node:36
-DEBUG (21): round:5,frame:2,node:21,timeslot:16,ch_node:17
-DEBUG (22): round:5,frame:2,node:22,timeslot:17,ch_node:18
-DEBUG (23): round:5,frame:2,node:23,timeslot:18,ch_node:19
-DEBUG (24): round:5,frame:2,node:24,timeslot:19,ch_node:36
-DEBUG (25): round:5,frame:2,node:25,timeslot:20,ch_node:2
-DEBUG (26): round:5,frame:2,node:26,timeslot:21,ch_node:18
-DEBUG (27): round:5,frame:2,node:27,timeslot:22,ch_node:19
-DEBUG (28): round:5,frame:2,node:28,timeslot:23,ch_node:36
-DEBUG (29): round:5,frame:2,node:29,timeslot:24,ch_node:2
-DEBUG (30): round:5,frame:2,node:30,timeslot:25,ch_node:34
-DEBUG (31): round:5,frame:2,node:31,timeslot:26,ch_node:35
-DEBUG (32): round:5,frame:2,node:32,timeslot:27,ch_node:36
-DEBUG (33): round:5,frame:2,node:33,timeslot:28,ch_node:2
-DEBUG (1): round: 5,frame:2,node:1,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 1 and data is 10.724025
-DEBUG (2): round: 5,frame:2,node:2,packet_num:5,timeslot:30
-DEBUG (0): sink received,from ch_node 2 and data is 10.692651
-DEBUG (17): round: 5,frame:2,node:17,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 17 and data is 9.452654
-DEBUG (18): round: 5,frame:2,node:18,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 18 and data is 9.365249
-DEBUG (19): round: 5,frame:2,node:19,packet_num:8,timeslot:33
-DEBUG (0): sink received,from ch_node 19 and data is 9.600775
-DEBUG (34): round: 5,frame:2,node:34,packet_num:1,timeslot:34
-DEBUG (0): sink received,from ch_node 34 and data is 11.135165
-DEBUG (35): round: 5,frame:2,node:35,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 10.780562
-DEBUG (36): round: 5,frame:2,node:36,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 36 and data is 10.318245
-DEBUG (3): round:5,frame:3,node:3,timeslot:1,ch_node:19
-DEBUG (4): round:5,frame:3,node:4,timeslot:2,ch_node:35
-DEBUG (5): round:5,frame:3,node:5,timeslot:3,ch_node:1
-DEBUG (6): round:5,frame:3,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:5,frame:3,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:5,frame:3,node:8,timeslot:6,ch_node:35
-DEBUG (9): round:5,frame:3,node:9,timeslot:7,ch_node:17
-DEBUG (10): round:5,frame:3,node:10,timeslot:8,ch_node:2
-DEBUG (11): round:5,frame:3,node:11,timeslot:9,ch_node:19
-DEBUG (12): round:5,frame:3,node:12,timeslot:10,ch_node:19
-DEBUG (13): round:5,frame:3,node:13,timeslot:11,ch_node:17
-DEBUG (14): round:5,frame:3,node:14,timeslot:12,ch_node:18
-DEBUG (15): round:5,frame:3,node:15,timeslot:13,ch_node:19
-DEBUG (16): round:5,frame:3,node:16,timeslot:14,ch_node:19
-DEBUG (20): round:5,frame:3,node:20,timeslot:15,ch_node:36
-DEBUG (21): round:5,frame:3,node:21,timeslot:16,ch_node:17
-DEBUG (22): round:5,frame:3,node:22,timeslot:17,ch_node:18
-DEBUG (23): round:5,frame:3,node:23,timeslot:18,ch_node:19
-DEBUG (24): round:5,frame:3,node:24,timeslot:19,ch_node:36
-DEBUG (25): round:5,frame:3,node:25,timeslot:20,ch_node:2
-DEBUG (26): round:5,frame:3,node:26,timeslot:21,ch_node:18
-DEBUG (27): round:5,frame:3,node:27,timeslot:22,ch_node:19
-DEBUG (28): round:5,frame:3,node:28,timeslot:23,ch_node:36
-DEBUG (29): round:5,frame:3,node:29,timeslot:24,ch_node:2
-DEBUG (30): round:5,frame:3,node:30,timeslot:25,ch_node:34
-DEBUG (31): round:5,frame:3,node:31,timeslot:26,ch_node:35
-DEBUG (32): round:5,frame:3,node:32,timeslot:27,ch_node:36
-DEBUG (33): round:5,frame:3,node:33,timeslot:28,ch_node:2
-DEBUG (1): round: 5,frame:3,node:1,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 1 and data is 10.281405
-DEBUG (2): round: 5,frame:3,node:2,packet_num:5,timeslot:30
-DEBUG (0): sink received,from ch_node 2 and data is 9.458408
-DEBUG (17): round: 5,frame:3,node:17,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 17 and data is 10.714413
-DEBUG (18): round: 5,frame:3,node:18,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 18 and data is 10.417404
-DEBUG (19): round: 5,frame:3,node:19,packet_num:8,timeslot:33
-DEBUG (0): sink received,from ch_node 19 and data is 9.937863
-DEBUG (34): round: 5,frame:3,node:34,packet_num:1,timeslot:34
-DEBUG (0): sink received,from ch_node 34 and data is 10.104081
-DEBUG (35): round: 5,frame:3,node:35,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 9.843614
-DEBUG (36): round: 5,frame:3,node:36,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 36 and data is 9.734892
-DEBUG (3): round:5,frame:4,node:3,timeslot:1,ch_node:19
-DEBUG (4): round:5,frame:4,node:4,timeslot:2,ch_node:35
-DEBUG (5): round:5,frame:4,node:5,timeslot:3,ch_node:1
-DEBUG (6): round:5,frame:4,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:5,frame:4,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:5,frame:4,node:8,timeslot:6,ch_node:35
-DEBUG (9): round:5,frame:4,node:9,timeslot:7,ch_node:17
-DEBUG (10): round:5,frame:4,node:10,timeslot:8,ch_node:2
-DEBUG (11): round:5,frame:4,node:11,timeslot:9,ch_node:19
-DEBUG (12): round:5,frame:4,node:12,timeslot:10,ch_node:19
-DEBUG (13): round:5,frame:4,node:13,timeslot:11,ch_node:17
-DEBUG (14): round:5,frame:4,node:14,timeslot:12,ch_node:18
-DEBUG (15): round:5,frame:4,node:15,timeslot:13,ch_node:19
-DEBUG (16): round:5,frame:4,node:16,timeslot:14,ch_node:19
-DEBUG (20): round:5,frame:4,node:20,timeslot:15,ch_node:36
-DEBUG (21): round:5,frame:4,node:21,timeslot:16,ch_node:17
-DEBUG (22): round:5,frame:4,node:22,timeslot:17,ch_node:18
-DEBUG (23): round:5,frame:4,node:23,timeslot:18,ch_node:19
-DEBUG (24): round:5,frame:4,node:24,timeslot:19,ch_node:36
-DEBUG (25): round:5,frame:4,node:25,timeslot:20,ch_node:2
-DEBUG (26): round:5,frame:4,node:26,timeslot:21,ch_node:18
-DEBUG (27): round:5,frame:4,node:27,timeslot:22,ch_node:19
-DEBUG (28): round:5,frame:4,node:28,timeslot:23,ch_node:36
-DEBUG (29): round:5,frame:4,node:29,timeslot:24,ch_node:2
-DEBUG (30): round:5,frame:4,node:30,timeslot:25,ch_node:34
-DEBUG (31): round:5,frame:4,node:31,timeslot:26,ch_node:35
-DEBUG (32): round:5,frame:4,node:32,timeslot:27,ch_node:36
-DEBUG (33): round:5,frame:4,node:33,timeslot:28,ch_node:2
-DEBUG (1): round: 5,frame:4,node:1,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 1 and data is 10.084669
-DEBUG (2): round: 5,frame:4,node:2,packet_num:5,timeslot:30
-DEBUG (0): sink received,from ch_node 2 and data is 10.214430
-DEBUG (17): round: 5,frame:4,node:17,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 17 and data is 9.630250
-DEBUG (18): round: 5,frame:4,node:18,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 18 and data is 10.112306
-DEBUG (19): round: 5,frame:4,node:19,packet_num:8,timeslot:33
-DEBUG (0): sink received,from ch_node 19 and data is 9.498075
-DEBUG (34): round: 5,frame:4,node:34,packet_num:1,timeslot:34
-DEBUG (0): sink received,from ch_node 34 and data is 10.086482
-DEBUG (35): round: 5,frame:4,node:35,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 9.972712
-DEBUG (36): round: 5,frame:4,node:36,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 36 and data is 10.739975
-DEBUG (3): round:5,frame:5,node:3,timeslot:1,ch_node:19
-DEBUG (4): round:5,frame:5,node:4,timeslot:2,ch_node:35
-DEBUG (5): round:5,frame:5,node:5,timeslot:3,ch_node:1
-DEBUG (6): round:5,frame:5,node:6,timeslot:4,ch_node:2
-DEBUG (7): round:5,frame:5,node:7,timeslot:5,ch_node:19
-DEBUG (8): round:5,frame:5,node:8,timeslot:6,ch_node:35
-DEBUG (9): round:5,frame:5,node:9,timeslot:7,ch_node:17
-DEBUG (10): round:5,frame:5,node:10,timeslot:8,ch_node:2
-DEBUG (11): round:5,frame:5,node:11,timeslot:9,ch_node:19
-DEBUG (12): round:5,frame:5,node:12,timeslot:10,ch_node:19
-DEBUG (13): round:5,frame:5,node:13,timeslot:11,ch_node:17
-DEBUG (14): round:5,frame:5,node:14,timeslot:12,ch_node:18
-DEBUG (15): round:5,frame:5,node:15,timeslot:13,ch_node:19
-DEBUG (16): round:5,frame:5,node:16,timeslot:14,ch_node:19
-DEBUG (20): round:5,frame:5,node:20,timeslot:15,ch_node:36
-DEBUG (21): round:5,frame:5,node:21,timeslot:16,ch_node:17
-DEBUG (22): round:5,frame:5,node:22,timeslot:17,ch_node:18
-DEBUG (23): round:5,frame:5,node:23,timeslot:18,ch_node:19
-DEBUG (24): round:5,frame:5,node:24,timeslot:19,ch_node:36
-DEBUG (25): round:5,frame:5,node:25,timeslot:20,ch_node:2
-DEBUG (26): round:5,frame:5,node:26,timeslot:21,ch_node:18
-DEBUG (27): round:5,frame:5,node:27,timeslot:22,ch_node:19
-DEBUG (28): round:5,frame:5,node:28,timeslot:23,ch_node:36
-DEBUG (29): round:5,frame:5,node:29,timeslot:24,ch_node:2
-DEBUG (30): round:5,frame:5,node:30,timeslot:25,ch_node:34
-DEBUG (31): round:5,frame:5,node:31,timeslot:26,ch_node:35
-DEBUG (32): round:5,frame:5,node:32,timeslot:27,ch_node:36
-DEBUG (33): round:5,frame:5,node:33,timeslot:28,ch_node:2
-DEBUG (1): round: 5,frame:5,node:1,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 1 and data is 8.907628
-DEBUG (2): round: 5,frame:5,node:2,packet_num:5,timeslot:30
-DEBUG (0): sink received,from ch_node 2 and data is 9.821209
-DEBUG (17): round: 5,frame:5,node:17,packet_num:3,timeslot:31
-DEBUG (0): sink received,from ch_node 17 and data is 10.143442
-DEBUG (18): round: 5,frame:5,node:18,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 18 and data is 10.925888
-DEBUG (19): round: 5,frame:5,node:19,packet_num:8,timeslot:33
-DEBUG (0): sink received,from ch_node 19 and data is 9.632952
-DEBUG (34): round: 5,frame:5,node:34,packet_num:1,timeslot:34
-DEBUG (0): sink received,from ch_node 34 and data is 9.152996
-DEBUG (35): round: 5,frame:5,node:35,packet_num:3,timeslot:35
-DEBUG (0): sink received,from ch_node 35 and data is 10.596413
-DEBUG (36): round: 5,frame:5,node:36,packet_num:4,timeslot:36
-DEBUG (0): sink received,from ch_node 36 and data is 10.024641
-DEBUG (36): round:6,node:36,received start command for first time
-DEBUG (23): round:6,node:23,received start command for first time
-DEBUG (7): round:6,node:7,received start command for first time
-DEBUG (6): round:6,node:6,received start command for first time
-DEBUG (3): round:6,node:3,received start command for first time
-DEBUG (1): round:6,node:1,received start command for first time
-DEBUG (2): round:6,node:2,received start command for first time
-DEBUG (5): round:6,node:5,received start command for first time
-DEBUG (4): round:6,node:4,received start command for first time
-DEBUG (22): round:6,node:22,received start command for first time
-DEBUG (15): round:6,node:15,received start command for first time
-DEBUG (11): round:6,node:11,received start command for first time
-DEBUG (9): round:6,node:9,received start command for first time
-DEBUG (8): round:6,node:8,received start command for first time
+DEBUG (8): round:5,node:8,received start command for second time
+DEBUG (6): round:5,node:6,received start command for second time
+DEBUG (5): round:5,node:5,received start command for second time
+DEBUG (7): round:5,node:7,received start command for second time
+DEBUG (4): round:5,node:4,received start command for second time
+DEBUG (2): round:5,node:2,received start command for second time
+DEBUG (1): round:5,node:1,received start command for second time
+
+DEBUG (10): round:5,node:10,received working command
+DEBUG (9): round:5,node:9,received working command
+DEBUG (8): round:5,node:8,received working command
+DEBUG (6): round:5,node:6,received working command
+DEBUG (5): round:5,node:5,received working command
+DEBUG (7): round:5,node:7,received working command
+DEBUG (4): round:5,node:4,received working command
+DEBUG (3): round:5,node:3,received working command
+DEBUG (2): round:5,node:2,received working command
+DEBUG (1): round:5,node:1,received working command
+
+DEBUG (3): round:5,frame:1,node:3,timeslot:1,ch_node:1
+DEBUG (4): round:5,frame:1,node:4,timeslot:2,ch_node:9
+DEBUG (5): round:5,frame:1,node:5,timeslot:3,ch_node:9
+DEBUG (7): round:5,frame:1,node:7,timeslot:4,ch_node:1
+DEBUG (8): round:5,frame:1,node:8,timeslot:5,ch_node:9
+DEBUG (10): round:5,frame:1,node:10,timeslot:6,ch_node:6
+
+DEBUG (1): round: 5,frame:1,node:1,packet_num:2,timeslot:7
+DEBUG (0): sink received,from ch_node 1 and data is 10.225056
+DEBUG (2): round: 5,frame:1,node:2,packet_num:0,timeslot:8
+DEBUG (6): round: 5,frame:1,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 9.257244
+DEBUG (9): round: 5,frame:1,node:9,packet_num:2,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 9.706384
+
+DEBUG (3): round:5,frame:2,node:3,timeslot:1,ch_node:1
+DEBUG (4): round:5,frame:2,node:4,timeslot:2,ch_node:9
+DEBUG (5): round:5,frame:2,node:5,timeslot:3,ch_node:9
+DEBUG (7): round:5,frame:2,node:7,timeslot:4,ch_node:1
+DEBUG (8): round:5,frame:2,node:8,timeslot:5,ch_node:9
+DEBUG (10): round:5,frame:2,node:10,timeslot:6,ch_node:6
+
+DEBUG (1): round: 5,frame:2,node:1,packet_num:2,timeslot:7
+DEBUG (0): sink received,from ch_node 1 and data is 9.140394
+DEBUG (2): round: 5,frame:2,node:2,packet_num:0,timeslot:8
+DEBUG (6): round: 5,frame:2,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 9.737678
+DEBUG (9): round: 5,frame:2,node:9,packet_num:3,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 10.683147
+
+DEBUG (3): round:5,frame:3,node:3,timeslot:1,ch_node:1
+DEBUG (4): round:5,frame:3,node:4,timeslot:2,ch_node:9
+DEBUG (5): round:5,frame:3,node:5,timeslot:3,ch_node:9
+DEBUG (7): round:5,frame:3,node:7,timeslot:4,ch_node:1
+DEBUG (8): round:5,frame:3,node:8,timeslot:5,ch_node:9
+DEBUG (10): round:5,frame:3,node:10,timeslot:6,ch_node:6
+
+DEBUG (1): round: 5,frame:3,node:1,packet_num:2,timeslot:7
+DEBUG (0): sink received,from ch_node 1 and data is 9.954287
+DEBUG (2): round: 5,frame:3,node:2,packet_num:0,timeslot:8
+DEBUG (6): round: 5,frame:3,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 9.154554
+DEBUG (9): round: 5,frame:3,node:9,packet_num:3,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 10.006078
+
+DEBUG (3): round:5,frame:4,node:3,timeslot:1,ch_node:1
+DEBUG (4): round:5,frame:4,node:4,timeslot:2,ch_node:9
+DEBUG (5): round:5,frame:4,node:5,timeslot:3,ch_node:9
+DEBUG (7): round:5,frame:4,node:7,timeslot:4,ch_node:1
+DEBUG (8): round:5,frame:4,node:8,timeslot:5,ch_node:9
+DEBUG (10): round:5,frame:4,node:10,timeslot:6,ch_node:6
+
+DEBUG (1): round: 5,frame:4,node:1,packet_num:2,timeslot:7
+DEBUG (0): sink received,from ch_node 1 and data is 10.289169
+DEBUG (2): round: 5,frame:4,node:2,packet_num:0,timeslot:8
+DEBUG (6): round: 5,frame:4,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 8.781269
+DEBUG (9): round: 5,frame:4,node:9,packet_num:2,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 11.228146
+
+DEBUG (3): round:5,frame:5,node:3,timeslot:1,ch_node:1
+DEBUG (4): round:5,frame:5,node:4,timeslot:2,ch_node:9
+DEBUG (5): round:5,frame:5,node:5,timeslot:3,ch_node:9
+DEBUG (7): round:5,frame:5,node:7,timeslot:4,ch_node:1
+DEBUG (8): round:5,frame:5,node:8,timeslot:5,ch_node:9
+DEBUG (10): round:5,frame:5,node:10,timeslot:6,ch_node:6
+
+DEBUG (1): round: 5,frame:5,node:1,packet_num:2,timeslot:7
+DEBUG (0): sink received,from ch_node 1 and data is 9.847823
+DEBUG (2): round: 5,frame:5,node:2,packet_num:0,timeslot:8
+DEBUG (6): round: 5,frame:5,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 10.634676
+DEBUG (9): round: 5,frame:5,node:9,packet_num:3,timeslot:10
+DEBUG (0): sink received,from ch_node 9 and data is 9.710856
+
 DEBUG (10): round:6,node:10,received start command for first time
-DEBUG (14): round:6,node:14,received start command for first time
-DEBUG (13): round:6,node:13,received start command for first time
-DEBUG (12): round:6,node:12,received start command for first time
-DEBUG (21): round:6,node:21,received start command for first time
-DEBUG (19): round:6,node:19,received start command for first time
-DEBUG (17): round:6,node:17,received start command for first time
-DEBUG (16): round:6,node:16,received start command for first time
-DEBUG (18): round:6,node:18,received start command for first time
-DEBUG (20): round:6,node:20,received start command for first time
-DEBUG (35): round:6,node:35,received start command for first time
-DEBUG (34): round:6,node:34,received start command for first time
-DEBUG (31): round:6,node:31,received start command for first time
-DEBUG (27): round:6,node:27,received start command for first time
-DEBUG (25): round:6,node:25,received start command for first time
-DEBUG (24): round:6,node:24,received start command for first time
-DEBUG (26): round:6,node:26,received start command for first time
-DEBUG (30): round:6,node:30,received start command for first time
-DEBUG (29): round:6,node:29,received start command for first time
-DEBUG (28): round:6,node:28,received start command for first time
-DEBUG (33): round:6,node:33,received start command for first time
-DEBUG (32): round:6,node:32,received start command for first time
-DEBUG (1): round:6,frame:1,node:1,timeslot:1,ch_node:13
-DEBUG (2): round:6,frame:1,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:6,frame:1,node:3,timeslot:3,ch_node:12
-DEBUG (4): round:6,frame:1,node:4,timeslot:4,ch_node:31
-DEBUG (5): round:6,frame:1,node:5,timeslot:5,ch_node:13
-DEBUG (7): round:6,frame:1,node:7,timeslot:6,ch_node:12
-DEBUG (8): round:6,frame:1,node:8,timeslot:7,ch_node:31
-DEBUG (9): round:6,frame:1,node:9,timeslot:8,ch_node:13
-DEBUG (10): round:6,frame:1,node:10,timeslot:9,ch_node:6
-DEBUG (11): round:6,frame:1,node:11,timeslot:10,ch_node:24
-DEBUG (14): round:6,frame:1,node:14,timeslot:11,ch_node:6
-DEBUG (15): round:6,frame:1,node:15,timeslot:12,ch_node:24
-DEBUG (16): round:6,frame:1,node:16,timeslot:13,ch_node:12
-DEBUG (17): round:6,frame:1,node:17,timeslot:14,ch_node:13
-DEBUG (18): round:6,frame:1,node:18,timeslot:15,ch_node:6
-DEBUG (19): round:6,frame:1,node:19,timeslot:16,ch_node:31
-DEBUG (20): round:6,frame:1,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:6,frame:1,node:21,timeslot:18,ch_node:13
-DEBUG (22): round:6,frame:1,node:22,timeslot:19,ch_node:13
-DEBUG (23): round:6,frame:1,node:23,timeslot:20,ch_node:31
-DEBUG (26): round:6,frame:1,node:26,timeslot:21,ch_node:13
-DEBUG (27): round:6,frame:1,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:6,frame:1,node:28,timeslot:23,ch_node:24
-DEBUG (29): round:6,frame:1,node:29,timeslot:24,ch_node:25
-DEBUG (30): round:6,frame:1,node:30,timeslot:25,ch_node:13
-DEBUG (32): round:6,frame:1,node:32,timeslot:26,ch_node:24
-DEBUG (33): round:6,frame:1,node:33,timeslot:27,ch_node:25
-DEBUG (34): round:6,frame:1,node:34,timeslot:28,ch_node:13
-DEBUG (35): round:6,frame:1,node:35,timeslot:29,ch_node:31
-DEBUG (36): round:6,frame:1,node:36,timeslot:30,ch_node:24
-DEBUG (6): round: 6,frame:1,node:6,packet_num:4,timeslot:31
-DEBUG (0): sink received,from ch_node 6 and data is 10.344331
-DEBUG (12): round: 6,frame:1,node:12,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 12 and data is 8.517618
-DEBUG (13): round: 6,frame:1,node:13,packet_num:9,timeslot:33
-DEBUG (0): sink received,from ch_node 13 and data is 10.172781
-DEBUG (24): round: 6,frame:1,node:24,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 10.453741
-DEBUG (25): round: 6,frame:1,node:25,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 25 and data is 11.445482
-DEBUG (31): round: 6,frame:1,node:31,packet_num:6,timeslot:36
-DEBUG (0): sink received,from ch_node 31 and data is 10.475202
-DEBUG (1): round:6,frame:2,node:1,timeslot:1,ch_node:13
-DEBUG (2): round:6,frame:2,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:6,frame:2,node:3,timeslot:3,ch_node:12
-DEBUG (4): round:6,frame:2,node:4,timeslot:4,ch_node:31
-DEBUG (5): round:6,frame:2,node:5,timeslot:5,ch_node:13
-DEBUG (7): round:6,frame:2,node:7,timeslot:6,ch_node:12
-DEBUG (8): round:6,frame:2,node:8,timeslot:7,ch_node:31
-DEBUG (9): round:6,frame:2,node:9,timeslot:8,ch_node:13
-DEBUG (10): round:6,frame:2,node:10,timeslot:9,ch_node:6
-DEBUG (11): round:6,frame:2,node:11,timeslot:10,ch_node:24
-DEBUG (14): round:6,frame:2,node:14,timeslot:11,ch_node:6
-DEBUG (15): round:6,frame:2,node:15,timeslot:12,ch_node:24
-DEBUG (16): round:6,frame:2,node:16,timeslot:13,ch_node:12
-DEBUG (17): round:6,frame:2,node:17,timeslot:14,ch_node:13
-DEBUG (18): round:6,frame:2,node:18,timeslot:15,ch_node:6
-DEBUG (19): round:6,frame:2,node:19,timeslot:16,ch_node:31
-DEBUG (20): round:6,frame:2,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:6,frame:2,node:21,timeslot:18,ch_node:13
-DEBUG (22): round:6,frame:2,node:22,timeslot:19,ch_node:13
-DEBUG (23): round:6,frame:2,node:23,timeslot:20,ch_node:31
-DEBUG (26): round:6,frame:2,node:26,timeslot:21,ch_node:13
-DEBUG (27): round:6,frame:2,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:6,frame:2,node:28,timeslot:23,ch_node:24
-DEBUG (29): round:6,frame:2,node:29,timeslot:24,ch_node:25
-DEBUG (30): round:6,frame:2,node:30,timeslot:25,ch_node:13
-DEBUG (32): round:6,frame:2,node:32,timeslot:26,ch_node:24
-DEBUG (33): round:6,frame:2,node:33,timeslot:27,ch_node:25
-DEBUG (34): round:6,frame:2,node:34,timeslot:28,ch_node:13
-DEBUG (35): round:6,frame:2,node:35,timeslot:29,ch_node:31
-DEBUG (36): round:6,frame:2,node:36,timeslot:30,ch_node:24
-DEBUG (6): round: 6,frame:2,node:6,packet_num:4,timeslot:31
-DEBUG (0): sink received,from ch_node 6 and data is 9.615875
-DEBUG (12): round: 6,frame:2,node:12,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 12 and data is 9.158296
-DEBUG (13): round: 6,frame:2,node:13,packet_num:9,timeslot:33
-DEBUG (0): sink received,from ch_node 13 and data is 9.982454
-DEBUG (24): round: 6,frame:2,node:24,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 10.024554
-DEBUG (25): round: 6,frame:2,node:25,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 25 and data is 9.419071
-DEBUG (31): round: 6,frame:2,node:31,packet_num:6,timeslot:36
-DEBUG (0): sink received,from ch_node 31 and data is 9.844813
-DEBUG (1): round:6,frame:3,node:1,timeslot:1,ch_node:13
-DEBUG (2): round:6,frame:3,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:6,frame:3,node:3,timeslot:3,ch_node:12
-DEBUG (4): round:6,frame:3,node:4,timeslot:4,ch_node:31
-DEBUG (5): round:6,frame:3,node:5,timeslot:5,ch_node:13
-DEBUG (7): round:6,frame:3,node:7,timeslot:6,ch_node:12
-DEBUG (8): round:6,frame:3,node:8,timeslot:7,ch_node:31
-DEBUG (9): round:6,frame:3,node:9,timeslot:8,ch_node:13
-DEBUG (10): round:6,frame:3,node:10,timeslot:9,ch_node:6
-DEBUG (11): round:6,frame:3,node:11,timeslot:10,ch_node:24
-DEBUG (14): round:6,frame:3,node:14,timeslot:11,ch_node:6
-DEBUG (15): round:6,frame:3,node:15,timeslot:12,ch_node:24
-DEBUG (16): round:6,frame:3,node:16,timeslot:13,ch_node:12
-DEBUG (17): round:6,frame:3,node:17,timeslot:14,ch_node:13
-DEBUG (18): round:6,frame:3,node:18,timeslot:15,ch_node:6
-DEBUG (19): round:6,frame:3,node:19,timeslot:16,ch_node:31
-DEBUG (20): round:6,frame:3,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:6,frame:3,node:21,timeslot:18,ch_node:13
-DEBUG (22): round:6,frame:3,node:22,timeslot:19,ch_node:13
-DEBUG (23): round:6,frame:3,node:23,timeslot:20,ch_node:31
-DEBUG (26): round:6,frame:3,node:26,timeslot:21,ch_node:13
-DEBUG (27): round:6,frame:3,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:6,frame:3,node:28,timeslot:23,ch_node:24
-DEBUG (29): round:6,frame:3,node:29,timeslot:24,ch_node:25
-DEBUG (30): round:6,frame:3,node:30,timeslot:25,ch_node:13
-DEBUG (32): round:6,frame:3,node:32,timeslot:26,ch_node:24
-DEBUG (33): round:6,frame:3,node:33,timeslot:27,ch_node:25
-DEBUG (34): round:6,frame:3,node:34,timeslot:28,ch_node:13
-DEBUG (35): round:6,frame:3,node:35,timeslot:29,ch_node:31
-DEBUG (36): round:6,frame:3,node:36,timeslot:30,ch_node:24
-DEBUG (6): round: 6,frame:3,node:6,packet_num:4,timeslot:31
-DEBUG (0): sink received,from ch_node 6 and data is 9.689975
-DEBUG (12): round: 6,frame:3,node:12,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 12 and data is 9.707650
-DEBUG (13): round: 6,frame:3,node:13,packet_num:9,timeslot:33
-DEBUG (0): sink received,from ch_node 13 and data is 9.754496
-DEBUG (24): round: 6,frame:3,node:24,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 10.239874
-DEBUG (25): round: 6,frame:3,node:25,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 25 and data is 10.398898
-DEBUG (31): round: 6,frame:3,node:31,packet_num:6,timeslot:36
-DEBUG (0): sink received,from ch_node 31 and data is 9.893727
-DEBUG (1): round:6,frame:4,node:1,timeslot:1,ch_node:13
-DEBUG (2): round:6,frame:4,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:6,frame:4,node:3,timeslot:3,ch_node:12
-DEBUG (4): round:6,frame:4,node:4,timeslot:4,ch_node:31
-DEBUG (5): round:6,frame:4,node:5,timeslot:5,ch_node:13
-DEBUG (7): round:6,frame:4,node:7,timeslot:6,ch_node:12
-DEBUG (8): round:6,frame:4,node:8,timeslot:7,ch_node:31
-DEBUG (9): round:6,frame:4,node:9,timeslot:8,ch_node:13
-DEBUG (10): round:6,frame:4,node:10,timeslot:9,ch_node:6
-DEBUG (11): round:6,frame:4,node:11,timeslot:10,ch_node:24
-DEBUG (14): round:6,frame:4,node:14,timeslot:11,ch_node:6
-DEBUG (15): round:6,frame:4,node:15,timeslot:12,ch_node:24
-DEBUG (16): round:6,frame:4,node:16,timeslot:13,ch_node:12
-DEBUG (17): round:6,frame:4,node:17,timeslot:14,ch_node:13
-DEBUG (18): round:6,frame:4,node:18,timeslot:15,ch_node:6
-DEBUG (19): round:6,frame:4,node:19,timeslot:16,ch_node:31
-DEBUG (20): round:6,frame:4,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:6,frame:4,node:21,timeslot:18,ch_node:13
-DEBUG (22): round:6,frame:4,node:22,timeslot:19,ch_node:13
-DEBUG (23): round:6,frame:4,node:23,timeslot:20,ch_node:31
-DEBUG (26): round:6,frame:4,node:26,timeslot:21,ch_node:13
-DEBUG (27): round:6,frame:4,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:6,frame:4,node:28,timeslot:23,ch_node:24
-DEBUG (29): round:6,frame:4,node:29,timeslot:24,ch_node:25
-DEBUG (30): round:6,frame:4,node:30,timeslot:25,ch_node:13
-DEBUG (32): round:6,frame:4,node:32,timeslot:26,ch_node:24
-DEBUG (33): round:6,frame:4,node:33,timeslot:27,ch_node:25
-DEBUG (34): round:6,frame:4,node:34,timeslot:28,ch_node:13
-DEBUG (35): round:6,frame:4,node:35,timeslot:29,ch_node:31
-DEBUG (36): round:6,frame:4,node:36,timeslot:30,ch_node:24
-DEBUG (6): round: 6,frame:4,node:6,packet_num:4,timeslot:31
-DEBUG (0): sink received,from ch_node 6 and data is 9.380153
-DEBUG (12): round: 6,frame:4,node:12,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 12 and data is 10.238362
-DEBUG (13): round: 6,frame:4,node:13,packet_num:9,timeslot:33
-DEBUG (0): sink received,from ch_node 13 and data is 10.216719
-DEBUG (24): round: 6,frame:4,node:24,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 9.371214
-DEBUG (25): round: 6,frame:4,node:25,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 25 and data is 9.955651
-DEBUG (31): round: 6,frame:4,node:31,packet_num:6,timeslot:36
-DEBUG (0): sink received,from ch_node 31 and data is 9.385154
-DEBUG (1): round:6,frame:5,node:1,timeslot:1,ch_node:13
-DEBUG (2): round:6,frame:5,node:2,timeslot:2,ch_node:6
-DEBUG (3): round:6,frame:5,node:3,timeslot:3,ch_node:12
-DEBUG (4): round:6,frame:5,node:4,timeslot:4,ch_node:31
-DEBUG (5): round:6,frame:5,node:5,timeslot:5,ch_node:13
-DEBUG (7): round:6,frame:5,node:7,timeslot:6,ch_node:12
-DEBUG (8): round:6,frame:5,node:8,timeslot:7,ch_node:31
-DEBUG (9): round:6,frame:5,node:9,timeslot:8,ch_node:13
-DEBUG (10): round:6,frame:5,node:10,timeslot:9,ch_node:6
-DEBUG (11): round:6,frame:5,node:11,timeslot:10,ch_node:24
-DEBUG (14): round:6,frame:5,node:14,timeslot:11,ch_node:6
-DEBUG (15): round:6,frame:5,node:15,timeslot:12,ch_node:24
-DEBUG (16): round:6,frame:5,node:16,timeslot:13,ch_node:12
-DEBUG (17): round:6,frame:5,node:17,timeslot:14,ch_node:13
-DEBUG (18): round:6,frame:5,node:18,timeslot:15,ch_node:6
-DEBUG (19): round:6,frame:5,node:19,timeslot:16,ch_node:31
-DEBUG (20): round:6,frame:5,node:20,timeslot:17,ch_node:24
-DEBUG (21): round:6,frame:5,node:21,timeslot:18,ch_node:13
-DEBUG (22): round:6,frame:5,node:22,timeslot:19,ch_node:13
-DEBUG (23): round:6,frame:5,node:23,timeslot:20,ch_node:31
-DEBUG (26): round:6,frame:5,node:26,timeslot:21,ch_node:13
-DEBUG (27): round:6,frame:5,node:27,timeslot:22,ch_node:31
-DEBUG (28): round:6,frame:5,node:28,timeslot:23,ch_node:24
-DEBUG (29): round:6,frame:5,node:29,timeslot:24,ch_node:25
-DEBUG (30): round:6,frame:5,node:30,timeslot:25,ch_node:13
-DEBUG (32): round:6,frame:5,node:32,timeslot:26,ch_node:24
-DEBUG (33): round:6,frame:5,node:33,timeslot:27,ch_node:25
-DEBUG (34): round:6,frame:5,node:34,timeslot:28,ch_node:13
-DEBUG (35): round:6,frame:5,node:35,timeslot:29,ch_node:31
-DEBUG (36): round:6,frame:5,node:36,timeslot:30,ch_node:24
-DEBUG (6): round: 6,frame:5,node:6,packet_num:4,timeslot:31
-DEBUG (0): sink received,from ch_node 6 and data is 9.158771
-DEBUG (12): round: 6,frame:5,node:12,packet_num:3,timeslot:32
-DEBUG (0): sink received,from ch_node 12 and data is 9.981827
-DEBUG (13): round: 6,frame:5,node:13,packet_num:9,timeslot:33
-DEBUG (0): sink received,from ch_node 13 and data is 10.332878
-DEBUG (24): round: 6,frame:5,node:24,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 24 and data is 9.553248
-DEBUG (25): round: 6,frame:5,node:25,packet_num:2,timeslot:35
-DEBUG (0): sink received,from ch_node 25 and data is 9.891779
-DEBUG (31): round: 6,frame:5,node:31,packet_num:6,timeslot:36
-DEBUG (0): sink received,from ch_node 31 and data is 9.815231
-DEBUG (36): round:7,node:36,received start command for first time
-DEBUG (22): round:7,node:22,received start command for first time
-DEBUG (6): round:7,node:6,received start command for first time
-DEBUG (5): round:7,node:5,received start command for first time
-DEBUG (2): round:7,node:2,received start command for first time
-DEBUG (1): round:7,node:1,received start command for first time
-DEBUG (4): round:7,node:4,received start command for first time
-DEBUG (3): round:7,node:3,received start command for first time
-DEBUG (21): round:7,node:21,received start command for first time
-DEBUG (14): round:7,node:14,received start command for first time
+DEBUG (9): round:6,node:9,received start command for first time
+DEBUG (1): round:6,node:1,received start command for first time
+DEBUG (8): round:6,node:8,received start command for first time
+DEBUG (7): round:6,node:7,received start command for first time
+DEBUG (4): round:6,node:4,received start command for first time
+DEBUG (2): round:6,node:2,received start command for first time
+DEBUG (3): round:6,node:3,received start command for first time
+DEBUG (6): round:6,node:6,received start command for first time
+DEBUG (5): round:6,node:5,received start command for first time
+
+DEBUG (10): round:6,node:10,received start command for second time
+DEBUG (9): round:6,node:9,received start command for second time
+DEBUG (8): round:6,node:8,received start command for second time
+DEBUG (7): round:6,node:7,received start command for second time
+DEBUG (6): round:6,node:6,received start command for second time
+DEBUG (5): round:6,node:5,received start command for second time
+DEBUG (4): round:6,node:4,received start command for second time
+DEBUG (1): round:6,node:1,received start command for second time
+DEBUG (3): round:6,node:3,received start command for second time
+DEBUG (2): round:6,node:2,received start command for second time
+
+DEBUG (10): round:6,node:10,received working command
+DEBUG (9): round:6,node:9,received working command
+DEBUG (8): round:6,node:8,received working command
+DEBUG (6): round:6,node:6,received working command
+DEBUG (5): round:6,node:5,received working command
+DEBUG (4): round:6,node:4,received working command
+DEBUG (1): round:6,node:1,received working command
+DEBUG (3): round:6,node:3,received working command
+DEBUG (2): round:6,node:2,received working command
+
+DEBUG (1): round:6,frame:1,node:1,timeslot:1,ch_node:5
+DEBUG (2): round:6,frame:1,node:2,timeslot:2,ch_node:5
+DEBUG (3): round:6,frame:1,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:6,frame:1,node:4,timeslot:4,ch_node:5
+DEBUG (6): round:6,frame:1,node:6,timeslot:5,ch_node:5
+DEBUG (8): round:6,frame:1,node:8,timeslot:6,ch_node:5
+DEBUG (9): round:6,frame:1,node:9,timeslot:8,ch_node:7
+DEBUG (10): round:6,frame:1,node:10,timeslot:8,ch_node:5
+
+DEBUG (5): round: 6,frame:1,node:5,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 10.098211
+
+DEBUG (1): round:6,frame:2,node:1,timeslot:1,ch_node:5
+DEBUG (2): round:6,frame:2,node:2,timeslot:2,ch_node:5
+DEBUG (3): round:6,frame:2,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:6,frame:2,node:4,timeslot:4,ch_node:5
+DEBUG (6): round:6,frame:2,node:6,timeslot:5,ch_node:5
+DEBUG (8): round:6,frame:2,node:8,timeslot:6,ch_node:5
+DEBUG (9): round:6,frame:2,node:9,timeslot:8,ch_node:7
+DEBUG (10): round:6,frame:2,node:10,timeslot:8,ch_node:5
+DEBUG (5): round: 6,frame:2,node:5,packet_num:5,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 9.671237
+
+DEBUG (1): round:6,frame:3,node:1,timeslot:1,ch_node:5
+DEBUG (2): round:6,frame:3,node:2,timeslot:2,ch_node:5
+DEBUG (3): round:6,frame:3,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:6,frame:3,node:4,timeslot:4,ch_node:5
+DEBUG (6): round:6,frame:3,node:6,timeslot:5,ch_node:5
+DEBUG (8): round:6,frame:3,node:8,timeslot:6,ch_node:5
+DEBUG (9): round:6,frame:3,node:9,timeslot:8,ch_node:7
+DEBUG (10): round:6,frame:3,node:10,timeslot:8,ch_node:5
+DEBUG (5): round: 6,frame:3,node:5,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 9.987475
+
+DEBUG (1): round:6,frame:4,node:1,timeslot:1,ch_node:5
+DEBUG (2): round:6,frame:4,node:2,timeslot:2,ch_node:5
+DEBUG (3): round:6,frame:4,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:6,frame:4,node:4,timeslot:4,ch_node:5
+DEBUG (6): round:6,frame:4,node:6,timeslot:5,ch_node:5
+DEBUG (8): round:6,frame:4,node:8,timeslot:6,ch_node:5
+DEBUG (9): round:6,frame:4,node:9,timeslot:8,ch_node:7
+DEBUG (10): round:6,frame:4,node:10,timeslot:8,ch_node:5
+DEBUG (5): round: 6,frame:4,node:5,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 9.612251
+
+DEBUG (1): round:6,frame:5,node:1,timeslot:1,ch_node:5
+DEBUG (2): round:6,frame:5,node:2,timeslot:2,ch_node:5
+DEBUG (3): round:6,frame:5,node:3,timeslot:3,ch_node:7
+DEBUG (4): round:6,frame:5,node:4,timeslot:4,ch_node:5
+DEBUG (6): round:6,frame:5,node:6,timeslot:5,ch_node:5
+DEBUG (8): round:6,frame:5,node:8,timeslot:6,ch_node:5
+DEBUG (9): round:6,frame:5,node:9,timeslot:8,ch_node:7
+DEBUG (10): round:6,frame:5,node:10,timeslot:8,ch_node:5
+DEBUG (5): round: 6,frame:5,node:5,packet_num:6,timeslot:9
+DEBUG (0): sink received,from ch_node 5 and data is 10.181910
+
 DEBUG (10): round:7,node:10,received start command for first time
+DEBUG (9): round:7,node:9,received start command for first time
 DEBUG (8): round:7,node:8,received start command for first time
 DEBUG (7): round:7,node:7,received start command for first time
-DEBUG (9): round:7,node:9,received start command for first time
-DEBUG (13): round:7,node:13,received start command for first time
-DEBUG (12): round:7,node:12,received start command for first time
-DEBUG (11): round:7,node:11,received start command for first time
-DEBUG (20): round:7,node:20,received start command for first time
-DEBUG (18): round:7,node:18,received start command for first time
-DEBUG (16): round:7,node:16,received start command for first time
-DEBUG (15): round:7,node:15,received start command for first time
-DEBUG (17): round:7,node:17,received start command for first time
-DEBUG (19): round:7,node:19,received start command for first time
-DEBUG (35): round:7,node:35,received start command for first time
-DEBUG (34): round:7,node:34,received start command for first time
-DEBUG (30): round:7,node:30,received start command for first time
-DEBUG (26): round:7,node:26,received start command for first time
-DEBUG (24): round:7,node:24,received start command for first time
-DEBUG (23): round:7,node:23,received start command for first time
-DEBUG (25): round:7,node:25,received start command for first time
-DEBUG (29): round:7,node:29,received start command for first time
-DEBUG (28): round:7,node:28,received start command for first time
-DEBUG (27): round:7,node:27,received start command for first time
-DEBUG (33): round:7,node:33,received start command for first time
-DEBUG (32): round:7,node:32,received start command for first time
-DEBUG (31): round:7,node:31,received start command for first time
-DEBUG (1): round:7,frame:1,node:1,timeslot:1,ch_node:10
-DEBUG (2): round:7,frame:1,node:2,timeslot:2,ch_node:10
-DEBUG (4): round:7,frame:1,node:4,timeslot:3,ch_node:8
-DEBUG (5): round:7,frame:1,node:5,timeslot:4,ch_node:10
-DEBUG (6): round:7,frame:1,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:7,frame:1,node:7,timeslot:6,ch_node:3
-DEBUG (9): round:7,frame:1,node:9,timeslot:7,ch_node:22
-DEBUG (11): round:7,frame:1,node:11,timeslot:8,ch_node:15
-DEBUG (12): round:7,frame:1,node:12,timeslot:9,ch_node:20
-DEBUG (13): round:7,frame:1,node:13,timeslot:10,ch_node:22
-DEBUG (14): round:7,frame:1,node:14,timeslot:11,ch_node:10
-DEBUG (16): round:7,frame:1,node:16,timeslot:12,ch_node:20
-DEBUG (17): round:7,frame:1,node:17,timeslot:13,ch_node:8
-DEBUG (18): round:7,frame:1,node:18,timeslot:14,ch_node:22
-DEBUG (19): round:7,frame:1,node:19,timeslot:15,ch_node:15
-DEBUG (21): round:7,frame:1,node:21,timeslot:16,ch_node:8
-DEBUG (23): round:7,frame:1,node:23,timeslot:17,ch_node:27
-DEBUG (24): round:7,frame:1,node:24,timeslot:18,ch_node:20
-DEBUG (25): round:7,frame:1,node:25,timeslot:19,ch_node:29
-DEBUG (26): round:7,frame:1,node:26,timeslot:20,ch_node:22
-DEBUG (28): round:7,frame:1,node:28,timeslot:21,ch_node:20
-DEBUG (30): round:7,frame:1,node:30,timeslot:22,ch_node:22
-DEBUG (31): round:7,frame:1,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:7,frame:1,node:32,timeslot:24,ch_node:20
-DEBUG (33): round:7,frame:1,node:33,timeslot:25,ch_node:29
-DEBUG (34): round:7,frame:1,node:34,timeslot:26,ch_node:22
-DEBUG (35): round:7,frame:1,node:35,timeslot:27,ch_node:27
-DEBUG (36): round:7,frame:1,node:36,timeslot:28,ch_node:27
-DEBUG (3): round: 7,frame:1,node:3,packet_num:1,timeslot:29
+DEBUG (4): round:7,node:4,received start command for first time
+DEBUG (2): round:7,node:2,received start command for first time
+DEBUG (1): round:7,node:1,received start command for first time
+DEBUG (3): round:7,node:3,received start command for first time
+DEBUG (6): round:7,node:6,received start command for first time
+DEBUG (5): round:7,node:5,received start command for first time
+
+DEBUG (10): round:7,node:10,received working command
+DEBUG (9): round:7,node:9,received working command
+DEBUG (8): round:7,node:8,received working command
+DEBUG (7): round:7,node:7,received working command
+DEBUG (6): round:7,node:6,received working command
+DEBUG (5): round:7,node:5,received working command
+DEBUG (2): round:7,node:2,received working command
+DEBUG (1): round:7,node:1,received working command
+DEBUG (4): round:7,node:4,received working command
+DEBUG (3): round:7,node:3,received working command
+
+DEBUG (2): round:7,frame:1,node:2,timeslot:1,ch_node:6
+DEBUG (5): round:7,frame:1,node:5,timeslot:2,ch_node:9
+DEBUG (7): round:7,frame:1,node:7,timeslot:3,ch_node:3
+DEBUG (8): round:7,frame:1,node:8,timeslot:5,ch_node:4
+
+DEBUG (1): round: 7,frame:1,node:1,packet_num:0,timeslot:6
+DEBUG (3): round: 7,frame:1,node:3,packet_num:1,timeslot:6
+DEBUG (0): sink received,from ch_node 3 and data is 11.172677
+DEBUG (4): round: 7,frame:1,node:4,packet_num:1,timeslot:7
+DEBUG (0): sink received,from ch_node 4 and data is 9.684746
+DEBUG (6): round: 7,frame:1,node:6,packet_num:1,timeslot:9
+DEBUG (9): round: 7,frame:1,node:9,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 9 and data is 9.693622
+DEBUG (0): sink received,from ch_node 6 and data is 11.742050
+DEBUG (10): round: 7,frame:1,node:10,packet_num:0,timeslot:10
+
+DEBUG (2): round:7,frame:2,node:2,timeslot:1,ch_node:6
+DEBUG (5): round:7,frame:2,node:5,timeslot:2,ch_node:9
+DEBUG (7): round:7,frame:2,node:7,timeslot:3,ch_node:3
+DEBUG (8): round:7,frame:2,node:8,timeslot:5,ch_node:4
+
+DEBUG (1): round: 7,frame:2,node:1,packet_num:0,timeslot:6
+DEBUG (3): round: 7,frame:2,node:3,packet_num:1,timeslot:6
+DEBUG (0): sink received,from ch_node 3 and data is 10.293894
+DEBUG (4): round: 7,frame:2,node:4,packet_num:1,timeslot:7
+DEBUG (0): sink received,from ch_node 4 and data is 9.246943
+DEBUG (9): round: 7,frame:2,node:9,packet_num:1,timeslot:9
+DEBUG (6): round: 7,frame:2,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 9 and data is 9.365987
+DEBUG (0): sink received,from ch_node 6 and data is 8.282184
+DEBUG (10): round: 7,frame:2,node:10,packet_num:0,timeslot:10
+
+DEBUG (2): round:7,frame:3,node:2,timeslot:1,ch_node:6
+DEBUG (5): round:7,frame:3,node:5,timeslot:2,ch_node:9
+DEBUG (7): round:7,frame:3,node:7,timeslot:3,ch_node:3
+DEBUG (8): round:7,frame:3,node:8,timeslot:5,ch_node:4
+DEBUG (1): round: 7,frame:3,node:1,packet_num:0,timeslot:6
+DEBUG (3): round: 7,frame:3,node:3,packet_num:1,timeslot:6
+DEBUG (0): sink received,from ch_node 3 and data is 8.658231
+DEBUG (4): round: 7,frame:3,node:4,packet_num:1,timeslot:7
+DEBUG (0): sink received,from ch_node 4 and data is 10.444632
+DEBUG (9): round: 7,frame:3,node:9,packet_num:1,timeslot:9
+DEBUG (6): round: 7,frame:3,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 9.551330
+DEBUG (0): sink received,from ch_node 9 and data is 10.336403
+DEBUG (10): round: 7,frame:3,node:10,packet_num:0,timeslot:10
+
+DEBUG (2): round:7,frame:4,node:2,timeslot:1,ch_node:6
+DEBUG (5): round:7,frame:4,node:5,timeslot:2,ch_node:9
+DEBUG (7): round:7,frame:4,node:7,timeslot:3,ch_node:3
+DEBUG (8): round:7,frame:4,node:8,timeslot:5,ch_node:4
+DEBUG (1): round: 7,frame:4,node:1,packet_num:0,timeslot:6
+DEBUG (3): round: 7,frame:4,node:3,packet_num:1,timeslot:6
+DEBUG (0): sink received,from ch_node 3 and data is 9.002486
+DEBUG (4): round: 7,frame:4,node:4,packet_num:1,timeslot:7
+DEBUG (0): sink received,from ch_node 4 and data is 11.139316
+DEBUG (6): round: 7,frame:4,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 10.195699
+DEBUG (9): round: 7,frame:4,node:9,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 9 and data is 8.889795
+DEBUG (10): round: 7,frame:4,node:10,packet_num:0,timeslot:10
+DEBUG (2): round:7,frame:5,node:2,timeslot:1,ch_node:6
+DEBUG (5): round:7,frame:5,node:5,timeslot:2,ch_node:9
+DEBUG (7): round:7,frame:5,node:7,timeslot:3,ch_node:3
+DEBUG (8): round:7,frame:5,node:8,timeslot:5,ch_node:4
+DEBUG (1): round: 7,frame:5,node:1,packet_num:0,timeslot:6
+DEBUG (3): round: 7,frame:5,node:3,packet_num:1,timeslot:6
 DEBUG (0): sink received,from ch_node 3 and data is 9.322085
-DEBUG (8): round: 7,frame:1,node:8,packet_num:3,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.836215
-DEBUG (10): round: 7,frame:1,node:10,packet_num:5,timeslot:31
-DEBUG (0): sink received,from ch_node 10 and data is 10.468374
-DEBUG (15): round: 7,frame:1,node:15,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 15 and data is 11.334235
-DEBUG (20): round: 7,frame:1,node:20,packet_num:5,timeslot:33
-DEBUG (0): sink received,from ch_node 20 and data is 9.245059
-DEBUG (22): round: 7,frame:1,node:22,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 22 and data is 9.836947
-DEBUG (27): round: 7,frame:1,node:27,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 27 and data is 10.765817
-DEBUG (29): round: 7,frame:1,node:29,packet_num:2,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 11.918948
-DEBUG (1): round:7,frame:2,node:1,timeslot:1,ch_node:10
-DEBUG (2): round:7,frame:2,node:2,timeslot:2,ch_node:10
-DEBUG (4): round:7,frame:2,node:4,timeslot:3,ch_node:8
-DEBUG (5): round:7,frame:2,node:5,timeslot:4,ch_node:10
-DEBUG (6): round:7,frame:2,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:7,frame:2,node:7,timeslot:6,ch_node:3
-DEBUG (9): round:7,frame:2,node:9,timeslot:7,ch_node:22
-DEBUG (11): round:7,frame:2,node:11,timeslot:8,ch_node:15
-DEBUG (12): round:7,frame:2,node:12,timeslot:9,ch_node:20
-DEBUG (13): round:7,frame:2,node:13,timeslot:10,ch_node:22
-DEBUG (14): round:7,frame:2,node:14,timeslot:11,ch_node:10
-DEBUG (16): round:7,frame:2,node:16,timeslot:12,ch_node:20
-DEBUG (17): round:7,frame:2,node:17,timeslot:13,ch_node:8
-DEBUG (18): round:7,frame:2,node:18,timeslot:14,ch_node:22
-DEBUG (19): round:7,frame:2,node:19,timeslot:15,ch_node:15
-DEBUG (21): round:7,frame:2,node:21,timeslot:16,ch_node:8
-DEBUG (23): round:7,frame:2,node:23,timeslot:17,ch_node:27
-DEBUG (24): round:7,frame:2,node:24,timeslot:18,ch_node:20
-DEBUG (25): round:7,frame:2,node:25,timeslot:19,ch_node:29
-DEBUG (26): round:7,frame:2,node:26,timeslot:20,ch_node:22
-DEBUG (28): round:7,frame:2,node:28,timeslot:21,ch_node:20
-DEBUG (30): round:7,frame:2,node:30,timeslot:22,ch_node:22
-DEBUG (31): round:7,frame:2,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:7,frame:2,node:32,timeslot:24,ch_node:20
-DEBUG (33): round:7,frame:2,node:33,timeslot:25,ch_node:29
-DEBUG (34): round:7,frame:2,node:34,timeslot:26,ch_node:22
-DEBUG (35): round:7,frame:2,node:35,timeslot:27,ch_node:27
-DEBUG (36): round:7,frame:2,node:36,timeslot:28,ch_node:27
-DEBUG (3): round: 7,frame:2,node:3,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 3 and data is 10.569917
-DEBUG (8): round: 7,frame:2,node:8,packet_num:3,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 10.337874
-DEBUG (10): round: 7,frame:2,node:10,packet_num:5,timeslot:31
-DEBUG (0): sink received,from ch_node 10 and data is 10.564609
-DEBUG (15): round: 7,frame:2,node:15,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 15 and data is 10.080703
-DEBUG (20): round: 7,frame:2,node:20,packet_num:5,timeslot:33
-DEBUG (0): sink received,from ch_node 20 and data is 9.987187
-DEBUG (22): round: 7,frame:2,node:22,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 22 and data is 9.117486
-DEBUG (27): round: 7,frame:2,node:27,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 27 and data is 9.552874
-DEBUG (29): round: 7,frame:2,node:29,packet_num:2,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 10.663477
-DEBUG (1): round:7,frame:3,node:1,timeslot:1,ch_node:10
-DEBUG (2): round:7,frame:3,node:2,timeslot:2,ch_node:10
-DEBUG (4): round:7,frame:3,node:4,timeslot:3,ch_node:8
-DEBUG (5): round:7,frame:3,node:5,timeslot:4,ch_node:10
-DEBUG (6): round:7,frame:3,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:7,frame:3,node:7,timeslot:6,ch_node:3
-DEBUG (9): round:7,frame:3,node:9,timeslot:7,ch_node:22
-DEBUG (11): round:7,frame:3,node:11,timeslot:8,ch_node:15
-DEBUG (12): round:7,frame:3,node:12,timeslot:9,ch_node:20
-DEBUG (13): round:7,frame:3,node:13,timeslot:10,ch_node:22
-DEBUG (14): round:7,frame:3,node:14,timeslot:11,ch_node:10
-DEBUG (16): round:7,frame:3,node:16,timeslot:12,ch_node:20
-DEBUG (17): round:7,frame:3,node:17,timeslot:13,ch_node:8
-DEBUG (18): round:7,frame:3,node:18,timeslot:14,ch_node:22
-DEBUG (19): round:7,frame:3,node:19,timeslot:15,ch_node:15
-DEBUG (21): round:7,frame:3,node:21,timeslot:16,ch_node:8
-DEBUG (23): round:7,frame:3,node:23,timeslot:17,ch_node:27
-DEBUG (24): round:7,frame:3,node:24,timeslot:18,ch_node:20
-DEBUG (25): round:7,frame:3,node:25,timeslot:19,ch_node:29
-DEBUG (26): round:7,frame:3,node:26,timeslot:20,ch_node:22
-DEBUG (28): round:7,frame:3,node:28,timeslot:21,ch_node:20
-DEBUG (30): round:7,frame:3,node:30,timeslot:22,ch_node:22
-DEBUG (31): round:7,frame:3,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:7,frame:3,node:32,timeslot:24,ch_node:20
-DEBUG (33): round:7,frame:3,node:33,timeslot:25,ch_node:29
-DEBUG (34): round:7,frame:3,node:34,timeslot:26,ch_node:22
-DEBUG (35): round:7,frame:3,node:35,timeslot:27,ch_node:27
-DEBUG (36): round:7,frame:3,node:36,timeslot:28,ch_node:27
-DEBUG (3): round: 7,frame:3,node:3,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 3 and data is 8.998240
-DEBUG (8): round: 7,frame:3,node:8,packet_num:3,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.342450
-DEBUG (10): round: 7,frame:3,node:10,packet_num:5,timeslot:31
-DEBUG (0): sink received,from ch_node 10 and data is 10.075330
-DEBUG (15): round: 7,frame:3,node:15,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 15 and data is 10.220004
-DEBUG (20): round: 7,frame:3,node:20,packet_num:5,timeslot:33
-DEBUG (0): sink received,from ch_node 20 and data is 10.041996
-DEBUG (22): round: 7,frame:3,node:22,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 22 and data is 9.864533
-DEBUG (27): round: 7,frame:3,node:27,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 27 and data is 10.315804
-DEBUG (29): round: 7,frame:3,node:29,packet_num:2,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 10.261195
-DEBUG (1): round:7,frame:4,node:1,timeslot:1,ch_node:10
-DEBUG (2): round:7,frame:4,node:2,timeslot:2,ch_node:10
-DEBUG (4): round:7,frame:4,node:4,timeslot:3,ch_node:8
-DEBUG (5): round:7,frame:4,node:5,timeslot:4,ch_node:10
-DEBUG (6): round:7,frame:4,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:7,frame:4,node:7,timeslot:6,ch_node:3
-DEBUG (9): round:7,frame:4,node:9,timeslot:7,ch_node:22
-DEBUG (11): round:7,frame:4,node:11,timeslot:8,ch_node:15
-DEBUG (12): round:7,frame:4,node:12,timeslot:9,ch_node:20
-DEBUG (13): round:7,frame:4,node:13,timeslot:10,ch_node:22
-DEBUG (14): round:7,frame:4,node:14,timeslot:11,ch_node:10
-DEBUG (16): round:7,frame:4,node:16,timeslot:12,ch_node:20
-DEBUG (17): round:7,frame:4,node:17,timeslot:13,ch_node:8
-DEBUG (18): round:7,frame:4,node:18,timeslot:14,ch_node:22
-DEBUG (19): round:7,frame:4,node:19,timeslot:15,ch_node:15
-DEBUG (21): round:7,frame:4,node:21,timeslot:16,ch_node:8
-DEBUG (23): round:7,frame:4,node:23,timeslot:17,ch_node:27
-DEBUG (24): round:7,frame:4,node:24,timeslot:18,ch_node:20
-DEBUG (25): round:7,frame:4,node:25,timeslot:19,ch_node:29
-DEBUG (26): round:7,frame:4,node:26,timeslot:20,ch_node:22
-DEBUG (28): round:7,frame:4,node:28,timeslot:21,ch_node:20
-DEBUG (30): round:7,frame:4,node:30,timeslot:22,ch_node:22
-DEBUG (31): round:7,frame:4,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:7,frame:4,node:32,timeslot:24,ch_node:20
-DEBUG (33): round:7,frame:4,node:33,timeslot:25,ch_node:29
-DEBUG (34): round:7,frame:4,node:34,timeslot:26,ch_node:22
-DEBUG (35): round:7,frame:4,node:35,timeslot:27,ch_node:27
-DEBUG (36): round:7,frame:4,node:36,timeslot:28,ch_node:27
-DEBUG (3): round: 7,frame:4,node:3,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 3 and data is 10.874954
-DEBUG (8): round: 7,frame:4,node:8,packet_num:3,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.755157
-DEBUG (10): round: 7,frame:4,node:10,packet_num:5,timeslot:31
-DEBUG (0): sink received,from ch_node 10 and data is 9.277786
-DEBUG (15): round: 7,frame:4,node:15,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 15 and data is 11.251961
-DEBUG (20): round: 7,frame:4,node:20,packet_num:5,timeslot:33
-DEBUG (0): sink received,from ch_node 20 and data is 10.004508
-DEBUG (22): round: 7,frame:4,node:22,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 22 and data is 10.408183
-DEBUG (27): round: 7,frame:4,node:27,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 27 and data is 9.313316
-DEBUG (29): round: 7,frame:4,node:29,packet_num:2,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 10.155493
-DEBUG (1): round:7,frame:5,node:1,timeslot:1,ch_node:10
-DEBUG (2): round:7,frame:5,node:2,timeslot:2,ch_node:10
-DEBUG (4): round:7,frame:5,node:4,timeslot:3,ch_node:8
-DEBUG (5): round:7,frame:5,node:5,timeslot:4,ch_node:10
-DEBUG (6): round:7,frame:5,node:6,timeslot:5,ch_node:10
-DEBUG (7): round:7,frame:5,node:7,timeslot:6,ch_node:3
-DEBUG (9): round:7,frame:5,node:9,timeslot:7,ch_node:22
-DEBUG (11): round:7,frame:5,node:11,timeslot:8,ch_node:15
-DEBUG (12): round:7,frame:5,node:12,timeslot:9,ch_node:20
-DEBUG (13): round:7,frame:5,node:13,timeslot:10,ch_node:22
-DEBUG (14): round:7,frame:5,node:14,timeslot:11,ch_node:10
-DEBUG (16): round:7,frame:5,node:16,timeslot:12,ch_node:20
-DEBUG (17): round:7,frame:5,node:17,timeslot:13,ch_node:8
-DEBUG (18): round:7,frame:5,node:18,timeslot:14,ch_node:22
-DEBUG (19): round:7,frame:5,node:19,timeslot:15,ch_node:15
-DEBUG (21): round:7,frame:5,node:21,timeslot:16,ch_node:8
-DEBUG (23): round:7,frame:5,node:23,timeslot:17,ch_node:27
-DEBUG (24): round:7,frame:5,node:24,timeslot:18,ch_node:20
-DEBUG (25): round:7,frame:5,node:25,timeslot:19,ch_node:29
-DEBUG (26): round:7,frame:5,node:26,timeslot:20,ch_node:22
-DEBUG (28): round:7,frame:5,node:28,timeslot:21,ch_node:20
-DEBUG (30): round:7,frame:5,node:30,timeslot:22,ch_node:22
-DEBUG (31): round:7,frame:5,node:31,timeslot:23,ch_node:27
-DEBUG (32): round:7,frame:5,node:32,timeslot:24,ch_node:20
-DEBUG (33): round:7,frame:5,node:33,timeslot:25,ch_node:29
-DEBUG (34): round:7,frame:5,node:34,timeslot:26,ch_node:22
-DEBUG (35): round:7,frame:5,node:35,timeslot:27,ch_node:27
-DEBUG (36): round:7,frame:5,node:36,timeslot:28,ch_node:27
-DEBUG (3): round: 7,frame:5,node:3,packet_num:1,timeslot:29
-DEBUG (0): sink received,from ch_node 3 and data is 9.877709
-DEBUG (8): round: 7,frame:5,node:8,packet_num:3,timeslot:30
-DEBUG (0): sink received,from ch_node 8 and data is 9.324596
-DEBUG (10): round: 7,frame:5,node:10,packet_num:5,timeslot:31
-DEBUG (0): sink received,from ch_node 10 and data is 10.143007
-DEBUG (15): round: 7,frame:5,node:15,packet_num:2,timeslot:32
-DEBUG (0): sink received,from ch_node 15 and data is 10.227389
-DEBUG (20): round: 7,frame:5,node:20,packet_num:5,timeslot:33
-DEBUG (0): sink received,from ch_node 20 and data is 10.421302
-DEBUG (22): round: 7,frame:5,node:22,packet_num:6,timeslot:34
-DEBUG (0): sink received,from ch_node 22 and data is 9.843324
-DEBUG (27): round: 7,frame:5,node:27,packet_num:4,timeslot:35
-DEBUG (0): sink received,from ch_node 27 and data is 9.554315
-DEBUG (29): round: 7,frame:5,node:29,packet_num:2,timeslot:36
-DEBUG (0): sink received,from ch_node 29 and data is 9.676789
+DEBUG (4): round: 7,frame:5,node:4,packet_num:1,timeslot:7
+DEBUG (0): sink received,from ch_node 4 and data is 8.014373
+DEBUG (6): round: 7,frame:5,node:6,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 6 and data is 9.391396
+DEBUG (9): round: 7,frame:5,node:9,packet_num:1,timeslot:9
+DEBUG (0): sink received,from ch_node 9 and data is 11.654899
+DEBUG (10): round: 7,frame:5,node:10,packet_num:0,timeslot:10

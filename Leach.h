@@ -7,7 +7,7 @@ enum{
      AM_BlinkToRadioMsg = 6,
      SINK_NODE= 0,
      FRAME = 5,
-     NODE_NUM = 36,//这里不包括sink，是总节点数
+     NODE_NUM = 10,//这里不包括sink，是总节点数
      TRUE_DATA = 10,
      MIU = 0,
      DELTA = 1  //真值、高斯白噪声、方差

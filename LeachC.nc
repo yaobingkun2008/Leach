@@ -349,6 +349,7 @@ implementation
 			else if(btrpkt->counter == 3)//正式开始工作
 			{
 				/*容错4：round由sink授予*/
+				dbg("Test1","round:%d,node:%d,received working command\n",round,TOS_NODE_ID) ;
 				round  = btrpkt->roundnum;
 				/*容错机制1,防止：因为接收前面的sink的控制包失败，导致配置信息不全就进入了工作阶段这种足以导致单个节点崩溃的情况发生*/
 				if(isch == FALSE)
@@ -428,10 +429,14 @@ implementation
 			LeachMsgData* btrpkt = (LeachMsgData*)payload;
 			dbg("Test1","sink received,from ch_node %d and data is %lf\n",btrpkt->nodeid,btrpkt->data);
 		}
+		/*容错5：CH在未收到3号开始指令时，是不允许接收任何数据的。*/
 		else if(len == sizeof(LeachMsgData) && TOS_NODE_ID != SINK_NODE){//CH节点收到数据包
-			LeachMsgData* btrpkt = (LeachMsgData*)payload;
-			datanum++;
-			ch_data[datanum-1] = btrpkt->data;
+			if(jieduan ==1)
+			{
+				LeachMsgData* btrpkt = (LeachMsgData*)payload;
+				datanum++;
+				ch_data[datanum-1] = btrpkt->data;
+			}
 		}
 
 		return msg;
